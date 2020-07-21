@@ -1,0 +1,62 @@
+---
+pagination:
+  data: aemterarray
+  size: 1
+  alias: office
+  addAllPagesToCollections: true
+permalink: "office/{{ office.id | slug }}/"
+layout: layouts/default.liquid
+tags: page
+title: "{{ office.parent.label }} | {{ office.label }}"
+---
+
+<h1>aemter.json</h1>
+<h2>{{ office.parent.label }}</h2>
+<h3><a href="{{ office.url }}">{{ office.label }} ({{ office.id }})</a></h3>
+
+<h4>Accessibility</h4>
+<ul>
+  {% for access in office.details.accessibility %}
+  <li>
+    <img src="{{ access.image }}" />
+    {{ access.title }} ({{ access.id }})
+  </li>
+  {% endfor %}
+</ul>
+
+<h4>Koordinaten</h4>
+<p>{{ office.details.coordinates }}</p>
+
+<h4>Termin Dienstleistungen</h4>
+<ul>
+  {% for service in office.details.services %}
+  {% if service.appointment == true %}
+  <li>
+    <a href="{{ service.url }}">{{ service.label }} ({{ service.id }})</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h4>Andere Dienstleistungen</h4>
+<ul>
+  {% for service in office.details.services %}
+  {% if service.appointment == false %}
+  <li>
+    <a href="{{ service.url }}">{{ service.label }} ({{ service.id }})</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h4>Öffnungszeiten</h4>
+<p>{{ office.details.openings }}</p>
+
+<h4>Öffnungszeiten Hinweis</h4>
+<p>{{ office.details.openings_info }}</p>
+
+<h4>Zahlungshinweise</h4>
+<p>{{ office.details.payment }}</p>
+
+<h4>Weitere Hinweise</h4>
+<p>{{ office.details.other }}</p>

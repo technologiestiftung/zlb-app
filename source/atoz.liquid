@@ -1,0 +1,27 @@
+---
+layout: layouts/default.liquid
+---
+
+<!-- This could also easily be split across multiple pages (see e.g. overview) -->
+
+<h1>atoz.json</h1>
+
+<!-- Navigation -->
+<ul>
+{% for group in atoz %}
+  <li>
+    <a href="#{{ group.letter | slug }}">{{ group.letter }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+{% for group in atoz %}
+<h2 id="{{ group.letter | slug }}">{{ group.letter }}</h2>
+<ul>
+  {% for item in group.items %}
+  <li>
+    <a href="{{ item.url }}/">{{ item.label }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
