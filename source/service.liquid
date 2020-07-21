@@ -1,0 +1,115 @@
+---
+pagination:
+  data: level3array
+  size: 1
+  alias: service
+  addAllPagesToCollections: true
+permalink: "service/{{ service.key | slug }}/"
+layout: layouts/default.liquid
+tags: page
+title: {{ service.title }}
+---
+
+<h1>level3.json</h1>
+
+<h2>{{ service.title }}</h2>
+
+{% if service.intro %}
+{{ service.intro }}
+{% endif %}
+
+<!-- There is probably a smarter way than repeating this code with only a few bits changing, maybe refine the data3array.js to return an array of content blocks?! -->
+{% if service.requirements %}
+<h3>Anforderungen</h3>
+<ul>
+{% for element in service.requirements %}
+  <li>
+  {% if element.label %}
+    <strong>{{ element.label }}</strong><br />
+    <p>{{ element.content }}</p>
+  {% else %}
+    {{ element }}
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if service.documents %}
+<h3>Dokumente</h3>
+<ul>
+{% for element in service.documents %}
+  <li>
+  {% if element.label %}
+    <strong>{{ element.label }}</strong><br />
+    <p>{{ element.content }}</p>
+  {% else %}
+    {{ element }}
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if service.costs %}
+<h3>Kosten</h3>
+<ul>
+{% for element in service.costs %}
+  <li>
+  {% if element.label %}
+    <strong>{{ element.label }}</strong><br />
+    <p>{{ element.content }}</p>
+  {% else %}
+    {{ element }}
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if service.legal %}
+<h3>Rechtliche Hinweise</h3>
+<ul>
+{% for element in service.legal %}
+  <li>
+    <a href="{{ element.url }}">{{ element.label }}</a>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if service.time %}
+<p>{{ service.time }}</p>
+{% endif %}
+
+{% if service.more %}
+<h3>Weitere Hinweise</h3>
+<ul>
+{% for element in service.more %}
+  <li>
+    <a href="{{ element.url }}">{{ element.label }}</a>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if service.appointment %}
+
+<!-- Link for making an appointend somewhere in Berlin -->
+<a href="{{ service.appointment.berlin.url }}">{{ service.appointment.berlin.label }}</a>
+
+{% for behoerde in service.appointment.behoerden %}
+<div>
+  <!-- Link for making an appointend somewhere in Berlin -->
+  <a href="{{ behoerde.all.url }}">{{ behoerde.all.label }}</a>
+  <ul>
+  {% for office in behoerde.offices %}
+    <li>
+      <a href="{{ office.url }}">{{ office.label }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+
+{% endif %}

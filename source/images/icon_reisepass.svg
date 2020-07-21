@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="89px" viewBox="0 0 61 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_passport_hp</title>
+    <defs>
+        <radialGradient cx="27.2760882%" cy="22.9774573%" fx="27.2760882%" fy="22.9774573%" r="80.379992%" gradientTransform="translate(0.272761,0.229775),rotate(53.095042),scale(1.000000,1.083038),translate(-0.272761,-0.229775)" id="radialGradient-1">
+            <stop stop-color="#FFC9AE" offset="0%"></stop>
+            <stop stop-color="#FFB692" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03_Andere_dienstleistungen-Copy" transform="translate(-454.000000, -332.000000)">
+            <g id="reisepass_button_off" transform="translate(378.000000, 293.000000)">
+                <g id="icon_passport_hp" transform="translate(77.000000, 40.000000)">
+                    <path d="M59.6666667,48.9850434 L59.6666667,79.1331917 C59.6666667,84.7409811 56.40332,88.4917514 52.3777778,87.5107716 L5,82.0565153 L5,12.7515873 L52.3777778,1.20615077 C57.6070715,0.236172468 59.6666667,2.63335222 59.6666667,9.5837307" id="Path" fill="#DEDEDE"></path>
+                    <path d="M49.9251068,46.1190077 L49.9251068,74.0480927 C49.9251068,79.0230945 46.9448092,82.3506247 43.2684259,81.4803396 L0,81.3730616 L0,10.4255284 L43.2684259,0.182888548 C48.0441524,-0.677636596 49.9251068,1.44904339 49.9251068,7.61513537" id="Path" stroke="#242424" stroke-width="1.5" fill="#D14000" stroke-linecap="round"></path>
+                    <line x1="49.9251068" y1="36.9506471" x2="49.9251068" y2="40.8549313" id="Path" stroke="#242424" stroke-width="1.5" fill="#D4D2D2" stroke-linecap="round"></line>
+                    <path d="M54.3827056,49.1658778 L54.3827056,79.8058864 C54.3827056,83.8105183 51.1363101,87.0569138 47.1316782,87.0569138 L1.89478063e-13,87.0569138 L1.89478063e-13,10.921126 L47.1316782,10.921126 C51.1363101,10.921126 54.3827056,14.1675215 54.3827056,18.1721534 L54.3827056,30.9403974 L54.3827056,36.3786679" id="Path" stroke="#242424" stroke-width="1.5" fill="#FFC9AE" stroke-linecap="round"></path>
+                    <line x1="54.3827056" y1="41.7857982" x2="54.3827056" y2="44.9285551" id="Path" stroke="#242424" stroke-width="1.5" fill="#F2F2F2" stroke-linecap="round"></line>
+                    <circle id="Oval" stroke="#242424" stroke-width="1.5" fill="url(#radialGradient-1)" cx="27.1913528" cy="39.9252356" r="11.939298"></circle>
+                    <ellipse id="Oval" stroke="#242424" stroke-width="0.906378427" cx="27.1913528" cy="39.9252356" rx="6.7978382" ry="12.2361088"></ellipse>
+                    <line x1="27.1913528" y1="29.0486945" x2="27.1913528" y2="50.8017767" id="Line-4" stroke="#242424" stroke-width="0.906378427" stroke-linecap="square"></line>
+                    <path d="M16.3998953,34.4869651 C21.1325553,34.4869651 24.7118731,34.4869651 27.1378485,34.4869651 C29.5638239,34.4869651 33.1423731,34.4869651 37.8734961,34.4869651 L16.3998953,34.4869651 Z" id="Line-4-Copy" stroke="#242424" stroke-width="0.906378427" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M17.2211901,46.2698846 C21.4063203,46.2698846 24.7118731,46.2698846 27.1378485,46.2698846 C29.5638239,46.2698846 32.9050462,46.2698846 37.1615155,46.2698846" id="Line-4-Copy-2" stroke="#242424" stroke-width="0.906378427" stroke-linecap="round"></path>
+                    <line x1="15.752087" y1="39.9252356" x2="39.172432" y2="39.9252356" id="Line-4" stroke="#242424" stroke-width="0.906378427" stroke-linecap="round"></line>
+                    <rect id="Rectangle" fill="#242424" x="12.689298" y="63.0116512" width="29.0041097" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#242424" x="12.689298" y="67.0116512" width="29.0041097" height="2" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

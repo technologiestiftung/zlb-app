@@ -1,0 +1,24 @@
+{
+  "name": "zlb-app",
+  "version": "1.0.0",
+  "description": "static site builder for ZLB app prototype",
+  "scripts": {
+    "dev": "npm run eleventy:serve",
+    "eleventy": "eleventy",
+    "eleventy:serve": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiestiftung/zlb-app.git"
+  },
+  "author": "Sebastian Meier @seb_meier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technologiestiftung/zlb-app/issues"
+  },
+  "homepage": "https://github.com/technologiestiftung/zlb-app#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "0.11.0"
+  }
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "label": "Unsere Betreuung von Online-Dienstleitungen der Verwaltung",
+    "services": [
+      {
+        "label": "Personalausweis benatragen",
+        "image": "/images/icon_personalausweis.svg",
+        "description": "Personalausweis benatragen",
+        "destination": "ausweis"
+      },
+      {
+        "label": "Reisepass benatragen",
+        "image": "/images/icon_reisepass.svg",
+        "description": "Reisepass benatragen",
+        "destination": "reisepass"
+      },
+      {
+        "label": "Führungszeugnis benatragen",
+        "image": "/images/icon_fuehrungszeugnis.svg",
+        "description": "Führungszeugnis benatragen",
+        "destination": "fuehrungszeugnis"
+      },
+      {
+        "label": "Wohnung melden",
+        "image": "/images/icon_wohnung.svg",
+        "description": "Wohnung melden",
+        "destination": "wohnung"
+      },
+      {
+        "label": "Kita Gutschein beantragen",
+        "image": "/images/icon_kita.svg",
+        "description": "Kita Gutschein beantragen",
+        "destination": "kita"
+      }
+    ]
+  },
+  {
+    "label": "Weitere Dienstleistungen der Verwaltung",
+    "services": [
+      {
+        "label": "Express-Termin in Bürgeramt finden",
+        "image": "/images/icon_expresstermin.svg",
+        "description": "Express-Termin in Bürgeramt finden",
+        "destination": "expresstermin"
+      },
+      {
+        "label": "Termin in Bürgeramt ändern / absagen",
+        "image": "/images/icon_terminabsagen.svg",
+        "description": "Termin in Bürgeramt ändern / absagen",
+        "destination": "terminaendern"
+      },
+      {
+        "label": "AusweisApp2 starten",
+        "image": "/images/icon_id_service.svg",
+        "description": "AusweisApp2 starten",
+        "destination": "ausweisapp2"
+      },
+      {
+        "label": "Online-Ausweisfunktion nutzen",
+        "image": "/images/icon_id_nutzen.svg",
+        "description": "Online-Ausweisfunktion nutzen",
+        "destination": "id"
+      },
+      {
+        "label": "Bürgertelefon 115",
+        "image": "/images/icon_servicetel.svg",
+        "description": "Bürgertelefon 115",
+        "destination": "buergertelefon"
+      },
+      {
+        "label": "Archiv mit Formularblättern",
+        "image": "/images/icon_archivformulare.svg",
+        "description": "Archiv mit Formularblättern",
+        "destination": "formulare"
+      },
+      {
+        "label": "Bürgerämter suchen / finden",
+        "image": "/images/icon_buergeramt.svg",
+        "description": "Bürgerämter suchen / finden",
+        "destination": "buergeraemter"
+      },
+      {
+        "label": "Behörden suchen / finden",
+        "image": "/images/icon_behoerde.svg",
+        "description": "Behörden suchen / finden",
+        "destination": "behoerden"
+      },
+      {
+        "label": "Weitere Online-Verfahren",
+        "image": "/images/icon_onlineverfahren.svg",
+        "description": "Weitere Online-Verfahren",
+        "destination": "onlineverfahren"
+      },
+      {
+        "label": "Andere Leistungen der Verwaltung",
+        "image": "/images/icon_otherservices.svg",
+        "description": "Andere Leistungen der Verwaltung",
+        "destination": "verwaltungsdienstleistungen"
+      }
+    ]
+  },
+  {
+    "label": "Andere Dienstleistungen",
+    "services": [
+      {
+        "label": "Fachwörter erklären",
+        "image": "/images/icon_fachwoerter.svg",
+        "description": "Fachwörter erklären",
+        "destination": "fachwoerterklaerung"
+      },
+      {
+        "label": "Digitale Fähigkeiten stärken",
+        "image": "/images/icon_digitalfaehigkeit.svg",
+        "description": "Digitale Fähigkeiten stärken",
+        "destination": "digitalfaehigkeiten"
+      },
+      {
+        "label": "E-Mail Account verwalten",
+        "image": "/images/icon_mailaccount.svg",
+        "description": "E-Mail Account verwalten",
+        "destination": "emailaccount"
+      },
+      {
+        "label": "Arzt-Termin buchen",
+        "image": "/images/icon_arzttermin.svg",
+        "description": "Arzt-Termin buchen",
+        "destination": "arzttermin"
+      }
+    ]
+  }
+]

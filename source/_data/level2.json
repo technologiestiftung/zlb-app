@@ -1,0 +1,151 @@
+{
+  "personalausweis": {
+    "label": "Personalausweis",
+    "services": [
+      {
+        "label": "Ich möchte einen <strong>Personalausweis beantragen</strong>:",
+        "subs": [
+          {
+            "label": "Mein <strong>Wohnsitz</strong> ist in Berlin",
+            "destination": "120703"
+          },
+          {
+            "label": "Ich wohne <strong>vorübergehend</strong> in Berlin. Ich bin außerhalb von Berlin gemeldet",
+            "destination": "326550"
+          },
+          {
+            "label": "Ich habe <strong>keinen festen Wohnsitz</strong> angmeldet (Wohnungslose)",
+            "destination": "326550"
+          },
+          {
+            "label": "Ich habe meinen <strong>Wohnsitz im Ausland</strong>",
+            "destination": "326550"
+          }
+        ] 
+      },
+      {
+        "label": "Ich möchte einen <strong>vorläufigen Personalausweis beantragen</strong>:",
+        "subs": [
+          {
+            "label": "Mein <strong>Wohnsitz</strong> ist in Berlin",
+            "destination": "120682"
+          },
+          {
+            "label": "Ich wohne <strong>vorübergehend</strong> in Berlin. Ich bin außerhalb von Berlin gemeldet",
+            "destination": "306684"
+          },
+          {
+            "label": "Ich habe <strong>keinen festen Wohnsitz</strong> angmeldet (Wohnungslose)",
+            "destination": "306684"
+          }
+        ] 
+      },
+      {
+        "label": "Ich möchte meinen Personalausweis <strong>abholen</strong>",
+        "destination": "324325"
+      }
+    ]
+  },
+  "reisepass": {
+    "label": "Reisepass",
+    "services": [
+      {
+        "label": "Ich möchte einen <strong>Reisepass beantragen</strong>:",
+        "subs": [
+          {
+            "label": "Ich wohne <strong>dauerhaft</strong> in Berlin. Ich bin in Berlin gemeldet",
+            "destination": "121151"
+          },
+          {
+            "label": "Ich wohne <strong>vorübergehend</strong> in Berlin. Ich bin außerhalb von Berlin gemeldet",
+            "destination": "306704"
+          },
+          {
+            "label": "Ich habe <strong>keinen festen Wohnsitz</strong> angmeldet (Wohnungslose)",
+            "destination": "306704"
+          },
+          {
+            "label": "Ich habe meinen <strong>Wohnsitz im Ausland</strong>",
+            "destination": "306704"
+          }
+        ] 
+      },
+      {
+        "label": "Ich brauche einen <strong>vorläufigen</strong> Reisepass",
+        "destination": "121153"
+      },
+      {
+        "label": "Ich möchte einen <strong>Kinderpass beantragen/verlängern/aktualisieren</strong>:",
+        "subs": [
+          {
+            "label": "Das Kind wohnt <strong>dauerhaft</strong> und ist in Berlin gemeldet",
+            "destination": "121469"
+          },
+          {
+            "label": "Das Kind ist in Berlin <strong>nicht gemeldet</strong>",
+            "destination": "326548"
+          },
+          {
+            "label": "Das Kind is im <strong>übrigen Bundesgebiet</strong> gemeldet",
+            "destination": "326548"
+          },
+          {
+            "label": "Das Kind ist <strong>außerhalb von Deutschland</strong> gemeldet",
+            "destination": "326548"
+          },
+          {
+            "label": "Das Kind hat die deutsche Staatsangehörigkeit und lebt im <strong>Ausland</strong>",
+            "destination": "326548"
+          }
+        ]
+      },
+      {
+        "label": "Ich möchte meinen Reisepass <strong>abholen</strong>",
+        "destination": "324573"
+      },
+      {
+        "label": "Ich habe meinen Reisepass <strong>verloren</strong>",
+        "destination": "121368"
+      }
+    ]
+  },
+  "fuehrungszeugnis": {
+    "label": "Fühungszeugnis",
+    "services": [
+      {
+        "label": "Ich möchte einen <strong>Führungszeugnis beantragen</strong>",
+        "destination": "120926"
+      } 
+    ]
+  },
+  "wohnungmeldung": {
+    "label": "Wohnung",
+    "services": [
+      {
+        "label": "Ich möchte eine <strong>Wohnung anmelden</strong>",
+        "destination": "120686"
+      },
+      {
+        "label": "Ich möchte eine <strong>Wohnung ummelden</strong>",
+        "destination": "120686"
+      },
+      {
+        "label": "Ich möchte eine <strong>Wohnung abmelden</strong>",
+        "destination": "120686"
+      }
+    ]
+  },
+  "kitagutschein": {
+    "label": "Kita Gutschein",
+    "services": [
+      {
+        "label": "Ich möchte einen <strong>Kita Gutschein beantragen</strong>",
+        "destination": "324873"
+      },
+      {
+        "label": "Ich möchte einen den <strong>Betreuungsumfang</strong> für einen Kita-Gutschein <strong>erweitern</strong>",
+        "destination": "324879"
+      }
+    ]
+  }
+}

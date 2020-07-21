@@ -1,0 +1,18 @@
+---
+eleventyExcludeFromCollections: true
+layout: layouts/default.liquid
+---
+
+<h1>level1.json</h1>
+
+{% for group in level1 %}
+<h2>{{ group.label }}</h2>
+<ul>
+  {% for service in group.services %}
+  <li>
+    <img src="{{ service.image }}" alt="{{ service.description }}" >
+    <a href="/overview/{{ service.destination | slug }}/">{{ service.label }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

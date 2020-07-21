@@ -1,0 +1,35 @@
+---
+pagination:
+  data: level2array
+  size: 1
+  alias: overview
+  addAllPagesToCollections: true
+permalink: "overview/{{ overview.key | slug }}/"
+layout: layouts/default.liquid
+tags: page
+title: {{ overview.label }}
+---
+
+<h1>level2.json</h1>
+
+<h2>{{ overview.label }}</h2>
+<ul>
+  {% for service in overview.services %}
+  {% if service.subs %}
+  <li>
+    <p>{{ service.label }}</p>
+    <ul>
+      {% for subservice in service.subs %}
+      <li>
+        <a href="/service/{{ subservice.destination }}/">{{ subservice.label }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% else %}
+  <li>
+    <a href="/service/{{ service.destination }}/">{{ service.label }}</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

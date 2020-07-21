@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 39</title>
+    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Weitere_Dienstleistungen" transform="translate(-1151.000000, -139.000000)">
+            <g id="Group-39" transform="translate(1151.000000, 140.000000)">
+                <circle id="Oval" stroke="#242424" stroke-width="1.5" fill="#FFFFFF" cx="20" cy="20" r="19.25"></circle>
+                <g id="Group-2" transform="translate(6.000000, 10.000000)" fill="#242424" font-family="Adelle-SemiBold, Adelle" font-weight="500">
+                    <text id="A" font-size="14" letter-spacing="0.49999997">
+                        <tspan x="0" y="17">A</tspan>
+                    </text>
+                    <text id="A-Copy" font-size="22" letter-spacing="0.785714202">
+                        <tspan x="12.4390244" y="17">A</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
