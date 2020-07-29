@@ -3,13 +3,17 @@ eleventyExcludeFromCollections: true
 layout: layouts/default.liquid
 ---
 
-<h1>level1.json</h1>
+<h1 class="title">
+  level1.json
+</h1>
+
+<a class="button is-primary">Test Button</a>
 
 {% for group in level1 %}
 <h2>{{ group.label }}</h2>
-<ul>
+<ul class="columns is-multiple">
   {% for service in group.services %}
-  <li>
+  <li class="column is-3">
     <img src="{{ service.image }}" alt="{{ service.description }}" >
     <a href="/overview/{{ service.destination | slug }}/">{{ service.label }}</a>
   </li>
