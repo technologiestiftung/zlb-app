@@ -1,4 +1,5 @@
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setUseGitIgnore(false);
   // You can return your Config object (optional).
   eleventyConfig.setDataDeepMerge(true);
   // eleventyConfig.addCollection("allcontent", function (collectionApi) {
