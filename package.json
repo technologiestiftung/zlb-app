@@ -11,7 +11,7 @@
     "build": "run-s scss css eleventy",
     "eleventy": "eleventy",
     "eleventy:serve": "eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Currently no tests, so this passes.\" && exit 0"
   },
   "repository": {
     "type": "git",
