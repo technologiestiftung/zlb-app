@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "static site builder for ZLB app prototype",
   "scripts": {
-    "dev": "npm run eleventy:serve",
+    "scss": "node-sass source/sass -o source/css",
+    "css": "postcss source/css/*.css -u autoprefixer cssnano -r -m",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "node-sass --watch source/sass -o source/css",
+    "dev": "npm-run-all scss --parallel watch:eleventy watch:sass",
+    "build": "run-s scss css eleventy",
     "eleventy": "eleventy",
     "eleventy:serve": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +24,12 @@
   },
   "homepage": "https://github.com/technologiestiftung/zlb-app#readme",
   "devDependencies": {
-    "@11ty/eleventy": "0.11.0"
+    "@11ty/eleventy": "0.11.0",
+    "autoprefixer": "^9.8.5",
+    "bulma": "^0.9.0",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
   }
 }

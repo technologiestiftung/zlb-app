@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addCollection("allcontent", function (collectionApi) {
   //   return collectionApi.getAll();
   // });
+  eleventyConfig.addWatchTarget("source/sass/");
+
+  eleventyConfig.addPassthroughCopy("source/css");
   eleventyConfig.addPassthroughCopy("source/images");
 
   return {
