@@ -1,8 +1,17 @@
-@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@charset "utf-8";
 
+// override initial variables (with literal values)
 $orange: rgb(250,100,0);
 
+// override derived variables from customized initial values
 $primary: $orange;
 $link: $orange;
 
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+
+// override derived variables from untouched initial values
+$footer-background-color: $background;
+
 @import "../../node_modules/bulma/bulma.sass";
+
+@import "partials/_header";
