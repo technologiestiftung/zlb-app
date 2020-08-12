@@ -1,7 +1,10 @@
 @charset "utf-8";
 
+@import "partials/_fonts";
+
 // override initial variables (with literal values)
 $orange: rgb(250,100,0);
+$family-sans-serif: "PT Sans", sans-serif;
 
 // override derived variables from customized initial values
 $primary: $orange;

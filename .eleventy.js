@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
   // });
   eleventyConfig.addWatchTarget("source/sass/");
 
+  eleventyConfig.addPassthroughCopy("source/fonts");
   eleventyConfig.addPassthroughCopy("source/css");
   eleventyConfig.addPassthroughCopy("source/images");
 
