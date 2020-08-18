@@ -1,0 +1,20 @@
+.category-overview ul {
+  border-bottom: 1px dotted $primary;
+}
+
+.category-overview {
+  
+  .grid-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: $gap;
+  
+    @include from($tablet) {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  
+    .card {
+      height: 100%;
+    }
+  }
+}
