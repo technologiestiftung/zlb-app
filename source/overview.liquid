@@ -7,29 +7,58 @@ pagination:
 permalink: "overview/{{ overview.key | slug }}/"
 layout: layouts/default.liquid
 tags: page
-title: {{ overview.label }}
+title: {{ overview.key }}
 ---
-
-<h1>level2.json</h1>
-
-<h2>{{ overview.label }}</h2>
-<ul>
-  {% for service in overview.services %}
-  {% if service.subs %}
-  <li>
-    <p>{{ service.label }}</p>
-    <ul>
-      {% for subservice in service.subs %}
-      <li>
-        <a href="/service/{{ subservice.destination }}/">{{ subservice.label }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </li>
-  {% else %}
-  <li>
-    <a href="/service/{{ service.destination }}/">{{ service.label }}</a>
-  </li>
-  {% endif %}
-  {% endfor %}
-</ul>
+<main class="section service-overview">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3 service-illustration-column">
+        <div class="service-illustration has-background-white-ter">
+          <figure class="image is-square">
+            <img src="/images/icon_{{ overview.key }}.svg" alt="Icon für {{ overview.label }}">
+          </figure>
+        </div>
+      </div>
+      <div class="column is-6">
+        <ul>
+          {% for service in overview.services %}
+          {% if service.subs %}
+          <li>
+            <p class="content mt-4 mb-0">{{ service.label }}</p>
+            <ul class="subservices">
+              {% for subservice in service.subs %}
+              <li class="pl-3">
+                <a class="media pt-3 pb-3" href="/service/{{ subservice.destination }}/">
+                  <div class="media-content">
+                    {{ subservice.label }}
+                  </div>
+                  <div class="media-right">
+                    <figure class="image">
+                      <img class="arrow-right" src="/images/arrow_right_off.svg" alt="Arrow">
+                    </figure>
+                  </div>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% else %}
+          <li>
+            <a class="media pt-4 pb-4" href="/service/{{ service.destination }}/">
+              <div class="media-content">
+                {{ service.label }}
+              </div>
+              <div class="media-right">
+                <figure class="image">
+                  <img class="arrow-right" src="/images/arrow_right_off.svg" alt="Arrow">
+                </figure>
+              </div>
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
