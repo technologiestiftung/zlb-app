@@ -8,13 +8,24 @@ $family-sans-serif: "PT Sans", sans-serif;
 
 // override derived variables from customized initial values
 $primary: $orange;
-$link: $orange;
+$title-color: $primary;
+$subtitle-color: $primary;
 
 @import "../../node_modules/bulma/sass/utilities/_all.sass";
 
 // override derived variables from untouched initial values
+$link: $text;
+$link-hover: $primary;
+$link-focus: $primary;
+$link-active: $primary;
+
 $footer-background-color: $background;
+$card-background-color: $white-ter;
+$card-header-background-color: $white;
+$card-content-background-color: $grey-lightest;
 
 @import "../../node_modules/bulma/bulma.sass";
 
 @import "partials/_header";
+@import "partials/_category-overview";
+@import "partials/_service-overview";

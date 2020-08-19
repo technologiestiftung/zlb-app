@@ -3,20 +3,30 @@ eleventyExcludeFromCollections: true
 layout: layouts/default.liquid
 ---
 
-<h1 class="title">
-  level1.json
-</h1>
-
-<a class="button is-primary">Test Button</a>
-
-{% for group in level1 %}
-<h2>{{ group.label }}</h2>
-<ul class="columns is-multiple">
-  {% for service in group.services %}
-  <li class="column is-3">
-    <img src="{{ service.image }}" alt="{{ service.description }}" >
-    <a href="/overview/{{ service.destination | slug }}/">{{ service.label }}</a>
-  </li>
-  {% endfor %}
-</ul>
-{% endfor %}
+<main class="section category-overview">
+  <div class="container">
+    {% for group in level1 %}
+    {% if group.label == "Unsere Betreuung von Online-Dienstleitungen der Verwaltung" %}
+    <h2 class="title is-4">{{ group.label }}</h2>
+    <ul class="grid-columns pb-5 mb-5">
+      {% for service in group.services %}
+      <li class="grid-column">
+        <a href="/overview/{{ service.destination | slug }}/">
+          <div class="card">
+            <div class="card-content has-background-white">
+              <figure class="image is-4by3">
+                <img src="{{ service.image }}" alt="{{ service.description }}" >
+              </figure>
+            </div>
+            <div class="card-content has-background-white-ter has-text-centered content">
+              {{ service.label }}
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+    {% endfor %}
+  </div>
+</main>

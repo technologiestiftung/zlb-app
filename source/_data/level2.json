@@ -118,7 +118,7 @@
       } 
     ]
   },
-  "wohnungmeldung": {
+  "wohnung": {
     "label": "Wohnung",
     "services": [
       {
@@ -135,7 +135,7 @@
       }
     ]
   },
-  "kitagutschein": {
+  "kita": {
     "label": "Kita Gutschein",
     "services": [
       {

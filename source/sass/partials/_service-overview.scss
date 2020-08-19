@@ -1,0 +1,59 @@
+/* service illustration */
+.service-overview {
+  .service-illustration-column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .service-illustration {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+  
+    figure {
+      width: 50%;
+  
+      img {
+        width: auto;
+      }
+    }
+  }
+}
+
+/* service item */
+.service-overview ul > li {
+  border-bottom: 1px solid $text;
+
+  .media {
+    align-items: center;
+  }
+
+  ul.subservices {
+    li {
+      border-bottom: 1px solid $border;
+
+      a {
+        &:before {
+          content: '\2014';
+          align-self: flex-start;
+          margin-right: 5px;
+        }
+      }
+
+      &:last-of-type {
+        border-color: transparent;
+      }
+    }
+  }
+
+  a:hover {
+    .arrow-right {
+      /* filter generates primary color */
+      filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
+        brightness(101%) contrast(100%);
+    }
+  }
+}

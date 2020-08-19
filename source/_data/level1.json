@@ -3,21 +3,21 @@
     "label": "Unsere Betreuung von Online-Dienstleitungen der Verwaltung",
     "services": [
       {
-        "label": "Personalausweis benatragen",
+        "label": "Personalausweis beantragen",
         "image": "/images/icon_personalausweis.svg",
-        "description": "Personalausweis benatragen",
-        "destination": "ausweis"
+        "description": "Personalausweis beantragen",
+        "destination": "personalausweis"
       },
       {
-        "label": "Reisepass benatragen",
+        "label": "Reisepass beantragen",
         "image": "/images/icon_reisepass.svg",
-        "description": "Reisepass benatragen",
+        "description": "Reisepass beantragen",
         "destination": "reisepass"
       },
       {
-        "label": "Führungszeugnis benatragen",
+        "label": "Führungszeugnis beantragen",
         "image": "/images/icon_fuehrungszeugnis.svg",
-        "description": "Führungszeugnis benatragen",
+        "description": "Führungszeugnis beantragen",
         "destination": "fuehrungszeugnis"
       },
       {
