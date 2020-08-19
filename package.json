@@ -5,7 +5,7 @@
   "scripts": {
     "scss": "node-sass source/sass -o source/css",
     "css": "postcss source/css/*.css -u autoprefixer cssnano -r -m",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "eleventy --serve --quiet",
     "watch:sass": "node-sass --watch source/sass -o source/css",
     "dev": "npm-run-all scss --parallel watch:eleventy watch:sass",
     "build": "run-s scss css eleventy",
