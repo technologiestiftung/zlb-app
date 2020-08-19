@@ -6,6 +6,7 @@ layout: layouts/default.liquid
 <main class="section category-overview">
   <div class="container">
     {% for group in level1 %}
+    {% if group.label == "Unsere Betreuung von Online-Dienstleitungen der Verwaltung" %}
     <h2 class="title is-4">{{ group.label }}</h2>
     <ul class="grid-columns pb-5 mb-5">
       {% for service in group.services %}
@@ -24,6 +25,7 @@ layout: layouts/default.liquid
         </a>
       </li>
       {% endfor %}
+      {% endif %}
     </ul>
     {% endfor %}
   </div>
