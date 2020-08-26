@@ -89,7 +89,7 @@
         "image": "/images/icon_buergeramt.svg",
         "description": "Bürgerämter suchen / finden",
         "destination": "buergeraemter",
-        "available": false
+        "available": true
       },
       {
         "label": "Behörden suchen / finden",
