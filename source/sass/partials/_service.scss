@@ -1,6 +1,47 @@
 .service {
-  .title, ul {
+
+  .title, p {
     border-bottom: 1px solid $border;
+  }
+
+  details {
+    border-bottom: 1px solid $border;
+
+    .arrow-down {
+      transition: transform .2s ease-in;
+    }
+
+    &[open] {
+      .arrow-down {
+        transform: rotate(180deg);
+      }
+    }
+
+    > summary {
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &:hover {
+        color: $primary;
+        
+        .arrow-down {
+          /* filter generates primary color */
+          filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
+            brightness(101%) contrast(100%);
+        }
+      }
+
+      &:focus {
+        outline: 1px dotted $primary;
+      }
+    }
+
+    p {
+      border-bottom: none;
+    }
   }
 
   ul {

@@ -33,6 +33,7 @@ $card-content-background-color: $grey-lightest;
 @import "partials/_overview";
 @import "partials/_service";
 
+// general styles (move to scss files?!)
 body {
   min-height: 100vh;
   display: flex;
@@ -46,4 +47,8 @@ main {
 .intro-section {
   display: flex;
   align-items: center;
+}
+
+button[disabled], .button[disabled] {
+  pointer-events: none;
 }
