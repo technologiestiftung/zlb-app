@@ -1,0 +1,28 @@
+.service {
+  .title, ul {
+    border-bottom: 1px solid $border;
+  }
+
+  ul {
+    list-style: inside;
+  }
+
+  .link-portal {
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    white-space: normal;
+    text-align: left;
+    &::before {
+      content: url(/images/icon_link.svg);
+      margin-right: 10px;
+    }
+  }
+
+  .print-button {
+    width: 50%;
+    background-color: $white;
+    border: 1px solid $text;
+  }
+}
