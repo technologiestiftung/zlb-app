@@ -3,30 +3,21 @@ eleventyExcludeFromCollections: true
 layout: layouts/default.liquid
 ---
 
-<main class="section category-overview">
+<main class="section intro-section">
   <div class="container">
-    {% for group in level1 %}
-    {% if group.label == "Unsere Betreuung von Online-Dienstleitungen der Verwaltung" %}
-    <h2 class="title is-4">{{ group.label }}</h2>
-    <ul class="grid-columns pb-5 mb-5">
-      {% for service in group.services %}
-      <li class="grid-column">
-        <a href="/overview/{{ service.destination | slug }}/">
-          <div class="card">
-            <div class="card-content has-background-white">
-              <figure class="image is-4by3">
-                <img src="{{ service.image }}" alt="{{ service.description }}" >
-              </figure>
-            </div>
-            <div class="card-content has-background-white-ter has-text-centered content">
-              {{ service.label }}
-            </div>
-          </div>
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <h1 class="title is-size-4 has-text-weight-normal">
+          Die Zentral- und Landesbibliothek Berlin (ZLB), hier federführend für den Verbund der Öffentlichen Bibliotheken, und die Technologiestiftung Berlin entwickeln gemeinsam ein Pilotprojekt mit dem Ziel, Bürger*innen Grundwissen zu Medien- und Digitalkompetenzen zu vermitteln, damit Bürger*innen die zunehmenden Serviceangebote staatlicher Dienstleistungen sicher und selbständig erledigen können und dabei eine vollwertige gesellschaftliche Teilhabe, auch dort, wo sich diese auf digitale Prozesse stützt, erlangen können.
+        </h1>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-2 is-offset-5 has-text-centered">
+        <a class="button is-primary is-fullwidth" href="/categories">
+          Start
         </a>
-      </li>
-      {% endfor %}
-      {% endif %}
-    </ul>
-    {% endfor %}
+      </div>
+    </div>
   </div>
 </main>
