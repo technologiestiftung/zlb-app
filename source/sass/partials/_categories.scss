@@ -23,3 +23,15 @@
     }
   }
 }
+
+.category-overview .service-unavailable {
+  pointer-events: none;
+
+  .card:hover {
+    transform: none;
+  }
+
+  figure, .content {
+    opacity: 0.1;
+  }
+}
