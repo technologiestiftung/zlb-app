@@ -6,110 +6,144 @@ pagination:
   addAllPagesToCollections: true
 permalink: "service/{{ service.key | slug }}/"
 layout: layouts/default.liquid
-tags: page
-title: {{ service.title }}
+tags: service
+eleventyComputed:
+  title: "{{ service.title }}"
 ---
 
-<h1>level3.json</h1>
+<main class="section service">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3">
 
-<h2>{{ service.title }}</h2>
+      </div>
+      <div class="column is-6">
+        {% comment %}
+        {% if service.intro %}
+        {{ service.intro }}
+        {% endif %}
+        {% endcomment %}
+        {% if service.documents %}
+        <h3 class="title is-4 pb-3 mt-6 mb-0 has-text-weight-normal">Erforderliche Unterlagen</h3>
+        {% for element in service.documents %}
+        {% if element.label %}
+        <details class="py-3">
+          <summary class="media">
+            <div class="media-content"><strong>{{ element.label }}</strong></div>
+            <div class="media-right">
+              <figure class="image">
+                <img class="arrow-down" src="/images/arrow_down_off.svg" alt="Pfeil-Icon">
+              </figure>
+            </div>
+          </summary>
+          <p class="pt-0">{{ element.content }}</p>
+        </details>
+        {% else %}
+        <p class="py-3">{{ element }}</p>
+        {% endif %}
+        {% endfor %}
+        {% endif %} {% if service.requirements %}
+        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Voraussetzungen</h3>
+          {% for element in service.requirements %}
+            {% if element.label %}
+            <details class="py-3">
+              <summary class="media">
+                <div class="media-content"><strong>{{ element.label }}</strong></div>
+                <div class="media-right">
+                  <figure class="image">
+                    <img class="arrow-right" src="/images/arrow_down_off.svg" alt="Arrow">
+                  </figure>
+                </div>
+              </summary>
+              <p class="pt-0">{{ element.content }}</p>
+            </details>
+            {% else %}
+            <p class="py-3">{{ element }}</p>
+            {% endif %}
+          {% endfor %}
+        {% endif %} {% if service.costs %}
+        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Gebühren</h3>
+        <ul class="pb-4 mt-4">
+          {% for element in service.costs %}
+          <li class="content mt-2 mb-0">
+            {% if element.label %}
+            <strong>{{ element.label }}</strong
+            ><br />
+            <p>{{ element.content }}</p>
+            {% else %}
+            {{ element }}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %} {% if service.time %}
+        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Durchschnittliche Bearbeitungszeit</h3>
+        <ul class="pb-4 mt-4">
+          {% for element in service.time %}
+          <li class="content mt-2 mb-0">
+            {% if element.label %}
+            <strong>{{ element.label }}</strong
+            ><br />
+            <p>{{ element.content }}</p>
+            {% else %}
+            {{ element }}
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% comment %}
+        {% if service.legal %}
+        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Rechtliche Hinweise</h3>
+        <ul class="pb-4 mt-4">
+          {% for element in service.legal %}
+          <li>
+            <a href="{{ element.url }}">{{ element.label }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% endcomment %}
+        {% comment %}
+        {% if service.more %}
+        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Weitere Hinweise</h3>
+        <ul class="pb-4 mt-4">
+          {% for element in service.more %}
+          <li>
+            <a href="{{ element.url }}">{{ element.label }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %} {% if service.appointment %}
 
-{% if service.intro %}
-{{ service.intro }}
-{% endif %}
+        <!-- Link for making an appointend somewhere in Berlin -->
+        <a href="{{ service.appointment.berlin.url }}">{{
+          service.appointment.berlin.label
+        }}</a>
 
-<!-- There is probably a smarter way than repeating this code with only a few bits changing, maybe refine the data3array.js to return an array of content blocks?! -->
-{% if service.requirements %}
-<h3>Anforderungen</h3>
-<ul>
-{% for element in service.requirements %}
-  <li>
-  {% if element.label %}
-    <strong>{{ element.label }}</strong><br />
-    <p>{{ element.content }}</p>
-  {% else %}
-    {{ element }}
-  {% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if service.documents %}
-<h3>Dokumente</h3>
-<ul>
-{% for element in service.documents %}
-  <li>
-  {% if element.label %}
-    <strong>{{ element.label }}</strong><br />
-    <p>{{ element.content }}</p>
-  {% else %}
-    {{ element }}
-  {% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if service.costs %}
-<h3>Kosten</h3>
-<ul>
-{% for element in service.costs %}
-  <li>
-  {% if element.label %}
-    <strong>{{ element.label }}</strong><br />
-    <p>{{ element.content }}</p>
-  {% else %}
-    {{ element }}
-  {% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if service.legal %}
-<h3>Rechtliche Hinweise</h3>
-<ul>
-{% for element in service.legal %}
-  <li>
-    <a href="{{ element.url }}">{{ element.label }}</a>
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if service.time %}
-<p>{{ service.time }}</p>
-{% endif %}
-
-{% if service.more %}
-<h3>Weitere Hinweise</h3>
-<ul>
-{% for element in service.more %}
-  <li>
-    <a href="{{ element.url }}">{{ element.label }}</a>
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if service.appointment %}
-
-<!-- Link for making an appointend somewhere in Berlin -->
-<a href="{{ service.appointment.berlin.url }}">{{ service.appointment.berlin.label }}</a>
-
-{% for behoerde in service.appointment.behoerden %}
-<div>
-  <!-- Link for making an appointend somewhere in Berlin -->
-  <a href="{{ behoerde.all.url }}">{{ behoerde.all.label }}</a>
-  <ul>
-  {% for office in behoerde.offices %}
-    <li>
-      <a href="{{ office.url }}">{{ office.label }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
-{% endfor %}
-
-{% endif %}
+        {% for behoerde in service.appointment.behoerden %}
+        <div>
+          <!-- Link for making an appointend somewhere in Berlin -->
+          <a href="{{ behoerde.all.url }}">{{ behoerde.all.label }}</a>
+          <ul>
+            {% for office in behoerde.offices %}
+            <li>
+              <a href="{{ office.url }}">{{ office.label }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %} {% endif %}
+        {% endcomment %}
+        <a class="button is-light mt-6" disabled>Nötige Formulare aufrufen</a>
+        <button class="button is-outlined mt-6" onclick="window.print()">Diese Seite als PDF herunterladen</button>
+      </div>
+      <div class="column is-3">
+        <a href="" class="button is-primary">Termin in meiner Nähe suchen</a>
+        <a href="/help/{{ service.key | slug }}" class="button is-primary mt-5">Termin in ganz Berlin suchen</a>
+        <a href="/help/{{ service.key | slug }}" class="button is-text has-text-primary mt-5 link-portal">Zum Service-Portal Berlin > {{ service.title }}</a>
+        <button class="button is-text mt-6" onclick="window.print()">Seite drucken</button>
+      </div>
+    </div>
+  </div>
+</main>
