@@ -19,6 +19,8 @@ $link-hover: $primary;
 $link-focus: $primary;
 $link-active: $primary;
 
+$button-text-hover-background-color: transparent;
+
 $footer-background-color: $background;
 $card-background-color: $white-ter;
 $card-header-background-color: $white;
@@ -27,5 +29,21 @@ $card-content-background-color: $grey-lightest;
 @import "../../node_modules/bulma/bulma.sass";
 
 @import "partials/_header";
-@import "partials/_category-overview";
-@import "partials/_service-overview";
+@import "partials/_categories";
+@import "partials/_overview";
+@import "partials/_service";
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  flex: 1;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+}
