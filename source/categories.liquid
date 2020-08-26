@@ -1,0 +1,39 @@
+---
+permalink: "categories/"
+eleventyExcludeFromCollections: true
+layout: layouts/default.liquid
+---
+
+<main class="section category-overview">
+  <div class="container">
+    {% for group in level1 %}
+    <h2 class="title is-4">{{ group.label }}</h2>
+    <ul class="grid-columns pb-5 mb-5">
+      {% for service in group.services %}
+      <li class="grid-column">
+        <a
+          class="{% if service.available == false %}service-unavailable{% endif %}"
+          href="/overview/{{ service.destination | slug }}/"
+        >
+          <div class="card">
+            <div class="card-content has-background-white">
+              <figure class="image is-4by3">
+                <img
+                  src="{{ service.image }}"
+                  alt="{{ service.description }}"
+                />
+              </figure>
+            </div>
+            <div
+              class="card-content has-background-white-ter has-text-centered content"
+            >
+              {{ service.label }}
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</main>
