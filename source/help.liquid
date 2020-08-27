@@ -7,7 +7,8 @@ pagination:
 permalink: "help/{{ help.key | slug }}/"
 layout: layouts/default.liquid
 tags: page
-title: {{ help.key }}
+eleventyComputed:
+  title: "Service {{ help.key }}"
 ---
 <style>
   body, html {
