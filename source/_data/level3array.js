@@ -9,7 +9,8 @@ const level2 = require("./level2.json");
 const services = [];
 Object.entries(level2).forEach(item => {
   const serviceGroup = {
-    title: item[0],
+    key: item[0],
+    title: item[1].label,
     stringifiedChildren: JSON.stringify(item[1])
   }
   services.push(serviceGroup);
@@ -21,7 +22,7 @@ module.exports = async function () {
     const parentGroup = services.find(serviceGroup => {
       return serviceGroup.stringifiedChildren.includes(key);
     })
-    array.push({ ...data[key], key, parent: parentGroup.title });
+    array.push({ ...data[key], key, parent: { key: parentGroup.key, title: parentGroup.title} });
   });
   return array;
 };
