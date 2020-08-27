@@ -1,64 +1,39 @@
 ---
 pagination:
-  data: helparray
+  data: level3array
   size: 1
-  alias: help
+  alias: service
   addAllPagesToCollections: true
-permalink: "help/{{ help.key | slug }}/"
-layout: layouts/default.liquid
-tags: page
+permalink: "help/{{ service.key | slug }}/"
+layout: layouts/skeleton.liquid
+tags: help
 eleventyComputed:
-  title: "Service {{ help.key }}"
+  title: "{{ service.title }}"
 ---
-<style>
-  body, html {
-    background-color: #ececec;
-    margin:0;
-    padding:0;
-  }
 
-  #container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-
-  #container>div {
-    height: 100vh;
-  }
-
-  #frame {
-    flex: 3;
-  }
-
-  #frame iframe{
-    width:100%;
-    height:100vh;
-    border:none;
-  }
-
-  #help {
-    flex: 1;
-  }
-
-</style>
-
-<div id="container">
-  <div id="frame">
-    <iframe src="https://service.berlin.de/dienstleistung/{{ help.key }}"></iframe>
+<main class="section pt-0 iframe-section">
+  <div class="container">
+    <div class="columns is-mobile">
+      <div class="column is-three-quarters">
+        <iframe src="https://service.berlin.de/dienstleistung/{{ service.key }}"></iframe>
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card mt-3">
+          <div class="card-content has-background-light">
+            <a href="/service/{{ service.key }}" class="has-text-primary is-size-5">Zurück zur Bürgerbox</a>
+          </div>
+          <div class="card-content has-background-white">
+            <h1 class="title has-text-weight-normal is-size-5">Schritt für Schritt</h1>
+            <ul>
+              <li>Schritt 1</li>
+              <li>Schritt 2</li>
+              <li>Schritt 3</li>
+              <li>Schritt 4</li>
+              <li>Schritt 5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div id="help">
-    <h1>help.json</h1>
-    <ul>
-    {% for item in help.items %}
-      <li>
-        <strong>{{ item.label }}</strong>
-        {% if item.content %}
-        <p>{{ item.content }}</p>
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  </div>
-</div>
+</main>
