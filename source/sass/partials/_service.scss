@@ -48,15 +48,13 @@
     list-style: inside;
   }
 
-  .link-portal {
-    display: block;
-    width: auto;
-    height: auto;
-    text-decoration: none;
-    white-space: normal;
-    text-align: left;
+  a.link-portal {
+    display: flex;
+    align-items: flex-start;
+    
     &::before {
       content: url(/images/icon_link.svg);
+      display: inline-block;
       margin-right: 10px;
     }
   }

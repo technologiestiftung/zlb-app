@@ -92,57 +92,35 @@ eleventyComputed:
           {% endfor %}
         </ul>
         {% endif %}
-        {% comment %}
-        {% if service.legal %}
-        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Rechtliche Hinweise</h3>
-        <ul class="pb-4 mt-4">
-          {% for element in service.legal %}
-          <li>
-            <a href="{{ element.url }}">{{ element.label }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-        {% endcomment %}
-        {% comment %}
-        {% if service.more %}
-        <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">Weitere Hinweise</h3>
-        <ul class="pb-4 mt-4">
-          {% for element in service.more %}
-          <li>
-            <a href="{{ element.url }}">{{ element.label }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        {% endif %} {% if service.appointment %}
-
-        <!-- Link for making an appointend somewhere in Berlin -->
-        <a href="{{ service.appointment.berlin.url }}">{{
-          service.appointment.berlin.label
-        }}</a>
-
-        {% for behoerde in service.appointment.behoerden %}
-        <div>
-          <!-- Link for making an appointend somewhere in Berlin -->
-          <a href="{{ behoerde.all.url }}">{{ behoerde.all.label }}</a>
-          <ul>
-            {% for office in behoerde.offices %}
-            <li>
-              <a href="{{ office.url }}">{{ office.label }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endfor %} {% endif %}
-        {% endcomment %}
         <a class="button is-light mt-6" disabled>Nötige Formulare aufrufen</a>
         <button class="button is-outlined mt-6" onclick="window.print()">Diese Seite als PDF herunterladen</button>
       </div>
       <div class="column is-3">
-        <a href="" class="button is-primary">Termin in meiner Nähe suchen</a>
-        <a href="/help/{{ service.key | slug }}" class="button is-primary mt-5">Termin in ganz Berlin suchen</a>
-        <a href="/help/{{ service.key | slug }}" class="button is-text has-text-primary mt-5 link-portal">Zum Service-Portal Berlin > {{ service.title }}</a>
-        <button class="button is-text mt-6" onclick="window.print()">Seite drucken</button>
+
+        <a
+          href=""
+          class="button is-primary"
+          disabled
+        >Termin in meiner Nähe suchen</a>
+
+        <a
+          href="/help/{{ service.key | slug }}/appointment"
+          class="button is-primary mt-5"
+          {%- unless service.appointment.berlin.url -%}
+            disabled
+          {%- endunless -%}
+        >Termin in ganz Berlin suchen</a>
+
+        <a
+          href="/help/{{ service.key | slug }}"
+          class="has-text-primary mt-5 link-portal"
+        >Zum Service-Portal Berlin > {{ service.title }}</a>
+
+        <button
+          class="button is-text mt-6"
+          onclick="window.print()"
+        >Seite drucken</button>
+
       </div>
     </div>
   </div>
