@@ -26,6 +26,9 @@ $card-background-color: $white-ter;
 $card-header-background-color: $white;
 $card-content-background-color: $grey-lightest;
 
+$breadcrumb-item-active-color: $primary;
+$breadcrumb-item-separator-color: $primary;
+
 @import "../../node_modules/bulma/bulma.sass";
 
 @import "partials/_header";
