@@ -1,9 +1,39 @@
 ---
-title: default title
 layout: layouts/skeleton.liquid
 ---
 
-{% include partials/_header.html %}
+<header class="section has-background-light pb-4">
+  <div class="container">
+    <div class="level">
+      <div class="level-left">
+        <div class="level-item">
+          {% if breadcrumb %}
+          <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="/categories">Start</a></li>
+              {% if parentKey and parentTitle %}
+              <li>
+                <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
+              </li>
+              {% endif %}
+              <li class="is-active">
+                <a class="has-text-weight-bold" href="#" aria-current="page">{{
+                  breadcrumb
+                }}</a>
+              </li>
+            </ul>
+          </nav>
+          {% endif %}
+        </div>
+      </div>
+      <div class="level-right">
+        <button class="level-item button is-text button-fontsize">
+          Schriftgröße ändern
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
 
 {{ content }}
 

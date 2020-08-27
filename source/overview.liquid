@@ -7,7 +7,9 @@ pagination:
 permalink: "overview/{{ overview.key | slug }}/"
 layout: layouts/default.liquid
 tags: overview
-title: {{ overview.key }}
+eleventyComputed:
+  title: "{{ overview.label }}"
+  breadcrumb: "{{ overview.label }}"
 ---
 <main class="section service-overview">
   <div class="container">
