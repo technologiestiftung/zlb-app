@@ -4,9 +4,9 @@ pagination:
   size: 1
   alias: service
   addAllPagesToCollections: true
-permalink: "help/{{ service.key | slug }}/"
-layout: layouts/skeleton.liquid
-tags: help
+permalink: "help/{{ service.key | slug }}/appointment/"
+layout: layouts/iframes.liquid
+tags: appointment
 eleventyComputed:
   title: "{{ service.title }}"
 ---
@@ -15,7 +15,7 @@ eleventyComputed:
   <div class="container">
     <div class="columns is-mobile">
       <div class="column is-three-quarters">
-        <iframe src="https://service.berlin.de/dienstleistung/{{ service.key }}"></iframe>
+        <iframe src="{{ service.appointment.berlin.url }}" frameborder="0"></iframe>
       </div>
       <div class="column is-one-quarter">
         <div class="card mt-3">
