@@ -9,7 +9,8 @@ layout: layouts/default.liquid
 tags: service
 eleventyComputed:
   title: "{{ service.title }}"
-  parent: "{{ service.parent.title }}"
+  parentKey: "{{ service.parent.key }}"
+  parentTitle: "{{ service.parent.title }}"
   breadcrumb: "{{ service.title }}"
 ---
 
