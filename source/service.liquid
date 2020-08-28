@@ -48,12 +48,14 @@ eleventyComputed:
           {% for element in service.documents %}
           {% if element.label %}
           <details class="py-3">
-            <summary class="media">
-              <div class="media-content"><strong>{{ element.label }}</strong></div>
-              <div class="media-right">
-                <figure class="image">
-                  <img class="arrow-down" src="/images/arrow_down_off.svg" alt="Pfeil-Icon">
-                </figure>
+            <summary>
+              <div class="media">
+                <div class="media-content"><strong>{{ element.label }}</strong></div>
+                <div class="media-right">
+                  <figure class="image is-32x32">
+                    <img class="arrow-down" src="/images/arrow_down_off.svg" alt="Pfeil-Icon">
+                  </figure>
+                </div>
               </div>
             </summary>
             <p class="pt-0">{{ element.content }}</p>
@@ -71,12 +73,14 @@ eleventyComputed:
           {% for element in service.requirements %}
           {% if element.label %}
           <details class="py-3">
-            <summary class="media">
-              <div class="media-content"><strong>{{ element.label }}</strong></div>
-              <div class="media-right">
-                <figure class="image">
-                  <img class="arrow-down" src="/images/arrow_down_off.svg" alt="Arrow">
-                </figure>
+            <summary>
+              <div class="media">
+                <div class="media-content"><strong>{{ element.label }}</strong></div>
+                <div class="media-right">
+                  <figure class="image is-32x32">
+                    <img class="arrow-down" src="/images/arrow_down_off.svg" alt="Arrow">
+                  </figure>
+                </div>
               </div>
             </summary>
             <p class="pt-0">{{ element.content }}</p>
