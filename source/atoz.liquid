@@ -1,28 +1,46 @@
 ---
 permalink: "/overview/atoz/"
 layout: layouts/default.liquid
+eleventyComputed:
+  title: "Weitere Onlineverfahren"
+  breadcrumb: "Weitere Onlineverfahren"
 ---
 
-<!-- This could also easily be split across multiple pages (see e.g. overview) -->
-
-<h1>atoz.json</h1>
-
-<!-- Navigation -->
-<ul>
-{% for group in atoz %}
-  <li>
-    <a href="#{{ group.letter | slug }}">{{ group.letter }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-{% for group in atoz %}
-<h2 id="{{ group.letter | slug }}">{{ group.letter }}</h2>
-<ul>
-  {% for item in group.items %}
-  <li>
-    <a href="{{ item.url }}/">{{ item.label }}</a>
-  </li>
-  {% endfor %}
-</ul>
-{% endfor %}
+<main class="section atoz">
+  <div class="container">
+    <div class="columns is-multiline">
+      <div class="column is-12 mb-6">
+        <ul class="atoz-nav tile is-ancestor">
+          {% for group in atoz %}
+            <li class="is-inline-block tile is-parent has-text-centered mt-3">
+              <a class="tile is-child is-size-4" href="#{{ group.letter | slug }}">{{ group.letter }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+      </div>
+      <div class="column is-3">
+        {% include partials/_circular-icon.html, iconKey: "onlineverfahren", iconTitle: "Onlineverfahren" %}
+      </div>
+      <div class="column is-6">
+        {% for group in atoz %}
+        <ul id="{{ group.letter | slug }}" class="atoz-content">
+          {% for item in group.items %}
+          <li class="py-3">
+            <a class="media" href="{{ item.url }}">
+              <div class="media-content">
+                {{ item.label }}
+              </div>
+              <div class="media-right">
+                <figure class="image is-32x32">
+                  <img class="arrow-right" src="/images/arrow_right_off.svg" alt="Arrow">
+                </figure>
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</main>
