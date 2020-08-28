@@ -10,12 +10,37 @@ title: ZLB Terminal
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{{title}}</title>
     <meta name="description" content="something" />
-    <meta name="author" content="me" />
+    <meta name="author" content="me" />  
 
     <link rel="stylesheet" href="/css/index.css">
+
+    <script>
+      if (sessionStorage.getItem("fontsize") === "large") {
+        document.querySelector("html").style["font-size"] = "large";
+        sessionStorage.setItem('fontsize', 'large');
+      }
+    </script>
 
   </head>
   <body>
     {{ content }}
   </body>
+
+  <script>
+    let textIsEnlarged = sessionStorage.getItem("fontsize") === "large" || false;
+    const fontsizeButton = document.querySelector(".button-fontsize");
+
+    fontsizeButton.addEventListener("click", () => {
+      textIsEnlarged = !textIsEnlarged;
+      
+      if (textIsEnlarged) {
+        document.querySelector("html").style["font-size"] = "large";
+        sessionStorage.setItem('fontsize', 'large');
+      } else {
+        document.querySelector("html").style["font-size"] = "initial";
+        sessionStorage.setItem('fontsize', 'initial');
+      }
+    })
+  </script>
+
 </html>
