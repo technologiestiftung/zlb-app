@@ -15,11 +15,7 @@ eleventyComputed:
   <div class="container">
     <div class="columns">
       <div class="column is-3 service-illustration-column">
-        <div class="service-illustration has-background-white-ter">
-          <figure class="image is-square">
-            <img src="/images/icon_{{ overview.key }}.svg" alt="Icon für {{ overview.label }}">
-          </figure>
-        </div>
+        {% include partials/_circular-icon.html, iconKey: overview.key, iconTitle: overview.label %}
       </div>
       <div class="column is-6">
         <ul>
@@ -35,7 +31,7 @@ eleventyComputed:
                     {{ subservice.label }}
                   </div>
                   <div class="media-right">
-                    <figure class="image">
+                    <figure class="image is-32x32">
                       <img class="arrow-right" src="/images/arrow_right_off.svg" alt="Arrow">
                     </figure>
                   </div>
