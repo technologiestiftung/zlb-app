@@ -1,0 +1,26 @@
+.atoz-nav {
+  li {
+    border-left: 1px solid $border;
+    &:last-of-type {
+      border-right: 1px solid $border;
+    }
+  }
+}
+
+.atoz-content {
+  li {
+    border-bottom: 1px solid $border;
+
+    a:hover {
+      .arrow-right {
+        /* filter generates primary color */
+        filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
+          brightness(101%) contrast(100%);
+      }
+    }
+
+    .media {
+      align-items: center;
+    }
+  }
+}
