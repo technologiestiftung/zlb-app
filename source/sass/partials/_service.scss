@@ -63,9 +63,28 @@
     }
   }
 
-  .print-button {
-    width: 50%;
-    background-color: $white;
-    border: 1px solid $text;
+  .print-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .print-icon-wrapper {
+      border: 1px solid $text;
+      border-radius: 50%;
+      width: 25%;
+      display: flex;
+      justify-content: center;
+
+      figure {
+        width: 50%;
+      }
+    }
+    .print-button-wrapper {
+      width: 100%;
+
+      button {
+        text-decoration: none;
+      }
+    }
   }
 }
