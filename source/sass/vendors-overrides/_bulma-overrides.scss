@@ -1,0 +1,29 @@
+// --------------------------------------------------------------
+// Below we can modify Bulma variables with our custom variables 
+// defined in "../abstracts/_variables.scss"
+// --------------------------------------------------------------
+$primary: $orange;
+
+@import "../../../node_modules/bulma/sass/utilities/_all.sass";
+// --------------------------------------------------------------
+// Below we can modify Bulma variables with other Bulma variables
+// or literal values.
+// --------------------------------------------------------------
+$title-color: $primary;
+$subtitle-color: $primary;
+
+$link: $text;
+$link-hover: $primary;
+$link-focus: $primary;
+$link-active: $primary;
+
+$button-text-hover-background-color: transparent;
+
+$footer-background-color: $background;
+
+$card-background-color: $white-ter;
+$card-header-background-color: $white;
+$card-content-background-color: $grey-lightest;
+
+$breadcrumb-item-active-color: $primary;
+$breadcrumb-item-separator-color: $primary;
