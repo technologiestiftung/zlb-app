@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+
+  > *:not(header, footer) {
+    flex: 1;
+  }
+}
