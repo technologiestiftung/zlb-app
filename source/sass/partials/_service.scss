@@ -37,6 +37,10 @@
       &:focus {
         outline: 1px dotted $primary;
       }
+
+      .media {
+        align-items: center;
+      }
     }
 
     p {
