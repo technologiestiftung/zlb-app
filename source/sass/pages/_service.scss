@@ -1,6 +1,6 @@
 .service {
 
-  .title, p {
+  .title, .main-column p {
     border-bottom: 1px solid $border;
   }
 
@@ -66,28 +66,25 @@
     }
   }
 
+  .print-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
   .print-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .print-icon-wrapper {
+    border: 1px solid $text;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
 
-    .print-icon-wrapper {
-      border: 1px solid $text;
-      border-radius: 50%;
-      width: 25%;
-      display: flex;
-      justify-content: center;
-
-      figure {
-        width: 50%;
-      }
-    }
-    .print-button-wrapper {
-      width: 100%;
-
-      button {
-        text-decoration: none;
-      }
+    figure {
+      width: 50%;
     }
   }
 }
