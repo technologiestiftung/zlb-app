@@ -1,6 +1,6 @@
 .service {
 
-  .title, p {
+  .title, .main-column p {
     border-bottom: 1px solid $border;
   }
 
@@ -17,21 +17,24 @@
       }
     }
 
-    > summary {
+    &:hover {
+      background-color: $white-bis;
+
+      summary {
+        color: $primary;
+      }
+      .arrow-down {
+        /* filter generates primary color */
+        filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
+          brightness(101%) contrast(100%);
+      }
+    }
+
+    summary {
       list-style: none;
 
       &::-webkit-details-marker {
         display: none;
-      }
-
-      &:hover {
-        color: $primary;
-        
-        .arrow-down {
-          /* filter generates primary color */
-          filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
-            brightness(101%) contrast(100%);
-        }
       }
 
       &:focus {
@@ -63,28 +66,25 @@
     }
   }
 
+  .print-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
   .print-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .print-icon-wrapper {
+    border: 1px solid $text;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
 
-    .print-icon-wrapper {
-      border: 1px solid $text;
-      border-radius: 50%;
-      width: 25%;
-      display: flex;
-      justify-content: center;
-
-      figure {
-        width: 50%;
-      }
-    }
-    .print-button-wrapper {
-      width: 100%;
-
-      button {
-        text-decoration: none;
-      }
+    figure {
+      width: 50%;
     }
   }
 }

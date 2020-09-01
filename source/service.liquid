@@ -20,7 +20,7 @@ eleventyComputed:
       <div class="column is-3">
         {% include partials/_circular-icon.html, iconKey: parentKey, iconTitle: parentTitle %}
       </div>
-      <div class="column is-6">
+      <div class="column is-6 main-column">
         <div class="buttons">
           {% if service.documents %}
             <a class="button" href="#documents">Unterlagen</a>
@@ -157,17 +157,17 @@ eleventyComputed:
         >Zum Service-Portal Berlin > {{ service.title }}</a>
 
         <div class="mt-6 print-wrapper">
-          <div class="print-icon-wrapper">
-            <figure class="image is-square">
-              <img src="/images/icon_drucken.svg" alt="Drucker-Icon">
-            </figure>
-          </div>
-          <div class="has-text-centered print-button-wrapper">
-            <button
-              class="button is-text"
-              onclick="printPage()"
-            >Seite drucken</button>
-          </div>
+          <button
+            class="print-button is-size-6"
+            onclick="printPage()"
+          >
+            <div class="print-icon-wrapper">
+              <figure class="image is-1by1">
+                <img src="/images/icon_drucken.svg" alt="Drucker-Icon">
+              </figure>
+            </div>
+            <p class="mt-1">Seite drucken</p>
+          </button>
         </div>
 
       </div>
