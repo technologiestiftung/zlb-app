@@ -154,7 +154,11 @@ eleventyComputed:
         <a
           href="/help/{{ service.key | slug }}"
           class="has-text-primary mt-5 link-portal"
-        >Zum Service-Portal Berlin > {{ service.title }}</a>
+        >
+          Zum Service-Portal Berlin >
+          <br>
+          {{ service.title }}
+      </a>
 
         <div class="mt-6 print-wrapper">
           <button
