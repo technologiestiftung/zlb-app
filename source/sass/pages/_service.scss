@@ -55,7 +55,17 @@
     list-style: inside;
   }
 
+  aside > .button, .link-portal, hr {
+    width: 270px;
+  }
+
+  aside hr {
+    height: 1px;
+    background-color: $primary;
+  }
+
   a.link-portal {
+    font-style: italic;
     display: flex;
     align-items: flex-start;
     

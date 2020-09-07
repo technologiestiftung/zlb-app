@@ -135,7 +135,7 @@ eleventyComputed:
           <button class="button is-outlined mt-6" onclick="window.print()">Diese Seite als PDF herunterladen</button>
         </section>
       </div>
-      <div class="column is-3">
+      <aside class="column is-3">
 
         <a
           href=""
@@ -151,6 +151,8 @@ eleventyComputed:
           {%- endunless -%}
         >Termin in ganz Berlin suchen</a>
 
+        <hr>
+
         <a
           href="/help/{{ service.key | slug }}"
           class="has-text-primary mt-5 link-portal"
@@ -158,7 +160,7 @@ eleventyComputed:
           Zum Service-Portal Berlin >
           <br>
           {{ service.title }}
-      </a>
+        </a>
 
         <div class="mt-6 print-wrapper">
           <button
@@ -174,7 +176,7 @@ eleventyComputed:
           </button>
         </div>
 
-      </div>
+      </aside>
     </div>
   </div>
 </main>
