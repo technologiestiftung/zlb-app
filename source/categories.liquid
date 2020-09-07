@@ -13,8 +13,14 @@ layout: layouts/default.liquid
       <li class="grid-column">
         <a
           class="{% if service.available == false %}service-unavailable{% endif %}"
-          href="/overview/{{ service.destination | slug }}/"
-        >
+          {% if service.external == true %}
+            href="{{service.destination}}"
+            target="_blank"
+            rel="noopener noreferrer"
+          {% else %}
+            href="/overview/{{ service.destination | slug }}/"
+          {% endif %}
+          >
           <div class="card">
             <div class="card-content has-background-white">
               <figure class="image is-4by3">
