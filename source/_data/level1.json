@@ -46,15 +46,17 @@
         "label": "Express-Termin in Bürgeramt finden",
         "image": "/images/icon_expresstermin.svg",
         "description": "Express-Termin in Bürgeramt finden",
-        "destination": "expresstermin",
-        "available": false
+        "external": true,
+        "destination": "https://service.berlin.de/standorte/buergeraemter/",
+        "available": true
       },
       {
         "label": "Termin in Bürgeramt ändern / absagen",
         "image": "/images/icon_terminabsagen.svg",
         "description": "Termin in Bürgeramt ändern / absagen",
-        "destination": "terminaendern",
-        "available": false
+        "external": true,
+        "destination": "https://service.berlin.de/terminvereinbarung/termin/terminaendern.php",
+        "available": true
       },
       {
         "label": "AusweisApp2 starten",
@@ -74,8 +76,9 @@
         "label": "Bürgertelefon 115",
         "image": "/images/icon_servicetel.svg",
         "description": "Bürgertelefon 115",
-        "destination": "buergertelefon",
-        "available": false
+        "external": true,
+        "destination": "https://service.berlin.de/buergertelefon/",
+        "available": true
       },
       {
         "label": "Archiv mit Formularblättern",
@@ -88,28 +91,33 @@
         "label": "Bürgerämter suchen / finden",
         "image": "/images/icon_buergeramt.svg",
         "description": "Bürgerämter suchen / finden",
-        "destination": "buergeraemter",
+        "external": true,
+        "destination": "https://service.berlin.de/standorte/buergeraemter/",
         "available": true
       },
       {
         "label": "Behörden suchen / finden",
         "image": "/images/icon_behoerde.svg",
         "description": "Behörden suchen / finden",
-        "destination": "behoerden",
-        "available": false
+        "external": true,
+        "destination": "https://service.berlin.de/behoerden/",
+        "available": true
       },
       {
         "label": "Weitere Online-Verfahren",
         "image": "/images/icon_onlineverfahren.svg",
         "description": "Weitere Online-Verfahren",
-        "destination": "atoz"
+        "external": true,
+        "destination": "https://service.berlin.de/onlineverfahren-onlinedienstleistungen/",
+        "available": true
       },
       {
         "label": "Andere Leistungen der Verwaltung",
         "image": "/images/icon_otherservices.svg",
         "description": "Andere Leistungen der Verwaltung",
-        "destination": "verwaltungsdienstleistungen",
-        "available": false
+        "external": true,
+        "destination": "https://service.berlin.de/dienstleistungen/",
+        "available": true
       }
     ]
   },
