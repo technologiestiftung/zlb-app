@@ -61,10 +61,10 @@
       position: fixed;
       top: calc(200px + 72px);
     }
-  }
-
-  aside > div > .button, .link-portal, hr {
-    width: 270px;
+    > * {
+      display: block;
+      width: 270px;
+    }
   }
 
   aside hr {
