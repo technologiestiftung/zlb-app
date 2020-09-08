@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-flow: column;
 
-  > *:not(header, footer) {
+  > *:not(header):not(footer) {
     flex: 1;
   }
 }
