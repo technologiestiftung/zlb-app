@@ -5,6 +5,13 @@
     border-bottom: 1px solid $border;
   }
 
+  .bottom-buttons-wrapper {
+    @include from($desktop) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
   details {
     border-bottom: 1px solid $border;
 
