@@ -1,4 +1,5 @@
 .service {
+  padding-top: 72px !important;
 
   .title, .main-column p {
     border-bottom: 1px solid $border;
@@ -55,7 +56,24 @@
     list-style: inside;
   }
 
+  aside > div {
+    @include from($tablet) {
+      position: fixed;
+      top: calc(200px + 72px);
+    }
+    > * {
+      display: block;
+      width: 270px;
+    }
+  }
+
+  aside hr {
+    height: 1px;
+    background-color: $primary;
+  }
+
   a.link-portal {
+    font-style: italic;
     display: flex;
     align-items: flex-start;
     
@@ -75,6 +93,7 @@
   .print-wrapper {
     display: flex;
     justify-content: center;
+    margin-top: 145px;
   }
 
   .print-icon-wrapper {
