@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("source/css");
   eleventyConfig.addPassthroughCopy("source/images");
   eleventyConfig.addPassthroughCopy("source/js");
+  eleventyConfig.addPassthroughCopy("source/mapdata");
 
   return {
     dir: {
