@@ -1,0 +1,8 @@
+footer {
+  @include from($tablet) {
+    height: 200px;
+  }
+  .logo-tsb-wrapper {
+    width: 148px;
+  }
+}

@@ -1,0 +1,109 @@
+.service {
+  padding-top: 72px !important;
+
+  .title, .main-column p {
+    border-bottom: 1px solid $border;
+  }
+
+  details {
+    border-bottom: 1px solid $border;
+
+    .arrow-down {
+      transition: transform .2s ease-in;
+    }
+
+    &[open] {
+      .arrow-down {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      background-color: $white-bis;
+
+      summary {
+        color: $primary;
+      }
+      .arrow-down {
+        /* filter generates primary color */
+        filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
+          brightness(101%) contrast(100%);
+      }
+    }
+
+    summary {
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &:focus {
+        outline: 1px dotted $primary;
+      }
+
+      .media {
+        align-items: center;
+      }
+    }
+
+    p {
+      border-bottom: none;
+    }
+  }
+
+  ul {
+    list-style: inside;
+  }
+
+  aside > div {
+    @include from($tablet) {
+      position: fixed;
+      top: calc(200px + 72px);
+    }
+    > * {
+      display: block;
+      width: 270px;
+    }
+  }
+
+  aside hr {
+    height: 1px;
+    background-color: $primary;
+  }
+
+  a.link-portal {
+    font-style: italic;
+    display: flex;
+    align-items: flex-start;
+    
+    &::before {
+      content: url(/images/icon_link.svg);
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  .print-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .print-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+  }
+
+  .print-icon-wrapper {
+    border: 1px solid $text;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    figure {
+      width: 50%;
+    }
+  }
+}

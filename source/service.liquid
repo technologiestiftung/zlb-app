@@ -20,7 +20,7 @@ eleventyComputed:
       <div class="column is-3">
         {% include partials/_circular-icon.html, iconKey: parentKey, iconTitle: parentTitle %}
       </div>
-      <div class="column is-6">
+      <div class="column is-6 main-column">
         <div class="buttons">
           {% if service.documents %}
             <a class="button" href="#documents">Unterlagen</a>
@@ -135,42 +135,50 @@ eleventyComputed:
           <button class="button is-outlined mt-6" onclick="window.print()">Diese Seite als PDF herunterladen</button>
         </section>
       </div>
-      <div class="column is-3">
+      <aside class="column is-3">
 
-        <a
-          href=""
-          class="button is-primary"
-          disabled
-        >Termin in meiner Nähe suchen</a>
-
-        <a
-          href="/help/{{ service.key | slug }}/appointment"
-          class="button is-primary mt-5"
-          {%- unless service.appointment.berlin.url -%}
+        <div>
+          <a
+            href=""
+            class="button is-primary"
             disabled
-          {%- endunless -%}
-        >Termin in ganz Berlin suchen</a>
+          >Termin in meiner Nähe suchen</a>
 
-        <a
-          href="/help/{{ service.key | slug }}"
-          class="has-text-primary mt-5 link-portal"
-        >Zum Service-Portal Berlin > {{ service.title }}</a>
+          <a
+            href="/help/{{ service.key | slug }}/appointment"
+            class="button is-primary mt-5"
+            {%- unless service.appointment.berlin.url -%}
+              disabled
+            {%- endunless -%}
+          >Termin in ganz Berlin suchen</a>
 
-        <div class="mt-6 print-wrapper">
-          <div class="print-icon-wrapper">
-            <figure class="image is-square">
-              <img src="/images/icon_drucken.svg" alt="Drucker-Icon">
-            </figure>
-          </div>
-          <div class="has-text-centered print-button-wrapper">
+          <hr>
+
+          <a
+            href="/help/{{ service.key | slug }}"
+            class="has-text-primary mt-5 link-portal"
+          >
+            Zum Service-Portal Berlin >
+            <br>
+            {{ service.title }}
+          </a>
+
+          <div class="print-wrapper">
             <button
-              class="button is-text"
+              class="print-button is-size-6"
               onclick="printPage()"
-            >Seite drucken</button>
+            >
+              <div class="print-icon-wrapper">
+                <figure class="image is-1by1">
+                  <img src="/images/icon_drucken.svg" alt="Drucker-Icon">
+                </figure>
+              </div>
+              <p class="mt-1">Seite drucken</p>
+            </button>
           </div>
         </div>
 
-      </div>
+      </aside>
     </div>
   </div>
 </main>
