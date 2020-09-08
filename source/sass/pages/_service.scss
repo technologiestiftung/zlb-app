@@ -58,7 +58,7 @@
 
   aside > div {
     @include from($tablet) {
-      position: sticky;
+      position: fixed;
       top: calc(200px + 72px);
     }
   }
