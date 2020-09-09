@@ -29,7 +29,7 @@ data.forEach(bezirksamt => {
   })
 });
 
-fs.writeFile("../source/mapdata/aemter.geojson", JSON.stringify(geojson), (err) => {
+fs.writeFile("../source/_data/aemter.geojson", JSON.stringify(geojson), (err) => {
   if (err) throw err;
-  console.log("The file has been saved!");
+  console.log("aemter.geojson has been saved.");
 });
