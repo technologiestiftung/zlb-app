@@ -22,3 +22,12 @@ header {
     margin-right: 10px;
   }
 }
+
+.breadcrumb-button {
+  &.history-back, &.history-forward {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    height: auto;
+  }
+}
