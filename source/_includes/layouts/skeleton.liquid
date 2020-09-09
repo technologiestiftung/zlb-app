@@ -12,35 +12,9 @@ title: ZLB Terminal
     <meta name="author" content="Technologiestiftung Berlin" />  
 
     <link rel="stylesheet" href="/css/main.css">
-    <script src="/js/print.js"></script>
-
-    <script>
-      if (sessionStorage.getItem("fontsize") === "large") {
-        document.querySelector("html").style["font-size"] = "large";
-        sessionStorage.setItem('fontsize', 'large');
-      }
-    </script>
 
   </head>
   <body>
     {{ content }}
   </body>
-
-  <script>
-    let textIsEnlarged = sessionStorage.getItem("fontsize") === "large" || false;
-    const fontsizeButton = document.querySelector(".button-fontsize");
-
-    fontsizeButton.addEventListener("click", () => {
-      textIsEnlarged = !textIsEnlarged;
-
-      if (textIsEnlarged) {
-        document.querySelector("html").style["font-size"] = "large";
-        sessionStorage.setItem('fontsize', 'large');
-      } else {
-        document.querySelector("html").style["font-size"] = "initial";
-        sessionStorage.setItem('fontsize', 'initial');
-      }
-    })
-  </script>
-
 </html>
