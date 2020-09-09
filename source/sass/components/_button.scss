@@ -1,3 +1,7 @@
+.button.is-primary:hover {
+  background-color: $text;
+}
+
 button[disabled], .button[disabled] {
   pointer-events: none;
 }
