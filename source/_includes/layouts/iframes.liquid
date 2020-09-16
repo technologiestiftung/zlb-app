@@ -1,5 +1,50 @@
 ---
 layout: layouts/skeleton.liquid
+testdata:
+  - Beschreibung zu Schritt 1
+  - Beschreibung zu Schritt 2
+  - Beschreibung zu Schritt 3
+  - Beschreibung zu Schritt 4
+  - Beschreibung zu Schritt 5
 ---
 
-{{ content }}
+<main class="section pt-0 iframe-section">
+  <div class="container">
+    <div class="grid">
+      <div>
+        {{ content }}
+      </div>
+      <div class="iframe-sidebar">
+        <div class="card mt-6 ml-4">
+          <div class="card-content has-background-light">
+            <a href="/service/{{ service.key }}" class="has-text-primary is-size-5">Zurück zum ZLB-Terminal</a>
+          </div>
+          <div class="card-content has-background-white">
+            <div class="intro py-3">
+              <figure class="image is-32x32">
+                <img src="/images/icon_gebrauchsanleitung.svg" alt="Schritt für Schritt Icon">
+              </figure>
+              <div>
+                <h1 class="title has-text-weight-normal is-size-5">Schritt für Schritt</h1>
+              </div>
+            </div>
+            <ul>
+              {% for item in testdata %}
+              <li>
+                <div class="step-number py-3">
+                  <figure class="image is-1by1">
+                    <div class="has-ratio has-background-white">
+                      <span>{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span></10>
+                    </div>
+                  </figure>
+                </div>
+                <div class="step-content py-3">{{ item }}</div>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
