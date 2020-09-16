@@ -40,7 +40,7 @@ const addMarkers = data => {
       <h1 class="title is-6 mt-1 mb-0">${feature.properties.label}</h1>
       <p class="is-size-6 mt-1">[Straße und Hausnummer]</p>
       <p class="is-size-6 mt-1">[PLZ und Ort]</p>
-      <div class="buttons mt-3">
+      <div class="buttons mt-6">
         <a class="button" disabled>Zum Standort</a>
         <a class="button" disabled>Zur Terminvereinbarung</a>
       </div>
