@@ -11,32 +11,7 @@ eleventyComputed:
   title: "{{ service.title }}"
 ---
 
-<main class="section pt-0 iframe-section">
-  <div class="container">
-    <div class="grid">
-      <div>
-        <iframe
-          title="Terminvereinbarung im Service-Portal Berlin"
-          src="{{ service.appointment.berlin.url }}"
-        ></iframe>
-      </div>
-      <div>
-        <div class="card mt-3">
-          <div class="card-content has-background-light">
-            <a href="/service/{{ service.key }}" class="has-text-primary is-size-5">Zurück zum ZLB-Terminal</a>
-          </div>
-          <div class="card-content has-background-white">
-            <h1 class="title has-text-weight-normal is-size-5">Schritt für Schritt</h1>
-            <ul>
-              <li>Schritt 1</li>
-              <li>Schritt 2</li>
-              <li>Schritt 3</li>
-              <li>Schritt 4</li>
-              <li>Schritt 5</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
+<iframe
+  title="Terminvereinbarung im Service-Portal Berlin"
+  src="{{ service.appointment.berlin.url }}"
+></iframe>
