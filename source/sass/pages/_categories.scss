@@ -16,9 +16,19 @@
     .card {
       height: 100%;
       transition: all .1s ease-out;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      overflow: hidden;
+
+      .category-title { background-color: transparent; }
 
       &:hover {
+        border-color: $black-ter;
+        background-color: $black-ter;
+        color: $white;
         transform: scale(1.05);
+
+        .category-title { background-color: $black-ter; }
       }
     }
   }

@@ -27,6 +27,7 @@ $footer-background-color: $background;
 $card-background-color: $white-ter;
 $card-header-background-color: $white;
 $card-content-background-color: $grey-lightest;
+$card-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert,.1), 0 0 0 1px rgba($scheme-invert,.02);
 
 $breadcrumb-item-active-color: $primary;
 $breadcrumb-item-separator-color: $primary;

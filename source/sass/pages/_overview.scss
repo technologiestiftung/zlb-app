@@ -12,9 +12,10 @@
 
       a {
         &:before {
-          content: '\2014';
-          align-self: flex-start;
+          content: '-';
+          align-self: baseline;
           margin-right: 5px;
+          transform: translateY(2px);
         }
       }
 
@@ -25,6 +26,7 @@
   }
 
   a:hover {
+    background-color: $white-bis;
     .arrow-right {
       /* filter generates primary color */
       filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
