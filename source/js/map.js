@@ -14,48 +14,42 @@ const map = new mapboxgl.Map({
 // -------------------------------------------------------
 // Set marker data
 // -------------------------------------------------------
-let geojson;
-
 const fetchData = async () => {
   const response = await fetch("/data/aemter.geojson")
   const data = response.json();
   return data;
 }
 
-fetchData()
-  .then(data => {
-    geojson = data;
-    addMarkers();
-  })
-  .catch(err => console.error(err));
+map.on("load", () => {
+  fetchData()
+    .then(data => {
+      addMarkers(data);
+    })
+    .catch(err => console.error(err));
+});
 
 // -------------------------------------------------------
 // Add markers
 // -------------------------------------------------------
-const addMarkers = () => {
+const addMarkers = data => {
 
-  if (!geojson.features) return;
+  data.features.forEach(feature => {
 
-  map.on("load", function() {
+    const popupContent = `
+      <h1 class="title is-size-6">${feature.properties.details.title}</h1>
+      <div class="buttons">
+        <a class="button" disabled>Zum Standort</a>
+        <a class="button" disabled>Zur Terminvereinbarung</a>
+      </div>
+    `;
 
-    geojson.features.forEach(feature => {
+    const markerElement = document.createElement("div");
+    markerElement.className = "marker";
 
-      const popupContent = `
-        <h1 class="title is-size-6">${feature.properties.details.title}</h1>
-        <div class="buttons">
-          <a class="button" disabled>Zum Standort</a>
-          <a class="button" disabled>Zur Terminvereinbarung</a>
-        </div>
-      `;
-
-      const markerElement = document.createElement("div");
-      markerElement.className = "marker";
-
-      new mapboxgl.Marker(markerElement)
-        .setLngLat([feature.geometry.coordinates[0], feature.geometry.coordinates[1]])
-        .setPopup(new mapboxgl.Popup().setHTML(popupContent))
-        .addTo(map);
-    })
-  });
+    new mapboxgl.Marker(markerElement)
+      .setLngLat([feature.geometry.coordinates[0], feature.geometry.coordinates[1]])
+      .setPopup(new mapboxgl.Popup().setHTML(popupContent))
+      .addTo(map);
+  })
 }
 
