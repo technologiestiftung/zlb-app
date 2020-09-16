@@ -29,3 +29,76 @@
     }
   }
 }
+
+.iframe-sidebar {
+  max-width: 366px;
+}
+
+.iframe-sidebar .card > .card-content:first-of-type {
+  border-bottom: 1px solid $text;
+}
+
+.iframe-sidebar li, .iframe-sidebar .intro {
+  display: grid;
+  grid-template-columns: 32px auto;
+  gap: 12px;
+  position: relative;
+}
+
+.iframe-sidebar .intro > div:first-of-type {
+  z-index: 1;
+
+  &::after {
+    content: "";
+      position: absolute;
+      left: 16px;
+      height: 50%;
+      border-left: 1px solid $text;
+      z-index: -1;
+  }
+}
+
+.iframe-sidebar li {
+
+  &:last-of-type {
+    .step-number::after {
+      border-left: none;
+    }
+  }
+
+  .step-number {
+    z-index: 1;
+
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      left: 16px;
+      height: 50%;
+      border-left: 1px solid $text;
+      z-index: -1;
+    }
+    &::before {  
+      top: 0;
+    }
+    &::after {
+      bottom: 0;
+    }
+
+    figure > * {
+      border-radius: 50%;
+      border: 1px solid $text;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+
+.iframe-sidebar li .step-content {
+  border-bottom: 1px dotted $border;
+}
