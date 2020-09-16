@@ -59,35 +59,6 @@
         "available": true
       },
       {
-        "label": "AusweisApp2 starten",
-        "image": "/images/icon_id_service.svg",
-        "description": "AusweisApp2 starten",
-        "destination": "ausweisapp2",
-        "available": false
-      },
-      {
-        "label": "Online-Ausweisfunktion nutzen",
-        "image": "/images/icon_id_nutzen.svg",
-        "description": "Online-Ausweisfunktion nutzen",
-        "destination": "id",
-        "available": false
-      },
-      {
-        "label": "Bürgertelefon 115",
-        "image": "/images/icon_servicetel.svg",
-        "description": "Bürgertelefon 115",
-        "external": true,
-        "destination": "https://service.berlin.de/buergertelefon/",
-        "available": true
-      },
-      {
-        "label": "Archiv mit Formularblättern",
-        "image": "/images/icon_archivformulare.svg",
-        "description": "Archiv mit Formularblättern",
-        "destination": "formulare",
-        "available": false
-      },
-      {
         "label": "Bürgerämter suchen / finden",
         "image": "/images/icon_buergeramt.svg",
         "description": "Bürgerämter suchen / finden",
@@ -104,6 +75,28 @@
         "available": true
       },
       {
+        "label": "Bürgertelefon 115",
+        "image": "/images/icon_servicetel.svg",
+        "description": "Bürgertelefon 115",
+        "external": true,
+        "destination": "https://service.berlin.de/buergertelefon/",
+        "available": true
+      },
+      {
+        "label": "Online-Ausweisfunktion nutzen",
+        "image": "/images/icon_id_nutzen.svg",
+        "description": "Online-Ausweisfunktion nutzen",
+        "destination": "id",
+        "available": false
+      },
+      {
+        "label": "AusweisApp2 starten",
+        "image": "/images/icon_id_service.svg",
+        "description": "AusweisApp2 starten",
+        "destination": "ausweisapp2",
+        "available": false
+      },
+      {
         "label": "Weitere Online-Verfahren",
         "image": "/images/icon_onlineverfahren.svg",
         "description": "Weitere Online-Verfahren",
@@ -118,6 +111,13 @@
         "external": true,
         "destination": "https://service.berlin.de/dienstleistungen/",
         "available": true
+      },
+      {
+        "label": "Archiv mit Formularblättern",
+        "image": "/images/icon_archivformulare.svg",
+        "description": "Archiv mit Formularblättern",
+        "destination": "formulare",
+        "available": false
       }
     ]
   },
