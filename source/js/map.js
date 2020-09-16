@@ -36,9 +36,11 @@ const addMarkers = data => {
   data.features.forEach(feature => {
 
     const popupContent = `
-      <h2 class="subtitle is-6 has-text-dark">${feature.properties.parent}</h2>
-      <h1 class="title is-6">${feature.properties.label}</h1>
-      <div class="buttons">
+      <p class="is-size-6 mb-0">${feature.properties.parent}</p>
+      <h1 class="title is-6 mt-1 mb-0">${feature.properties.label}</h1>
+      <p class="is-size-6 mt-1">[Straße und Hausnummer]</p>
+      <p class="is-size-6 mt-1">[PLZ und Ort]</p>
+      <div class="buttons mt-3">
         <a class="button" disabled>Zum Standort</a>
         <a class="button" disabled>Zur Terminvereinbarung</a>
       </div>
