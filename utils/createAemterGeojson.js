@@ -14,7 +14,8 @@ data.forEach(bezirksamt => {
     const feature = {
       "type": "Feature",
       "properties": {
-        ...office
+        ...office,
+        parent: bezirksamt.label
       },
       "geometry": {
         "type": "Point",
