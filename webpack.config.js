@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname, "_site/js")
+    path: path.resolve(__dirname, "./source/js/bundle")
   },
   plugins: [
     new Dotenv()
