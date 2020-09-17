@@ -10,7 +10,8 @@
     "webpack:watch": "webpack --watch",
     "eleventy:default": "eleventy",
     "eleventy:watch": "eleventy --serve --quiet",
-    "dev": "npm-run-all scss webpack eleventy:default --parallel sass:watch webpack:watch eleventy:watch",
+    "clean": "rm -rf _site",
+    "dev": "npm-run-all clean scss webpack eleventy:default --parallel sass:watch webpack:watch eleventy:watch",
     "build": "run-s scss css webpack eleventy:default",
     "test": "echo \"Currently no tests, so this passes.\" && exit 0"
   },
