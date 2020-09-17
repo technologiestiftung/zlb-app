@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addCollection("allcontent", function (collectionApi) {
   //   return collectionApi.getAll();
   // });
-  eleventyConfig.addWatchTarget("source/sass/");
+  eleventyConfig.addWatchTarget("source/css/");
   eleventyConfig.addWatchTarget("source/js/");
 
   eleventyConfig.addPassthroughCopy("source/fonts");
