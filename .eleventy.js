@@ -6,11 +6,12 @@ module.exports = function (eleventyConfig) {
   //   return collectionApi.getAll();
   // });
   eleventyConfig.addWatchTarget("source/css/");
-  eleventyConfig.addWatchTarget("source/js/");
+  eleventyConfig.addWatchTarget("source/js/bundle/"); // TODO: watch only specific output file
 
   eleventyConfig.addPassthroughCopy("source/fonts");
   eleventyConfig.addPassthroughCopy("source/css");
   eleventyConfig.addPassthroughCopy("source/images");
+  eleventyConfig.addPassthroughCopy({"source/js/bundle": "js"});
   eleventyConfig.addPassthroughCopy({ "source/_data/aemter.geojson": "data/aemter.geojson" });
 
   return {

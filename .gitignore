@@ -111,5 +111,6 @@ _site/
 
 .DS_Store
 
-# Eleventy Sass Setup
+# Generated CSS and JS
 source/css/
+source/js/bundle/
