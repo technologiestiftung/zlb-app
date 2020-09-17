@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "static site builder for ZLB app prototype",
   "scripts": {
-    "scss": "node-sass source/sass -o source/css",
+    "scss": "node-sass source/sass --output source/css",
     "css": "postcss source/css/*.css -u autoprefixer cssnano -r -m",
-    "watch:eleventy": "eleventy --serve --quiet",
-    "watch:sass": "node-sass --watch source/sass -o source/css",
-    "dev": "npm-run-all scss --parallel watch:webpack watch:eleventy watch:sass",
-    "build": "run-s scss css webpack eleventy",
+    "sass:watch": "node-sass --watch --recursive source/sass --output source/css",
     "webpack": "webpack",
-    "watch:webpack": "webpack --watch",
-    "eleventy": "eleventy",
-    "eleventy:serve": "eleventy --serve",
+    "webpack:watch": "webpack --watch",
+    "eleventy:default": "eleventy",
+    "eleventy:watch": "eleventy --serve --quiet",
+    "dev": "npm-run-all scss webpack eleventy:default --parallel sass:watch webpack:watch eleventy:watch",
+    "build": "run-s scss css webpack eleventy:default",
     "test": "echo \"Currently no tests, so this passes.\" && exit 0"
   },
   "repository": {
