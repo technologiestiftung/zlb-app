@@ -28,11 +28,17 @@ layout: layouts/skeleton.liquid
             <ul>
               <li><a href="/categories">Start</a></li>
               {% if parentKey and parentTitle %}
-              <li>
-                <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
-              </li>
+                <figure class="image is-14x21">
+                  <img src="/images/arrow_crumb_on.svg" alt="">
+                </figure>
+                <li>
+                  <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
+                </li>
               {% endif %}
               <li class="is-active">
+                <figure class="image is-14x21">
+                  <img src="/images/arrow_crumb_on.svg" alt="">
+                </figure>
                 <a class="has-text-weight-bold" href="#" aria-current="page">{{
                   breadcrumb
                 }}</a>

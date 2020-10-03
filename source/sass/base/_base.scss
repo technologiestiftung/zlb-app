@@ -17,3 +17,7 @@ body {
     flex: 1;
   }
 }
+
+.breadcrumb.has-arrow-separator li + li::before {
+  content: "";
+}
