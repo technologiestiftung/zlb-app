@@ -27,7 +27,7 @@
         background-color: $black-ter;
         color: $white;
         transform: scale(1.05);
-
+        box-shadow: 0 0.8em 1em -0.2em rgba(10, 10, 10, 0.2), 0 0 0 1px rgba(10, 10, 10, 0.02);
         .category-title { background-color: $black-ter; }
       }
     }
