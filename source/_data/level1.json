@@ -135,7 +135,8 @@
         "label": "Digitale Fähigkeiten stärken",
         "image": "/images/icon_digitalfaehigkeit.svg",
         "description": "Digitale Fähigkeiten stärken",
-        "destination": "digitalfaehigkeiten",
+        "external": true,
+        "destination": "https://www.kvberlin.de/fuer-patienten/terminservice",
         "available": false
       },
       {
@@ -149,8 +150,9 @@
         "label": "Arzt-Termin buchen",
         "image": "/images/icon_arzttermin.svg",
         "description": "Arzt-Termin buchen",
-        "destination": "arzttermin",
-        "available": false
+        "external": true,
+        "destination": "https://www.kvberlin.de/fuer-patienten/terminservice",
+        "available": true
       }
     ]
   }
