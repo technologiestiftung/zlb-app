@@ -80,7 +80,7 @@
         "description": "Bürgertelefon 115",
         "external": true,
         "destination": "https://service.berlin.de/buergertelefon/",
-        "available": true
+        "available": false
       },
       {
         "label": "Online-Ausweisfunktion nutzen",
