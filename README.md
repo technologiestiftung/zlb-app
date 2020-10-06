@@ -9,6 +9,11 @@ MAPBOX_TOKEN=YOUR_ACCESS_TOKEN_HERE
 
 The access token is required to load the map tiles of Mapbox. 
 
+## Updating level3.json Information (via Scraping)
+The `level3.json` information can be generated from: https://github.com/technologiestiftung/berlin-service-harvester
+(rename `service-output.json` to `level3.json` and replace the file)
+
+
 ## Workflow
 The `master` branch (soon to be renamed to `main`) is the main branch of the project. Do **not** push directly to this branch. Instead, development should happen on dedicated feature branches:
 
