@@ -136,8 +136,8 @@
         "image": "/images/icon_digitalfaehigkeit.svg",
         "description": "Digitale Fähigkeiten stärken",
         "external": true,
-        "destination": "https://www.kvberlin.de/fuer-patienten/terminservice",
-        "available": false
+        "destination": "https://brockhaus.de/portal/user/cid100081",
+        "available": true
       },
       {
         "label": "E-Mail Account verwalten",
