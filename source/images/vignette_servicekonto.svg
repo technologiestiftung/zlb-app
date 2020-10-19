@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>vignette_mailaccount</title>
+    <title>vignette_sewrvicekonto</title>
     <defs>
         <rect id="path-1" x="5.95826607e-13" y="0.507663551" width="51.2740187" height="18.1308411" rx="2.53831776"></rect>
     </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="vignette_sewrvicekonto" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="vignette_mailaccount">
             <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
             <g id="Group-5" transform="translate(22.000000, 37.000000)">

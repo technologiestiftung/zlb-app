@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>vignette_faehigkeit</title>
+    <title>vignette_kfz</title>
     <defs>
         <rect id="path-1" x="0.60928151" y="1.241875" width="82.56" height="15.1575" rx="2.03175"></rect>
     </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="vignette_kfz" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="vignette_faehigkeit">
             <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
             <g id="icon_kfz" transform="translate(13.000000, 48.000000)">
@@ -20,7 +20,7 @@
                     <path d="M35.0124887,9.675 L35.0124887,14.2567676 M35.0124887,17.1378516 L35.0124887,18.2661393 M35.0124887,20.8483701 C35.0124887,21.3539436 35.0124887,22.1123038 35.0124887,23.1234508 C35.2070044,24.8751549 36.0828565,25.7510069 37.6400449,25.7510069 C38.6803109,25.7510069 42.8362354,25.7510069 50.1078181,25.7510069 C50.5186466,25.7510069 50.9868843,25.7510069 51.5125314,25.7510069 M53.4552489,25.7510069 C53.9553182,25.7510069 54.489166,25.7510069 55.0567925,25.7510069 M56.9899062,25.7510069 C57.893072,25.7510069 59.5517191,25.7510069 61.9658475,25.7510069" id="Shape" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </g>
                 <g id="KFZ-Kennzeichen">
-                    <rect id="Rectangle" fill="#DEDEDE" style="mix-blend-mode: normal;" x="2.54428151" y="3.563875" width="83.205" height="15.093" rx="2.03175"></rect>
+                    <rect id="Rectangle" fill-opacity="0.1" fill="#000000" x="2.54428151" y="3.563875" width="83.205" height="15.093" rx="2.03175"></rect>
                     <g id="Rectangle">
                         <use fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: normal;" xlink:href="#path-1"></use>
                         <rect stroke="#FFFFFF" stroke-width="0.5" stroke-linejoin="square" x="0.85928151" y="1.491875" width="82.06" height="14.6575" rx="2.03175"></rect>

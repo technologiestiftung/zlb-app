@@ -40,7 +40,7 @@
                     </g>
                 </g>
                 <g id="Group" transform="translate(24.623228, 23.727273)">
-                    <polygon id="Rectangle" fill="#DEDEDE" style="mix-blend-mode: normal;" points="1.55547874 7.4196336 33.8658775 8.31870031 33.6978915 0.352727083 47.3767715 0.352727083 46.7639129 50.5259801 37.9443325 61.6729824 1.55547874 61.6729824"></polygon>
+                    <polygon id="Rectangle" fill-opacity="0.2" fill="#000000" points="1.55547874 7.4196336 33.8658775 8.31870031 33.6978915 0.352727083 47.3767715 0.352727083 46.7639129 50.5259801 37.9443325 61.6729824 1.55547874 61.6729824"></polygon>
                     <path d="M37.3314898,26.1696284 L37.3314898,28.0762968 M37.3314898,31.2076285 L37.3314898,41.4026534 L37.3314898,61.2049775 L0,61.2049775 L0,8.31870031 L37.3314898,8.31870031 L37.3314898,21.6003292" id="Shape" stroke="#242424" stroke-width="1.5" fill="#00ADB2" stroke-linecap="round" stroke-linejoin="round"></path>
                     <rect id="Rectangle-Copy-5" stroke="#242424" stroke-width="1.5" fill="#F8F8F8" x="5.28862772" y="12.9851365" width="26.7542344" height="4.04424473"></rect>
                     <rect id="Rectangle-Copy-6" stroke="#242424" stroke-width="1.5" fill="#F8F8F8" x="5.28862772" y="21.073626" width="26.7542344" height="4.04424473"></rect>
