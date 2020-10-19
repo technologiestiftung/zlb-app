@@ -1,14 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
-  <g fill="none" fill-rule="evenodd" stroke="#242424" stroke-width="1.5" transform="translate(1 1)">
-    <g stroke-linecap="round" stroke-linejoin="round">
-      <path fill="#FFE3AA" d="M35,16.1557544 L35,33.3191524 C35,34.2474589 34.03308,35 32.8403238,35 L2.15967619,35 C0.966919964,35 -2.39340711e-13,34.2474589 -2.39340711e-13,33.3191524 L-2.39340711e-13,1.68084758 C-2.39340711e-13,0.752541096 0.966919964,3.04162154e-13 2.15967619,3.04162154e-13 L32.8403238,3.04162154e-13 C34.03308,3.04162154e-13 35,0.752541096 35,1.68084758 L35,3.7869363 L35,9.47245845"/>
-      <line x1="35" x2="35" y1="12.707" y2="13.1" fill="#FFC03D"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="123px" viewBox="0 0 123 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON_Gebrauchsanleitung</title>
+    <defs>
+        <filter x="-15.8%" y="-6.3%" width="131.7%" height="112.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12_termin_berlinweit" transform="translate(-1027.000000, -229.000000)" stroke="#242424" stroke-width="1.5">
+            <g id="Group-4" filter="url(#filter-1)" transform="translate(1044.000000, 64.000000)">
+                <g id="ICON_Gebrauchsanleitung" transform="translate(27.000000, 209.000000)">
+                    <g id="Group-3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M35,16.1557544 L35,33.3191524 C35,34.2474589 34.03308,35 32.8403238,35 L2.15967619,35 C0.966919964,35 -2.39340711e-13,34.2474589 -2.39340711e-13,33.3191524 L-2.39340711e-13,1.68084758 C-2.39340711e-13,0.752541096 0.966919964,3.04162154e-13 2.15967619,3.04162154e-13 L32.8403238,3.04162154e-13 C34.03308,3.04162154e-13 35,0.752541096 35,1.68084758 L35,3.7869363 L35,9.47245845" id="Path" fill="#CCEFF0"></path>
+                        <line x1="35" y1="12.7069182" x2="35" y2="13.0999007" id="Path" fill="#FFC03D"></line>
+                    </g>
+                    <g id="Group" transform="translate(5.000000, 5.000000)">
+                        <path d="M14.1935484,21 L6.64516129,21 C4.07970955,21 2,18.873419 2,16.2501484 C2,13.6268778 4.07970955,11.5002969 6.64516129,11.5002969 L11.0794109,11.5 M2,2 L15.3548387,2 C17.9202905,2 20,4.12664744 20,6.75 C20,9.37335256 17.9202905,11.5 15.3548387,11.5 L14.0382258,11.5" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval-Copy-18" fill="#FFFAF0" cx="2.5" cy="2.5" r="3.25"></circle>
+                        <circle id="Oval-Copy-15" fill="#00ADB2" cx="22.6842105" cy="21" r="4.75"></circle>
+                        <polyline id="Combined-Shape" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.000000, 21.000000) rotate(-225.000000) translate(-13.000000, -21.000000) " points="15 19 11.6326519 19 11 23"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
     </g>
-    <g transform="translate(5 5)">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M14.1935484,21 L6.64516129,21 C4.07970955,21 2,18.873419 2,16.2501484 C2,13.6268778 4.07970955,11.5002969 6.64516129,11.5002969 L11.0794109,11.5 M2,2 L15.3548387,2 C17.9202905,2 20,4.12664744 20,6.75 C20,9.37335256 17.9202905,11.5 15.3548387,11.5 L14.0382258,11.5"/>
-      <circle cx="2.5" cy="2.5" r="3.25" fill="#FFFAF0"/>
-      <circle cx="22.684" cy="21" r="4.75" fill="#FFAB00"/>
-      <polyline stroke-linecap="round" stroke-linejoin="round" points="15 19 11.633 19 11 23" transform="rotate(135 13 21)"/>
-    </g>
-  </g>
 </svg>

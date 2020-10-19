@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon_reispepass_content copy 25</title>
-    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon_reispepass_content-copy-25">
+    <title>vignette_mailaccount</title>
+    <g id="vignette_mailaccount" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
             <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
             <g id="Group-16" transform="translate(21.000000, 38.000000)" stroke-width="1.5">
                 <g id="Group-8">
@@ -11,7 +11,7 @@
                     <rect id="Rectangle" stroke="#242424" fill="#F8F8F8" x="8.77177338" y="0.847980232" width="79.7204555" height="58.6633004" rx="4.01088669"></rect>
                     <rect id="Rectangle" stroke="#242424" fill="#DEDEDE" x="12.3820011" y="4.75" width="72.5" height="44.5" rx="4.01088669"></rect>
                     <g id="Group-13" transform="translate(28.076207, 11.000000)" stroke="#242424">
-                        <rect id="Rectangle-Copy-33" fill="#FF9D6D" x="0.75" y="1.67304803" width="39.6115886" height="26.8172043" rx="3.4428212"></rect>
+                        <rect id="Rectangle-Copy-33" fill="#66CED1" x="0.75" y="1.67304803" width="39.6115886" height="26.8172043" rx="3.4428212"></rect>
                         <path d="M1.532079,25.9515721 C3.54110946,23.840477 6.14744727,21.1017295 9.35109244,17.7353296 M31.8938149,17.9126918 C35.0127954,21.1901257 37.5612146,23.8680122 39.5390725,25.9463511" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
                         <path d="M39.5390725,5.95601941 C36.0697509,9.60876055 30.835153,15.1451417 23.8352788,22.5651627 C21.9927588,24.5050949 18.9024989,24.3967076 16.9329901,22.3230729 C10.091249,15.1196159 4.95994308,9.71702305 1.53907251,6.11529452" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
                     </g>

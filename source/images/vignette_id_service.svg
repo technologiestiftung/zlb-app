@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon_reispepass_content copy 8</title>
+    <title>vignette_id_service</title>
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="161.684949%" id="linearGradient-1">
             <stop stop-color="#FFF6E4" offset="0%"></stop>
-            <stop stop-color="#FF5300" offset="100%"></stop>
+            <stop stop-color="#007996" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon_reispepass_content-copy-8">
+    <g id="vignette_id_service" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
             <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
             <g id="Group-9" transform="translate(35.000000, 24.000000)">
                 <rect id="Rectangle" fill="#DEDEDE" x="4.38095238" y="4.38095238" width="52" height="52" rx="9.93124523"></rect>

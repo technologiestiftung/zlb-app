@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon_reispepass_content copy 7</title>
+    <title>vignette_expresstermin</title>
     <defs>
         <linearGradient x1="64.1561707%" y1="61.9555903%" x2="34.3821013%" y2="29.1576955%" id="linearGradient-1">
-            <stop stop-color="#D04400" offset="0%"></stop>
-            <stop stop-color="#FF7735" offset="100%"></stop>
+            <stop stop-color="#008A8E" offset="0%"></stop>
+            <stop stop-color="#66CED1" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon_reispepass_content-copy-7">
+    <g id="vignette_expresstermin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
             <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
             <g id="icon_terminbuchung" transform="translate(38.000000, 36.000000)">
                 <rect id="Rectangle" fill="#DEDEDE" x="5.78512397" y="7.43801653" width="61.9834711" height="66.9421488" rx="4.1322314"></rect>
                 <path d="M18.1538468,69.4214876 L4.8315321,69.4214876 C2.1631506,69.4214876 0,67.1361156 0,64.3169665 L0,12.5425377 C0,9.72338849 2.1631506,7.43801653 4.8315321,7.43801653 L57.9783853,7.43801653 C60.6467668,7.43801653 62.8099174,9.72338849 62.8099174,12.5425377 L62.8099174,64.3169665 C62.8099174,67.1361156 60.6467668,69.4214876 57.9783853,69.4214876 L34.386267,69.4214876 L30.5422954,69.4214876 M24.7933884,69.5 L23.1404959,69.5" id="Shape" stroke="#242424" stroke-width="1.5" fill="#F2F2F2" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M3.08539945,2.47933884 L59.7245179,2.47933884 C61.428537,2.47933884 62.8099174,3.86071923 62.8099174,5.56473829 L62.8099174,51.6824288 L62.8099174,51.6824288 L49.9454318,65.2892562 L3.08539945,65.2892562 C1.38138039,65.2892562 6.52771359e-16,63.9078758 0,62.2038567 L0,5.56473829 C-6.52771359e-16,3.86071923 1.38138039,2.47933884 3.08539945,2.47933884 Z" id="Rectangle" stroke="#242424" stroke-width="1.5" fill="#FFC9AE" stroke-linejoin="round"></path>
+                <path d="M3.08539945,2.47933884 L59.7245179,2.47933884 C61.428537,2.47933884 62.8099174,3.86071923 62.8099174,5.56473829 L62.8099174,51.6824288 L62.8099174,51.6824288 L49.9454318,65.2892562 L3.08539945,65.2892562 C1.38138039,65.2892562 6.52771359e-16,63.9078758 0,62.2038567 L0,5.56473829 C-6.52771359e-16,3.86071923 1.38138039,2.47933884 3.08539945,2.47933884 Z" id="Rectangle" stroke="#242424" stroke-width="1.5" fill="#CCEFF0" stroke-linejoin="round"></path>
                 <rect id="Rectangle-Copy-8" stroke="#242424" stroke-width="1.5" fill="#D8D8D8" x="27.196281" y="0.75" width="1" height="3.7892562" rx="0.5"></rect>
                 <rect id="Rectangle-Copy-11" stroke="#242424" stroke-width="1.5" fill="#D8D8D8" x="18.9318182" y="0.75" width="1" height="3.7892562" rx="0.5"></rect>
                 <rect id="Rectangle-Copy-20" stroke="#242424" stroke-width="1.5" fill="#D8D8D8" x="11.4938017" y="0.75" width="1" height="3.7892562" rx="0.5"></rect>
