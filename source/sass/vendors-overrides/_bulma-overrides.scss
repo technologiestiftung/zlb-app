@@ -1,8 +1,9 @@
 // --------------------------------------------------------------
-// Below we can modify Bulma variables with our custom variables 
+// Below we can modify Bulma variables with our custom variables
 // defined in "../abstracts/_variables.scss"
 // --------------------------------------------------------------
 $primary: $orange;
+$background: $grey-lightest;
 
 @import "../../../node_modules/bulma/sass/utilities/_all.sass";
 // --------------------------------------------------------------
@@ -27,7 +28,8 @@ $footer-background-color: $background;
 $card-background-color: $white-ter;
 $card-header-background-color: $white;
 $card-content-background-color: $grey-lightest;
-$card-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert,.1), 0 0 0 1px rgba($scheme-invert,.02);
+$card-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1),
+  0 0 0 1px rgba($scheme-invert, 0.02);
 
 $breadcrumb-item-active-color: $primary;
 $breadcrumb-item-separator-color: $primary;
