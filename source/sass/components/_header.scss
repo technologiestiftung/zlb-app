@@ -8,8 +8,7 @@ header {
   padding-bottom: 20px !important;
   z-index: 1;
   background-color: $background;
-  box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1),
-    0 0px 0 1px rgba($scheme-invert, 0.02);
+  box-shadow: 0 0 6px 0 #38383888;
   > .container {
     align-self: flex-end;
   }
