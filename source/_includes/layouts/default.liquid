@@ -2,7 +2,7 @@
 layout: layouts/skeleton.liquid
 ---
 
-<header class="section has-background-light">
+<header class="section">
   <div class="container">
     <div class="level">
       <div class="level-left">
@@ -13,7 +13,7 @@ layout: layouts/skeleton.liquid
             onclick="window.history.back()"
           >
             <figure class="image is-32x32">
-              <img src="/images/arrow_left_on.svg" alt="">
+              <img src="/images/arrow_left_on.svg" alt="" />
             </figure>
           </button>
           <button
@@ -21,23 +21,23 @@ layout: layouts/skeleton.liquid
             onclick="window.history.forward()"
           >
             <figure class="image is-32x32">
-              <img src="/images/arrow_right_out.svg" alt="">
+              <img src="/images/arrow_right_out.svg" alt="" />
             </figure>
           </button>
           <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
             <ul>
               <li><a href="/categories">Start</a></li>
               {% if parentKey and parentTitle %}
-                <figure class="image is-14x21">
-                  <img src="/images/arrow_crumb_on.svg" alt="">
-                </figure>
-                <li>
-                  <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
-                </li>
+              <figure class="image is-14x21">
+                <img src="/images/arrow_crumb_on.svg" alt="" />
+              </figure>
+              <li>
+                <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
+              </li>
               {% endif %}
               <li class="is-active">
                 <figure class="image is-14x21">
-                  <img src="/images/arrow_crumb_on.svg" alt="">
+                  <img src="/images/arrow_crumb_on.svg" alt="" />
                 </figure>
                 <a class="has-text-weight-bold" href="#" aria-current="page">{{
                   breadcrumb

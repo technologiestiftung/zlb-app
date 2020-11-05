@@ -7,7 +7,9 @@ header {
   /* min-height: 200px; */
   padding-bottom: 20px !important;
   z-index: 1;
-  box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+  background-color: $background;
+  box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1),
+    0 0px 0 1px rgba($scheme-invert, 0.02);
   > .container {
     align-self: flex-end;
   }
@@ -24,7 +26,8 @@ header {
 }
 
 .breadcrumb-button {
-  &.history-back, &.history-forward {
+  &.history-back,
+  &.history-forward {
     cursor: pointer;
     border: none;
     background-color: transparent;
