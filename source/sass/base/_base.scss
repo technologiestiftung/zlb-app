@@ -3,9 +3,9 @@ html {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
@@ -16,6 +16,10 @@ body {
   > *:not(header):not(footer) {
     flex: 1;
   }
+}
+
+main {
+  background-color: $white-bis;
 }
 
 .breadcrumb.has-arrow-separator li + li::before {
