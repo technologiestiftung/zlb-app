@@ -1,36 +1,40 @@
 /* service item */
-.service-overview ul > li {
-  border-bottom: 1px solid $text;
+.service-overview {
+  padding-top: 65px;
 
-  .media {
-    align-items: center;
-  }
+  ul > li {
+    border-bottom: 1px solid $text;
 
-  ul.subservices {
-    li {
-      border-bottom: 1px solid $border;
+    .media {
+      align-items: center;
+    }
 
-      a {
-        &:before {
-          content: '-';
-          align-self: baseline;
-          margin-right: 5px;
-          transform: translateY(2px);
+    ul.subservices {
+      li {
+        border-bottom: 1px solid $border;
+
+        a {
+          &:before {
+            content: "-";
+            align-self: baseline;
+            margin-right: 5px;
+            transform: translateY(2px);
+          }
+        }
+
+        &:last-of-type {
+          border-color: transparent;
         }
       }
-
-      &:last-of-type {
-        border-color: transparent;
-      }
     }
-  }
 
-  a:hover {
-    background-color: $white-bis;
-    .arrow-right {
-      /* filter generates primary color */
-      filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
-        brightness(101%) contrast(100%);
+    a:hover {
+      background-color: $white-bis;
+      .arrow-right {
+        /* filter generates primary color */
+        filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
+          brightness(101%) contrast(100%);
+      }
     }
   }
 }

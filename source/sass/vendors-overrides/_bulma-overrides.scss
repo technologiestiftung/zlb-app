@@ -2,7 +2,7 @@
 // Below we can modify Bulma variables with our custom variables
 // defined in "../abstracts/_variables.scss"
 // --------------------------------------------------------------
-$primary: $orange;
+$primary: $turquoise;
 $background: $grey-lightest;
 
 @import "../../../node_modules/bulma/sass/utilities/_all.sass";
@@ -11,25 +11,24 @@ $background: $grey-lightest;
 // or literal values.
 // --------------------------------------------------------------
 $body-size: 18px;
-$title-color: $primary;
-$subtitle-color: $primary;
+$title-color: $secondary;
+$subtitle-color: $secondary;
 
 $text-strong: inherit;
 
 $link: $text;
-$link-hover: $primary;
-$link-focus: $primary;
-$link-active: $primary;
+$link-hover: $secondary;
+$link-focus: $secondary;
+$link-active: $secondary;
 
 $button-text-hover-background-color: transparent;
 
 $footer-background-color: $background;
 
-$card-background-color: $white-ter;
+$card-background-color: $background;
 $card-header-background-color: $white;
 $card-content-background-color: $grey-lightest;
-$card-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1),
-  0 0 0 1px rgba($scheme-invert, 0.02);
+$card-shadow: 0 0 0.5rem 0 #c8c8c875;
 
-$breadcrumb-item-active-color: $primary;
-$breadcrumb-item-separator-color: $primary;
+$breadcrumb-item-active-color: $secondary;
+$breadcrumb-item-separator-color: $secondary;
