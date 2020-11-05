@@ -17,15 +17,22 @@ testdata:
       <div class="iframe-sidebar">
         <div class="card mt-6 ml-4">
           <div class="card-content has-background-light">
-            <a href="/service/{{ service.key }}" class="has-text-primary is-size-5">Zurück zum ZLB-Terminal</a>
+            <a href="/service/{{ service.key }}" class="is-size-5"
+              >Zurück zum ZLB-Terminal</a
+            >
           </div>
           <div class="card-content has-background-white">
             <div class="intro py-3">
               <figure class="image is-32x32">
-                <img src="/images/icon_gebrauchsanleitung.svg" alt="Schritt für Schritt Icon">
+                <img
+                  src="/images/icon_gebrauchsanleitung.svg"
+                  alt="Schritt für Schritt Icon"
+                />
               </figure>
               <div>
-                <h1 class="title has-text-weight-normal is-size-5">Schritt für Schritt</h1>
+                <h1 class="title has-text-weight-normal is-size-5">
+                  Schritt für Schritt
+                </h1>
               </div>
             </div>
             <ul>
@@ -34,7 +41,11 @@ testdata:
                 <div class="step-number py-3">
                   <figure class="image is-1by1">
                     <div class="has-ratio has-background-white">
-                      <span>{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                      <span
+                        >{% if forloop.index < 10 %}0{% endif %}{{
+                          forloop.index
+                        }}</span
+                      >
                     </div>
                   </figure>
                 </div>
