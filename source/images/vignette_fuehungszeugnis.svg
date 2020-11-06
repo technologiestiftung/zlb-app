@@ -3,7 +3,7 @@
     <title>vignette_fuehungszeugnis</title>
     <g id="vignette_fuehungszeugnis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="icon_führungszeugnis" transform="translate(36.000000, 23.000000)">
                 <rect id="Rectangle" fill="#DEDEDE" x="4.52941176" y="4.11764706" width="65.0588235" height="90.5882353" rx="3.29411765"></rect>
                 <path d="M65.4705882,37.358874 L65.4705882,87.2122762 C65.4705882,89.0767669 63.9768535,90.5882353 62.1342383,90.5882353 L3.74811463,90.5882353 C1.90549945,90.5882353 0.411764706,89.0767669 0.411764706,87.2122762 L0.411764706,3.37595908 C0.411764706,1.51146836 1.90549945,0 3.74811463,0 L62.1342383,0 C63.9768535,0 65.4705882,1.51146836 65.4705882,3.37595908 L65.4705882,23.5923153 M65.0588235,28 L65.0588235,32.1176471" id="Shape" stroke="#242424" stroke-width="1.5" fill="#CCEFF0" stroke-linecap="round"></path>

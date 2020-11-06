@@ -3,7 +3,7 @@
     <title>vignette_arzttermin</title>
     <g id="vignette_arzttermin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="Group-3" transform="translate(18.000000, 21.000000)">
                 <g id="Group-2" transform="translate(32.000000, 25.185185)" stroke="#242424" stroke-width="1.5">
                     <path d="M13.3354701,57.9807692 C13.3354701,58.297332 13.2357386,58.5200884 13.0744947,58.6813323 C12.9132508,58.8425763 12.6904944,58.9423077 12.4444444,58.9423077 L12.4444444,58.9423077 L8.34188034,58.9423077 C8.09583041,58.9423077 7.873074,58.8425763 7.71183007,58.6813323 C7.55058614,58.5200884 7.4508547,58.297332 7.4508547,58.0512821 L7.4508547,58.0512821 Z" id="Rectangle" fill="#9F9F9F"></path>

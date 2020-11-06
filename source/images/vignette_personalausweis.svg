@@ -3,7 +3,7 @@
     <title>vignette_personalausweis</title>
     <g id="vignette_personalausweis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="icon_personalausweis" transform="translate(32.000000, 46.000000)">
                 <rect id="Rectangle" fill="#DEDEDE" x="4.57142857" y="4.57142857" width="75.4285714" height="50.2857143" rx="8"></rect>
                 <path d="M74.8571429,17.1428571 L74.8571429,24 M75.4285714,30.1233738 C75.4285714,33.3961245 75.4285714,35.1198046 75.4285714,41.6653061 C75.4285714,46.4262261 71.7445145,50.2857143 67.2,50.2857143 L8.22857143,50.2857143 C3.68405692,50.2857143 0,46.4262261 0,41.6653061 L0,8.62040816 C0,3.8594882 3.68405692,0 8.22857143,0 L65.077679,0 L67.2,0 C71.7445145,0 75.4285714,3.8594882 75.4285714,8.62040816 L75.4285714,10.2574893 L75.4285714,12.8219751" id="Shape" stroke="#242424" stroke-width="1.5" fill="#CCEFF0" stroke-linecap="round" stroke-linejoin="round"></path>

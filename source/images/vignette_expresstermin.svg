@@ -9,7 +9,7 @@
     </defs>
     <g id="vignette_expresstermin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="icon_terminbuchung" transform="translate(38.000000, 36.000000)">
                 <rect id="Rectangle" fill="#DEDEDE" x="5.78512397" y="7.43801653" width="61.9834711" height="66.9421488" rx="4.1322314"></rect>
                 <path d="M18.1538468,69.4214876 L4.8315321,69.4214876 C2.1631506,69.4214876 0,67.1361156 0,64.3169665 L0,12.5425377 C0,9.72338849 2.1631506,7.43801653 4.8315321,7.43801653 L57.9783853,7.43801653 C60.6467668,7.43801653 62.8099174,9.72338849 62.8099174,12.5425377 L62.8099174,64.3169665 C62.8099174,67.1361156 60.6467668,69.4214876 57.9783853,69.4214876 L34.386267,69.4214876 L30.5422954,69.4214876 M24.7933884,69.5 L23.1404959,69.5" id="Shape" stroke="#242424" stroke-width="1.5" fill="#F2F2F2" stroke-linecap="round" stroke-linejoin="round"></path>

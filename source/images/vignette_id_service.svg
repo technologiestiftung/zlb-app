@@ -9,7 +9,7 @@
     </defs>
     <g id="vignette_id_service" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="Group-9" transform="translate(35.000000, 24.000000)">
                 <rect id="Rectangle" fill="#DEDEDE" x="4.38095238" y="4.38095238" width="52" height="52" rx="9.93124523"></rect>
                 <path d="M51.5,29 L51.5,33 M52,37.3584726 L52,41.1550802 C52,47.144564 47.144564,52 41.1550802,52 L10.8449198,52 C4.85543598,52 0,47.144564 0,41.1550802 L0,10.8449198 C0,4.85543598 4.85543598,0 10.8449198,0 L41.1550802,0 C47.144564,0 52,4.85543598 52,10.8449198 L52,25.4753857 L52,25.4753857" id="Shape" stroke="#242424" stroke-width="1.5" fill="#F8F8F8" stroke-linecap="round" stroke-linejoin="round"></path>

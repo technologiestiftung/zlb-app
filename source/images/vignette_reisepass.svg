@@ -3,7 +3,7 @@
     <title>vignette_reisepass</title>
     <g id="vignette_reisepass" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="icon_passport_hp" transform="translate(46.000000, 28.000000)">
                 <path d="M54.3802015,44.6449697 L54.3802015,72.1219929 C54.3802015,77.2329323 51.4059872,80.6513844 47.737108,79.7573194 L4.55700012,74.7863101 L4.55700012,11.621797 L47.737108,1.09928584 C52.5030864,0.215247593 54.3802015,2.40003728 54.3802015,8.73461239" id="Path" fill="#DEDEDE"></path>
                 <path d="M45.5017436,42.0328648 L45.5017436,67.4874336 C45.5017436,72.0216503 42.7855003,75.0543614 39.4348444,74.2611835 L0,74.1634104 L0,9.50182681 L39.4348444,0.166684627 C43.7874416,-0.617598011 45.5017436,1.32065818 45.5017436,6.94043456" id="Path" stroke="#242424" stroke-width="1.5" fill="#008A8E" stroke-linecap="round"></path>

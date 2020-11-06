@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>vignette_faehigkeit</title>
-    <g id="vignette_faehigkeit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g>
-            <circle id="Oval" fill="#F8F8F8" cx="70" cy="70" r="70"></circle>
+    <title>vignette_digitalfahigkeit</title>
+    <g id="vignette_digitalfahigkeit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vignette_faehigkeit">
+            <circle id="Oval" fill="#EFEFEF" cx="70" cy="70" r="70"></circle>
             <g id="icon_medienkompetenzen" transform="translate(15.000000, 30.000000)">
                 <path d="M89.2313422,4 C91.4464938,4 93.2422289,5.79573514 93.2422289,8.01088669 L93.242,55.64 L101.765363,55.6401662 L101.765363,61.1551354 C101.765363,64.4778627 99.0717604,67.1714654 95.7490331,67.1714654 L10.01633,67.1714654 C6.69360271,67.1714654 4,64.4778627 4,61.1551354 L4,55.6401662 L12.021,55.64 L12.0217734,8.01088669 C12.0217734,5.79573514 13.8175085,4 16.0326601,4 L89.2313422,4 Z" id="Combined-Shape" fill="#DEDEDE"></path>
                 <rect id="Rectangle" stroke="#242424" stroke-width="1.5" fill="#F8F8F8" x="8.77177338" y="0.75" width="79.7204555" height="58.6633004" rx="4.01088669"></rect>
