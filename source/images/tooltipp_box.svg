@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="249px" height="119px" viewBox="0 0 249 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <path d="M118,1.84741111e-12 L128,12 L233,12 C234.104569,12 235,12.8954305 235,14 L235,103 C235,104.104569 234.104569,105 233,105 L2,105 C0.8954305,105 -1.4075584e-14,104.104569 -1.42108547e-14,103 L-1.42108547e-14,14 C-1.43461255e-14,12.8954305 0.8954305,12 2,12 L108,12 L118,1.84741111e-12 Z" id="path-1"></path>
+        <filter x="-4.5%" y="-10.5%" width="108.9%" height="120.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.78515625   0 0 0 0 0.78515625   0 0 0 0 0.78515625  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_Reisepass_beantragen_01" transform="translate(-263.000000, -918.000000)">
+            <g id="kalender_buergeeramt_termin-copy" transform="translate(270.000000, 925.000000)">
+                <g id="Combined-Shape" transform="translate(117.500000, 52.500000) rotate(-360.000000) translate(-117.500000, -52.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
