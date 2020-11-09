@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>arrow_crumb_on</title>
-    <g id="arrow_crumb_on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#00ADB2" stroke-width="1.90909091">
-            <polyline id="Path-8" points="5.62050406e-15 7.10526316 15 7.10526316 8.51616809 0"></polyline>
-            <polyline id="Path-8-Copy" transform="translate(7.500000, 10.669378) scale(1, -1) translate(-7.500000, -10.669378) " points="-4.47558657e-14 14.2220096 15 14.2220096 8.51616809 7.11674641"></polyline>
+<svg width="21px" height="21px" viewBox="0 -7 14 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow_on copy</title>
+    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_Reisepass_beantragen_01" transform="translate(-497.000000, -152.000000)" stroke="#00ADB2">
+            <g id="Group-11" transform="translate(232.000000, 143.000000)">
+                <g id="Group" transform="translate(265.000000, 9.000000)">
+                    <polyline id="Path-Copy" transform="translate(7.584460, 7.075166) rotate(-315.000000) translate(-7.584460, -7.075166) " points="3.30929348 2.86505162 11.8596265 2.8 11.7945749 11.350333"></polyline>
+                    <line x1="12.6" y1="7.0751665" x2="1.97591943e-14" y2="7.0751665" id="Line-3"></line>
+                </g>
+            </g>
         </g>
     </g>
 </svg>
