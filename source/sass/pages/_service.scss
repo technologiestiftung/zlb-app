@@ -1,7 +1,5 @@
 .service {
-  padding-top: 72px !important;
-
-  .title,
+  .main-column .title,
   .main-column p {
     border-bottom: 1px solid $border;
   }
@@ -65,10 +63,6 @@
   }
 
   aside > div {
-    @include from($tablet) {
-      position: fixed;
-      top: calc(200px + 72px);
-    }
     > * {
       display: block;
       min-width: 270px;
