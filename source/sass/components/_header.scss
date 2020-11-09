@@ -14,6 +14,32 @@ header {
   }
 }
 
+.breadcrumb-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.history-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .breadcrumb-button {
+    align-self: flex-start;
+    margin-right: 0;
+    @include from($tablet) {
+      align-self: flex-end;
+      margin-right: 57px;
+    }
+    &.history-back {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      height: auto;
+    }
+  }
+}
+
 .button-fontsize {
   text-decoration: none !important;
   &::before {
@@ -21,16 +47,5 @@ header {
     width: 40px;
     height: 40px;
     margin-right: 10px;
-  }
-}
-
-.breadcrumb-button {
-  margin-right: 84px;
-  &.history-back,
-  &.history-forward {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    height: auto;
   }
 }
