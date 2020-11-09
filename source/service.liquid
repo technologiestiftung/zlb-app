@@ -14,13 +14,19 @@ eleventyComputed:
   breadcrumb: "{{ service.title }}"
 ---
 
-<main class="section service">
+<main class="section service pt-6">
   <div class="container">
     <div class="columns">
       <div class="column is-3">
         {% include partials/_circular-icon.html, iconKey: parentKey, iconTitle:
         parentTitle %}
       </div>
+      <div class="column is-6 is-flex is-align-items-center">
+        <h1 class="title is-3">{{ service.title }}</h1>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-3"></div>
       <div class="column is-6 main-column">
         <div class="buttons">
           {% if service.documents %}
