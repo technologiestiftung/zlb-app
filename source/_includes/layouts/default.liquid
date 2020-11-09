@@ -4,44 +4,46 @@ layout: layouts/skeleton.liquid
 
 <header class="section px-6 py-6">
   <div class="container">
-    <div class="level">
-      <div class="level-left">
-        <div class="level-item">
-          {% if breadcrumb %}
-          <button
-            class="button breadcrumb-button history-back py-0 px-0"
-            onclick="window.history.back()"
-          >
-            <figure class="image is-32x32">
-              <img src="/images/arrow_left_on.svg" alt="" />
-            </figure>
-          </button>
-          <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
-            <ul>
-              <li><a href="/categories">Start</a></li>
-              {% if parentKey and parentTitle %}
-              <figure class="image is-14x21">
-                <img src="/images/arrow_crumb_on.svg" alt="" />
-              </figure>
-              <li>
-                <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
-              </li>
-              {% endif %}
-              <li class="is-active">
-                <figure class="image is-14x21">
-                  <img src="/images/arrow_crumb_on.svg" alt="" />
-                </figure>
-                <a class="has-text-weight-bold" href="#" aria-current="page">{{
-                  breadcrumb
-                }}</a>
-              </li>
-            </ul>
-          </nav>
-          {% endif %}
-        </div>
+    <div class="columns">
+      <div class="column is-3 history-wrapper">
+        {% if breadcrumb %}
+        <button
+          class="button breadcrumb-button history-back py-0 px-0"
+          onclick="window.history.back()"
+        >
+          <figure class="image is-32x32">
+            <img src="/images/arrow_left_on.svg" alt="" />
+          </figure>
+        </button>
+        {% endif %}
       </div>
-      <div class="level-right">
-        <button class="level-item button is-text button-fontsize">
+      <div class="column is-6 breadcrumb-wrapper">
+        {% if breadcrumb %}
+        <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="/categories">Start</a></li>
+            {% if parentKey and parentTitle %}
+            <figure class="image">
+              <img src="/images/arrow_crumb_on.svg" alt="" />
+            </figure>
+            <li>
+              <a href="/overview/{{ parentKey }}">{{ parentTitle }}</a>
+            </li>
+            {% endif %}
+            <figure class="image">
+              <img src="/images/arrow_crumb_on.svg" alt="" />
+            </figure>
+            <li class="is-active">
+              <a class="has-text-weight-bold" href="#" aria-current="page">{{
+                breadcrumb
+              }}</a>
+            </li>
+          </ul>
+        </nav>
+        {% endif %}
+      </div>
+      <div class="column is-3">
+        <button class="button is-text button-fontsize">
           Schriftgröße ändern
         </button>
       </div>
