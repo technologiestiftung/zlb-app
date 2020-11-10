@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="166px" viewBox="0 0 208 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_perso_beantragen</title>
+    <g id="icon_perso_beantragen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_personalausweis" transform="translate(66.000000, 60.000000)">
+            <rect id="Rectangle" fill="#DEDEDE" x="4.57142857" y="4.57142857" width="75.4285714" height="50.2857143" rx="8"></rect>
+            <path d="M74.8571429,17.1428571 L74.8571429,24 M75.4285714,30.1233738 C75.4285714,33.3961245 75.4285714,35.1198046 75.4285714,41.6653061 C75.4285714,46.4262261 71.7445145,50.2857143 67.2,50.2857143 L8.22857143,50.2857143 C3.68405692,50.2857143 0,46.4262261 0,41.6653061 L0,8.62040816 C0,3.8594882 3.68405692,0 8.22857143,0 L65.077679,0 L67.2,0 C71.7445145,0 75.4285714,3.8594882 75.4285714,8.62040816 L75.4285714,10.2574893 L75.4285714,12.8219751" id="Shape" stroke="#242424" stroke-width="1.5" fill="#CCEFF0" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-Copy-3" stroke="#242424" stroke-width="1.5" x="41.1251841" y="14.8571429" width="18.2857143" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-Copy-12" stroke="#242424" stroke-width="1.5" x="41.1251841" y="28.5714286" width="18.2857143" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-Copy-5" stroke="#242424" stroke-width="1.5" x="41.1251841" y="21.7142857" width="18.2857143" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-Copy-13" stroke="#242424" stroke-width="1.5" x="41.1251841" y="34.8689249" width="18.2857143" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" stroke="#242424" stroke-width="1.5" fill="#FFFFFF" x="13.3214286" y="14.7117084" width="19.0714286" height="22.5" rx="2.4742268"></rect>
+            <circle id="Oval" stroke="#242424" stroke-width="1.5" fill="#00ADB2" cx="22.6863034" cy="25.1428571" r="3.82142857"></circle>
+            <path d="M22.6863034,29.3214286 C24.3095233,29.3214286 25.6150139,29.9856154 26.6061595,31.3071429 C27.581062,32.6070128 28.2587513,34.4979211 28.6714478,36.9642857 L28.6714478,36.9642857 L16.7011589,36.9642857 C17.1138555,34.4979211 17.7915448,32.6070128 18.7664472,31.3071429 C19.7575928,29.9856154 21.0630835,29.3214286 22.6863034,29.3214286 Z" id="Oval" stroke="#242424" stroke-width="1.5" fill="#00ADB2"></path>
+        </g>
+    </g>
+</svg>
