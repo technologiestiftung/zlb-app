@@ -3,7 +3,7 @@
   #documents,
   #costs,
   #time {
-    > .title,
+    .section-title-wrapper,
     > p {
       border-bottom: 1px solid $border;
     }
@@ -16,6 +16,11 @@
       align-self: flex-end;
       transform: translateY(-24px);
     }
+  }
+
+  .section-title-wrapper > div i {
+    text-decoration: underline;
+    cursor: pointer;
   }
 
   .bottom-buttons-wrapper {
