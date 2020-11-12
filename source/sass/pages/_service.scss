@@ -1,7 +1,21 @@
 .service {
-  .main-column .title,
-  .main-column p {
-    border-bottom: 1px solid $border;
+  #requirements,
+  #documents,
+  #costs,
+  #time {
+    > .title,
+    > p {
+      border-bottom: 1px solid $border;
+    }
+  }
+
+  .section-icon {
+    align-self: flex-start;
+    transform: translateY(0);
+    @include from($tablet) {
+      align-self: flex-end;
+      transform: translateY(-24px);
+    }
   }
 
   .bottom-buttons-wrapper {
