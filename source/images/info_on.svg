@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>info_on</title>
+    <g id="01_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_Reisepass_beantragen_04" transform="translate(-1032.000000, -579.000000)">
+            <g id="left_cotent_voraussetzung" transform="translate(378.000000, 446.000000)">
+                <g id="Group-2" transform="translate(654.000000, 133.000000)">
+                    <circle id="Oval" stroke="#242424" fill="#1B1B1B" cx="15" cy="15" r="14.5"></circle>
+                    <text id="i" font-family="PTSerif-Bold, PT Serif" font-size="22" font-weight="bold" letter-spacing="0.338461538" fill="#FFFFFF">
+                        <tspan x="11.25" y="23">i</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -39,14 +39,14 @@
       },
       {
         "label": "KFZ anmelden",
-        "image": "",
+        "image": "/images/icon_kfz_anmelden.svg",
         "description": "KFZ anmelden",
         "destination": "kfz",
         "available": true
       },
       {
         "label": "Service-Konto einrichten",
-        "image": "",
+        "image": "/images/icon_servicekonto_einrichten.svg",
         "description": "Service-Konto einrichten",
         "destination": "service-konto",
         "available": true
