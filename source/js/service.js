@@ -1,3 +1,4 @@
+// TOGGLE INFO SECTIONS
 const toggleButtons = document.querySelectorAll(
   ".service .section-title-wrapper i"
 );
@@ -23,5 +24,22 @@ toggleButtons.forEach((toggleButton) => {
       toggleButton.textContent = "Alle Infos öffnen";
     }
     sectionIsOpened = !sectionIsOpened;
+  });
+});
+
+// PRINT PAGE
+const printButton = document.querySelector(".print-button");
+
+printButton.addEventListener("click", () => {
+  const detailsElements = document.querySelectorAll("details");
+
+  detailsElements.forEach((el) => {
+    el.setAttribute("open", "");
+  });
+
+  window.print();
+
+  detailsElements.forEach((el) => {
+    el.removeAttribute("open");
   });
 });
