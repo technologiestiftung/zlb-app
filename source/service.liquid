@@ -52,9 +52,12 @@ eleventyComputed:
           <div class="column is-8">
             {% if service.requirements %}
             <section id="requirements">
-              <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
-                Voraussetzungen
-              </h3>
+              <div class="section-title-wrapper is-flex is-justify-content-space-between">
+                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">Voraussetzungen</h3>
+                <div class="is-flex is-align-items-flex-end pb-2">
+                  <i class="is-size-7">Alle Infos öffnen</i>
+                </div>
+              </div>
               {% for element in service.requirements %} {% if element.label %}
               <details class="py-3">
                 <summary>
@@ -91,9 +94,12 @@ eleventyComputed:
           <div class="column is-8">
             {% if service.documents %}
             <section id="documents">
-              <h3 class="title is-4 pb-3 mb-0 has-text-weight-normal">
-                Erforderliche Unterlagen
-              </h3>
+              <div class="section-title-wrapper is-flex is-justify-content-space-between">
+                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">Erforderliche Unterlagen</h3>
+                <div class="is-flex is-align-items-flex-end pb-2">
+                  <i class="is-size-7">Alle Infos öffnen</i>
+                </div>
+              </div>
               {% for element in service.documents %} {% if element.label %}
               <details class="py-3">
                 <summary>
