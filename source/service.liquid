@@ -16,7 +16,7 @@ eleventyComputed:
 
 <main class="section service pt-6">
   <div class="container">
-    <div class="columns">
+    <section class="columns">
       <div class="column is-3">
         {% include partials/_circular-icon.html, iconKey: parentKey, iconTitle:
         parentTitle %}
@@ -24,127 +24,172 @@ eleventyComputed:
       <div class="column is-6 is-flex is-align-items-center">
         <h1 class="title is-3">{{ service.title }}</h1>
       </div>
-    </div>
-    <div class="columns">
-      <div class="column is-3"></div>
-      <div class="column is-6 main-column">
-        <div class="buttons">
-          {% if service.requirements %}
-          <a class="button" href="#requirements">Voraussetzungen</a>
-          {% endif %} {% if service.documents %}
-          <a class="button" href="#documents">Unterlagen</a>
-          {% endif %} {% if service.costs %}
-          <a class="button" href="#costs">Gebühren</a>
-          {% endif %} {% if service.time %}
-          <a class="button" href="#time">Bearbeitungszeit</a>
-          {% endif %}
+    </section>
+
+    <section class="columns">
+      <article class="column is-9">
+        <div class="columns">
+          <div class="column is-8 is-offset-4">
+            <div class="buttons">
+              {% if service.requirements %}
+              <a class="button" href="#requirements">Voraussetzungen</a>
+              {% endif %} {% if service.documents %}
+              <a class="button" href="#documents">Unterlagen</a>
+              {% endif %} {% if service.costs %}
+              <a class="button" href="#costs">Gebühren</a>
+              {% endif %} {% if service.time %}
+              <a class="button" href="#time">Bearbeitungszeit</a>
+              {% endif %}
+            </div>
+          </div>
         </div>
-
-        {% if service.requirements %}
-        <section id="requirements" class="pt-6">
-          <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">
-            Voraussetzungen
-          </h3>
-          {% for element in service.requirements %} {% if element.label %}
-          <details class="py-3">
-            <summary>
-              <div class="media">
-                <div class="media-content">
-                  <strong>{{ element.label }}</strong>
-                </div>
-                <div class="media-right">
-                  <figure class="image is-32x32">
-                    <img
-                      class="arrow-down"
-                      src="/images/arrow_down_off.svg"
-                      alt="Pfeil-Icon"
-                    />
-                  </figure>
-                </div>
-              </div>
-            </summary>
-            <p class="pt-0">{{ element.content }}</p>
-          </details>
-          {% else %}
-          <p class="py-3">{{ element }}</p>
-          {% endif %} {% endfor %}
-        </section>
-        {% endif %} {% if service.documents %}
-        <section id="documents" class="pt-6">
-          <h3 class="title is-4 pb-3 mt-6 mb-0 has-text-weight-normal">
-            Erforderliche Unterlagen
-          </h3>
-          {% for element in service.documents %} {% if element.label %}
-          <details class="py-3">
-            <summary>
-              <div class="media">
-                <div class="media-content">
-                  <strong>{{ element.label }}</strong>
-                </div>
-                <div class="media-right">
-                  <figure class="image is-32x32">
-                    <img
-                      class="arrow-down"
-                      src="/images/arrow_down_off.svg"
-                      alt="Pfeil-Icon"
-                    />
-                  </figure>
-                </div>
-              </div>
-            </summary>
-            <p class="pt-0">{{ element.content }}</p>
-          </details>
-          {% else %}
-          <p class="py-3">{{ element }}</p>
-          {% endif %} {% endfor %}
-        </section>
-        {% endif %} {% if service.costs %}
-        <section id="costs" class="pt-6">
-          <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">
-            Gebühren
-          </h3>
-          <ul class="pb-4 mt-4">
-            {% for element in service.costs %}
-            <li class="content mt-2 mb-0">
-              {% if element.label %}
-              <strong>{{ element.label }}</strong
-              ><br />
-              <p>{{ element.content }}</p>
+        <div class="columns pt-6">
+          <div class="column is-4 is-flex is-flex-direction-column">
+            <figure class="image is-128x128 section-icon">
+              <img src="/images/icon_requirements.svg" alt="Icon für Voraussetzungen">
+            </figure>
+          </div>
+          <div class="column is-8">
+            {% if service.requirements %}
+            <section id="requirements">
+              <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                Voraussetzungen
+              </h3>
+              {% for element in service.requirements %} {% if element.label %}
+              <details class="py-3">
+                <summary>
+                  <div class="media">
+                    <div class="media-content">
+                      <strong>{{ element.label }}</strong>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-32x32">
+                        <img
+                          class="arrow-down"
+                          src="/images/arrow_down_off.svg"
+                          alt="Pfeil-Icon"
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </summary>
+                <p class="pt-0">{{ element.content }}</p>
+              </details>
               {% else %}
-              {{ element }}
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %} {% if service.time %}
-        <section id="time" class="pt-6">
-          <h3 class="title is-4 pb-2 mt-6 mb-0 has-text-weight-normal">
-            Durchschnittliche Bearbeitungszeit
-          </h3>
-          <ul class="pb-4 mt-4">
-            {% for element in service.time %}
-            <li class="content mt-2 mb-0">
-              {% if element.label %}
-              <strong>{{ element.label }}</strong
-              ><br />
-              <p>{{ element.content }}</p>
+              <p class="py-3">{{ element }}</p>
+              {% endif %} {% endfor %}
+            </section>
+            {% endif %}
+          </div>
+        </div>
+        <div class="columns mt-6">
+          <div class="column is-4 is-flex is-flex-direction-column">
+            <figure class="image is-128x128 section-icon">
+              <img src="/images/icon_documents.svg" alt="Icon für Erforderliche Unterlagen">
+            </figure>
+          </div>
+          <div class="column is-8">
+            {% if service.documents %}
+            <section id="documents">
+              <h3 class="title is-4 pb-3 mb-0 has-text-weight-normal">
+                Erforderliche Unterlagen
+              </h3>
+              {% for element in service.documents %} {% if element.label %}
+              <details class="py-3">
+                <summary>
+                  <div class="media">
+                    <div class="media-content">
+                      <strong>{{ element.label }}</strong>
+                    </div>
+                    <div class="media-right">
+                      <figure class="image is-32x32">
+                        <img
+                          class="arrow-down"
+                          src="/images/arrow_down_off.svg"
+                          alt="Pfeil-Icon"
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </summary>
+                <p class="pt-0">{{ element.content }}</p>
+              </details>
               {% else %}
-              {{ element }}
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %}
-
-        <section class="pt-6 bottom-buttons-wrapper">
-          <a class="button is-light mt-5" disabled>Nötige Formulare aufrufen</a>
-          <button class="button is-outlined mt-5" onclick="window.print()">
-            Diese Seite als PDF herunterladen
-          </button>
-        </section>
-      </div>
+              <p class="py-3">{{ element }}</p>
+              {% endif %} {% endfor %}
+            </section>
+            {% endif %}
+          </div>
+        </div>
+        <div class="columns mt-6">
+          <div class="column is-4 is-flex is-flex-direction-column">
+            <figure class="image is-128x128 section-icon">
+              <img src="/images/icon_costs.svg" alt="Icon für Gebühren">
+            </figure>
+          </div>
+          <div class="column is-8">
+            {% if service.costs %}
+            <section id="costs">
+              <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                Gebühren
+              </h3>
+              <ul class="pb-4 mt-4">
+                {% for element in service.costs %}
+                <li class="content mt-2 mb-0">
+                  {% if element.label %}
+                  <strong>{{ element.label }}</strong
+                  ><br />
+                  <p>{{ element.content }}</p>
+                  {% else %}
+                  {{ element }}
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </section>
+            {% endif %}
+          </div>
+        </div>
+        <div class="columns mt-6">
+          <div class="column is-4 is-flex is-flex-direction-column">
+            <figure class="image is-128x128 section-icon">
+              <img src="/images/icon_time.svg" alt="Icon für Bearbeitungszeit">
+            </figure>
+          </div>
+          <div class="column is-8">
+            {% if service.time %}
+            <section id="time">
+              <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                Durchschnittliche Bearbeitungszeit
+              </h3>
+              <ul class="pb-4 mt-4">
+                {% for element in service.time %}
+                <li class="content mt-2 mb-0">
+                  {% if element.label %}
+                  <strong>{{ element.label }}</strong
+                  ><br />
+                  <p>{{ element.content }}</p>
+                  {% else %}
+                  {{ element }}
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </section>
+            {% endif %}
+          </div>
+        </div>
+        <div class="columns mt-6">
+          <div class="column is-8 is-offset-4">
+            <section class="bottom-buttons-wrapper">
+              <a class="button is-light" disabled>Nötige Formulare aufrufen</a>
+              <button class="button is-outlined" onclick="window.print()">
+                Diese Seite als PDF herunterladen
+              </button>
+            </section>
+          </div>
+        </div>
+      </article>
       <aside class="column is-3">
         <div>
           <a href="/map" class="button is-primary"
@@ -185,7 +230,7 @@ eleventyComputed:
           </div>
         </div>
       </aside>
-    </div>
+    </section>
   </div>
 </main>
 
