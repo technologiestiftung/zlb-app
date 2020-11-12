@@ -4,7 +4,8 @@
   #costs,
   #time {
     .section-title-wrapper,
-    > p {
+    > p,
+    .section-item {
       border-bottom: 1px solid $border;
     }
   }
@@ -31,7 +32,7 @@
   }
 
   details {
-    border-bottom: 1px solid $border;
+    width: 100%;
 
     .arrow-down {
       transition: transform 0.2s ease-in;
