@@ -55,7 +55,7 @@ eleventyComputed:
               <div class="section-title-wrapper is-flex is-justify-content-space-between">
                 <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">Voraussetzungen</h3>
                 <div class="is-flex is-align-items-flex-end pb-2">
-                  <i class="is-size-7">Alle Infos öffnen</i>
+                  <i class="is-size-7" data-section-id="requirements">Alle Infos öffnen</i>
                 </div>
               </div>
               {% for element in service.requirements %} {% if element.label %}
@@ -97,7 +97,7 @@ eleventyComputed:
               <div class="section-title-wrapper is-flex is-justify-content-space-between">
                 <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">Erforderliche Unterlagen</h3>
                 <div class="is-flex is-align-items-flex-end pb-2">
-                  <i class="is-size-7">Alle Infos öffnen</i>
+                  <i class="is-size-7" data-section-id="documents">Alle Infos öffnen</i>
                 </div>
               </div>
               {% for element in service.documents %} {% if element.label %}
@@ -240,4 +240,5 @@ eleventyComputed:
   </div>
 </main>
 
+<script src="/js/service.js"></script>
 <script src="/js/print.js"></script>
