@@ -46,50 +46,59 @@ eleventyComputed:
         <div class="columns pt-6">
           <div class="column is-4 is-flex is-flex-direction-column">
             <figure class="image is-128x128 section-icon">
-              <img src="/images/icon_requirements.svg" alt="Icon für Voraussetzungen">
+              <img
+                src="/images/icon_requirements.svg"
+                alt="Icon für Voraussetzungen"
+              />
             </figure>
           </div>
           <div class="column is-8">
             {% if service.requirements %}
             <section id="requirements">
-              <div class="section-title-wrapper is-flex is-justify-content-space-between">
-                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">Voraussetzungen</h3>
+              <div
+                class="section-title-wrapper is-flex is-justify-content-space-between"
+              >
+                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                  Voraussetzungen
+                </h3>
                 <div class="is-flex is-align-items-flex-end pb-2">
-                  <i class="is-size-7" data-section-id="requirements">Alle Infos öffnen</i>
+                  <i class="is-size-7" data-section-id="requirements"
+                    >Alle Infos öffnen</i
+                  >
                 </div>
               </div>
               {% for element in service.requirements %} {% if element.label %}
-              <details class="py-3 section-item">
-                <summary>
-                  <div class="media">
-                    <div class="media-left mr-3 is-align-self-flex-start">
-                      <input type="checkbox" name="section-item-checkbox" id="{{ element.label | slug }}">
-                      <label for="{{ element.label | slug }}" class="is-sr-only">{{ element.label }}</label>
-                    </div>
-                    <div class="media-content">
-                      <strong>{{ element.label }}</strong>
-                    </div>
-                    <div class="media-right">
-                      <figure class="image is-32x32">
-                        <img
-                          class="arrow-down"
-                          src="/images/arrow_down_off.svg"
-                          alt="Pfeil-Icon"
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                </summary>
-                <p class="pt-0">{{ element.content }}</p>
-              </details>
-              {% else %}
-              <div class="py-3 media section-item">
-                <div class="media-left mr-3 is-align-self-flex-start">
-                  <input type="checkbox" name="section-item" id="{{ element | slug }}" class="is-align-self-center">
-                  <label for="{{ element | slug }}" class="is-sr-only">{{ element }}</label>
+              <div class="is-flex section-item">
+                <div class="py-3 is-align-self-flex-start">
+                  {% include partials/_checkbox.html, label: element.label %}
                 </div>
-                <div class="media-content">
-                  <span>{{ element }}</span>
+                <details class="py-3 ml-3">
+                  <summary>
+                    <div class="media is-relative">
+                      <div class="media-content">
+                        <strong>{{ element.label }}</strong>
+                      </div>
+                      <div class="media-right">
+                        <figure class="image is-32x32">
+                          <img
+                            class="arrow-down"
+                            src="/images/arrow_down_off.svg"
+                            alt="Pfeil-Icon"
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </summary>
+                  <p class="pt-0">{{ element.content }}</p>
+                </details>
+              </div>
+              {% else %}
+              <div class="is-flex section-item">
+                <div class="py-3 is-align-self-flex-start">
+                  {% include partials/_checkbox.html, label: element %}
+                </div>
+                <div class="py-3 ml-3">
+                  {{ element }}
                 </div>
               </div>
               {% endif %} {% endfor %}
@@ -100,50 +109,59 @@ eleventyComputed:
         <div class="columns mt-6">
           <div class="column is-4 is-flex is-flex-direction-column">
             <figure class="image is-128x128 section-icon">
-              <img src="/images/icon_documents.svg" alt="Icon für Erforderliche Unterlagen">
+              <img
+                src="/images/icon_documents.svg"
+                alt="Icon für Erforderliche Unterlagen"
+              />
             </figure>
           </div>
           <div class="column is-8">
             {% if service.documents %}
             <section id="documents">
-              <div class="section-title-wrapper is-flex is-justify-content-space-between">
-                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">Erforderliche Unterlagen</h3>
+              <div
+                class="section-title-wrapper is-flex is-justify-content-space-between"
+              >
+                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                  Erforderliche Unterlagen
+                </h3>
                 <div class="is-flex is-align-items-flex-end pb-2">
-                  <i class="is-size-7" data-section-id="documents">Alle Infos öffnen</i>
+                  <i class="is-size-7" data-section-id="documents"
+                    >Alle Infos öffnen</i
+                  >
                 </div>
               </div>
               {% for element in service.documents %} {% if element.label %}
-              <details class="py-3 section-item">
-                <summary>
-                  <div class="media">
-                    <div class="media-left mr-3 is-align-self-flex-start">
-                      <input type="checkbox" name="section-item-checkbox" id="{{ element.label | slug }}">
-                      <label for="{{ element.label | slug }}" class="is-sr-only">{{ element.label }}</label>
-                    </div>
-                    <div class="media-content">
-                      <strong>{{ element.label }}</strong>
-                    </div>
-                    <div class="media-right">
-                      <figure class="image is-32x32">
-                        <img
-                          class="arrow-down"
-                          src="/images/arrow_down_off.svg"
-                          alt="Pfeil-Icon"
-                        />
-                      </figure>
-                    </div>
-                  </div>
-                </summary>
-                <p class="pt-0">{{ element.content }}</p>
-              </details>
-              {% else %}
-              <div class="py-3 media section-item">
-                <div class="media-left mr-3 is-align-self-flex-start">
-                  <input type="checkbox" name="section-item" id="{{ element | slug }}" class="is-align-self-center">
-                  <label for="{{ element | slug }}" class="is-sr-only">{{ element }}</label>
+              <div class="is-flex section-item">
+                <div class="py-3 is-align-self-flex-start">
+                  {% include partials/_checkbox.html, label: element.label %}
                 </div>
-                <div class="media-content">
-                  <span>{{ element }}</span>
+                <details class="py-3 ml-3">
+                  <summary>
+                    <div class="media is-relative">
+                      <div class="media-content">
+                        <strong>{{ element.label }}</strong>
+                      </div>
+                      <div class="media-right">
+                        <figure class="image is-32x32">
+                          <img
+                            class="arrow-down"
+                            src="/images/arrow_down_off.svg"
+                            alt="Pfeil-Icon"
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </summary>
+                  <p class="pt-0">{{ element.content }}</p>
+                </details>
+              </div>
+              {% else %}
+              <div class="is-flex section-item">
+                <div class="py-3 is-align-self-flex-start">
+                  {% include partials/_checkbox.html, label: element %}
+                </div>
+                <div class="py-3 ml-3">
+                  {{ element }}
                 </div>
               </div>
               {% endif %} {% endfor %}
@@ -154,7 +172,7 @@ eleventyComputed:
         <div class="columns mt-6">
           <div class="column is-4 is-flex is-flex-direction-column">
             <figure class="image is-128x128 section-icon">
-              <img src="/images/icon_costs.svg" alt="Icon für Gebühren">
+              <img src="/images/icon_costs.svg" alt="Icon für Gebühren" />
             </figure>
           </div>
           <div class="column is-8">
@@ -183,7 +201,10 @@ eleventyComputed:
         <div class="columns mt-6">
           <div class="column is-4 is-flex is-flex-direction-column">
             <figure class="image is-128x128 section-icon">
-              <img src="/images/icon_time.svg" alt="Icon für Bearbeitungszeit">
+              <img
+                src="/images/icon_time.svg"
+                alt="Icon für Bearbeitungszeit"
+              />
             </figure>
           </div>
           <div class="column is-8">
