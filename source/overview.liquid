@@ -55,9 +55,9 @@ eleventyComputed:
       >
         {% for subservice in service.subs %}
         <li
-          class="px-2 py-2 {% if forloop.index != 0 %}mt-4{% endif %} has-background-white subservice"
+          class="{% if forloop.index != 0 %}mt-4{% endif %} has-background-white subservice"
         >
-          <a href="/service/{{ subservice.destination }}/">{{
+          <a href="/service/{{ subservice.destination }}/" class="px-2 py-2">{{
             subservice.label
           }}</a>
         </li>
