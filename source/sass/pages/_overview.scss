@@ -2,6 +2,13 @@
 .service-overview {
   padding-top: 65px;
 
+  .card {
+    &.is-active {
+      color: $white;
+      background-color: $primary;
+    }
+  }
+
   .subservices-wrapper {
     display: none;
   }
