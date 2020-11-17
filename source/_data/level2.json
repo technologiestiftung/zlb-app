@@ -148,15 +148,15 @@
     ]
   },
   "kita": {
-    "label": "Kita Gutschein",
+    "label": "Kita-Gutschein",
     "services": [
       {
-        "label": "Kita Gutschein beantragen",
+        "label": "Kita-Gutschein beantragen",
         "image": "/images/icon_kita_beantragen.svg",
         "destination": "324873"
       },
       {
-        "label": "Kita Gutschein Betreuungsumfang erweitern",
+        "label": "Kita-Gutschein Betreuungsumfang erweitern",
         "image": "/images/icon_kita_umfang.svg",
         "destination": "324879"
       }
