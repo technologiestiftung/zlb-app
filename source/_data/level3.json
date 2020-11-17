@@ -4491,7 +4491,7 @@
     }
   },
   "324873": {
-    "title": "Kita-Gutschein",
+    "title": "Kita-Gutschein beantragen",
     "intro": "<p>Wenn Ihr Kind in eine Kindertagesst&#xE4;tte oder eine Kindertagespflegestelle gehen soll, brauchen Sie daf&#xFC;r einen Kita-Gutschein. Den Gutschein k&#xF6;nnen Sie in einer Berliner Tageseinrichtung Ihrer Wahl einl&#xF6;sen, wenn dort ein Platz frei ist.<br><br>Mit dem Kita-Gutschein wird der Betreuungsbedarf Ihres Kindes festgestellt. Wie viele Stunden am Tag Ihr Kind in der Kita betreut werden kann, h&#xE4;ngt u. a. von seinem Alter ab:<br></p><ul class=\"list\"><li>Ab dem ersten Geburtstag Ihres Kindes gilt der Gutschein mindestens f&#xFC;r eine Teilzeitbetreuung (5 bis 7 Stunden t&#xE4;glich), ohne dass der Bedarf gepr&#xFC;ft wird.</li><li>Im ersten Lebensjahr m&#xFC;ssen Sie einen Bedarf f&#xFC;r die Betreuung Ihres Kindes nachweisen.</li></ul>Ein l&#xE4;ngerer Betreuungsbedarf ist m&#xF6;glich, wenn er sich aus Ihrer Familiensituation ergibt oder aus  p&#xE4;dagogischen, sozialen oder famili&#xE4;ren Gr&#xFC;nden notwendig ist. Wenn Sie arbeiten gehen, studieren oder in Ausbildung sind und deshalb Ihr Kind nicht selbst betreuen k&#xF6;nnen, kann Ihr Kind l&#xE4;nger in der Kita bleiben.<p></p>",
     "requirements": [
       {
@@ -4710,7 +4710,7 @@
     }
   },
   "324879": {
-    "title": "Kita-Gutschein - Betreuungsumfang erweitern",
+    "title": "Betreuungsumfang erweitern",
     "intro": "<p>F&#xFC;r einen bestehenden Kita-Gutschein kann die Betreuungszeit Ihres Kindes auf Antrag erweitert werden.</p>",
     "requirements": [
       "<strong><a href=\"https://service.berlin.de/dienstleistung/324873/\" target=\"_blank\">Ein g&#xFC;ltiger Kita-Gutschein liegt vor.</a></strong><br>"
