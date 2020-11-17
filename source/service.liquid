@@ -178,9 +178,11 @@ eleventyComputed:
           <div class="column is-8">
             {% if service.costs %}
             <section id="costs">
-              <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
-                Gebühren
-              </h3>
+              <div class="section-title-wrapper">
+                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                  Gebühren
+                </h3>
+              </div>
               <ul class="pb-4 mt-4">
                 {% for element in service.costs %}
                 <li class="content mt-2 mb-0">
@@ -210,9 +212,11 @@ eleventyComputed:
           <div class="column is-8">
             {% if service.time %}
             <section id="time">
-              <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
-                Durchschnittliche Bearbeitungszeit
-              </h3>
+              <div class="section-title-wrapper">
+                <h3 class="title is-4 pb-2 mb-0 has-text-weight-normal">
+                  Durchschnittliche Bearbeitungszeit
+                </h3>
+              </div>
               <ul class="pb-4 mt-4">
                 {% for element in service.time %}
                 <li class="content mt-2 mb-0">
