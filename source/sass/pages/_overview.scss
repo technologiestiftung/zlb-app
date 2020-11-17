@@ -2,9 +2,12 @@
 .service-overview {
   padding-top: 65px;
 
+  .subservices-wrapper {
+    display: none;
+  }
+
   .subservices {
     row-gap: 0;
-    //display: none;
   }
 
   .subservice {
