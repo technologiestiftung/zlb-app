@@ -1,4 +1,19 @@
 /* service item */
 .service-overview {
   padding-top: 65px;
+
+  .subservices {
+    row-gap: 0;
+    //display: none;
+  }
+
+  .subservice {
+    grid-column: 2 / -2;
+    border-radius: 6px;
+    box-shadow: $card-shadow;
+    cursor: pointer;
+    > a:hover {
+      color: inherit;
+    }
+  }
 }

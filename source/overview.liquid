@@ -47,5 +47,22 @@ eleventyComputed:
       </li>
       {% endfor %}
     </ul>
+    {% for service in overview.services %} {% if service.subs %}
+    <!-- {{ service.label }} -->
+    <ul
+      class="mt-6 grid-columns subservices"
+      id="subservices-{{ service.label | slug }}"
+    >
+      {% for subservice in service.subs %}
+      <li
+        class="px-2 py-2 {% if forloop.index != 0 %}mt-4{% endif %} has-background-white subservice"
+      >
+        <a href="/service/{{ subservice.destination }}/">{{
+          subservice.label
+        }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %} {% endfor %}
   </div>
 </main>
