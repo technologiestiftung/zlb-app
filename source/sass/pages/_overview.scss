@@ -2,38 +2,32 @@
 .service-overview {
   padding-top: 65px;
 
-  ul > li {
-    border-bottom: 1px solid $text;
-
-    .media {
-      align-items: center;
+  .card {
+    &.is-active {
+      color: $white;
+      background-color: $primary;
     }
+  }
 
-    ul.subservices {
-      li {
-        border-bottom: 1px solid $border;
+  .subservices-wrapper {
+    display: none;
+  }
 
-        a {
-          &:before {
-            content: "-";
-            align-self: baseline;
-            margin-right: 5px;
-            transform: translateY(2px);
-          }
-        }
+  .subservices {
+    row-gap: 0;
+  }
 
-        &:last-of-type {
-          border-color: transparent;
-        }
-      }
+  .subservice {
+    grid-column: 1 / -1;
+    border-radius: 6px;
+    box-shadow: $card-shadow;
+    @include from($tablet) {
+      grid-column: 2 / -2;
     }
-
-    a:hover {
-      background-color: $white-bis;
-      .arrow-right {
-        /* filter generates primary color */
-        filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
-          brightness(101%) contrast(100%);
+    > a {
+      display: block;
+      &:hover {
+        color: inherit;
       }
     }
   }

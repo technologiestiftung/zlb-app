@@ -3,7 +3,8 @@
     "label": "Personalausweis",
     "services": [
       {
-        "label": "Ich möchte einen <strong>Personalausweis beantragen</strong>:",
+        "label": "Personalausweis beantragen",
+        "image": "/images/icon_perso_beantragen.svg",
         "subs": [
           {
             "label": "Mein <strong>Wohnsitz</strong> ist in Berlin",
@@ -21,10 +22,11 @@
             "label": "Ich habe meinen <strong>Wohnsitz im Ausland</strong>",
             "destination": "326550"
           }
-        ] 
+        ]
       },
       {
-        "label": "Ich möchte einen <strong>vorläufigen Personalausweis beantragen</strong>:",
+        "label": "Vorläufigen Personalausweis beantragen",
+        "image": "/images/icon_perso_vorlaeufig.svg",
         "subs": [
           {
             "label": "Mein <strong>Wohnsitz</strong> ist in Berlin",
@@ -38,10 +40,11 @@
             "label": "Ich habe <strong>keinen festen Wohnsitz</strong> angmeldet (Wohnungslose)",
             "destination": "306684"
           }
-        ] 
+        ]
       },
       {
-        "label": "Ich möchte meinen Personalausweis <strong>abholen</strong>",
+        "label": "Personalausweis abholen",
+        "image": "/images/icon_perso_abholen.svg",
         "destination": "324325"
       }
     ]
@@ -50,7 +53,8 @@
     "label": "Reisepass",
     "services": [
       {
-        "label": "Ich möchte einen <strong>Reisepass beantragen</strong>:",
+        "label": "Reisepass beantragen",
+        "image": "/images/icon_reisepass_antrag.svg",
         "subs": [
           {
             "label": "Ich wohne <strong>dauerhaft</strong> in Berlin. Ich bin in Berlin gemeldet",
@@ -68,14 +72,16 @@
             "label": "Ich habe meinen <strong>Wohnsitz im Ausland</strong>",
             "destination": "306704"
           }
-        ] 
+        ]
       },
       {
-        "label": "Ich brauche einen <strong>vorläufigen</strong> Reisepass",
+        "label": "Vorläufigen Reisepass beantragen",
+        "image": "/images/icon_reisepass_vorlaeufig.svg",
         "destination": "121153"
       },
       {
-        "label": "Ich möchte einen <strong>Kinderpass beantragen/verlängern/aktualisieren</strong>:",
+        "label": "Kinderpass beantragen",
+        "image": "/images/icon_reisepass_kinderpass.svg",
         "subs": [
           {
             "label": "Das Kind wohnt <strong>dauerhaft</strong> und ist in Berlin gemeldet",
@@ -100,37 +106,43 @@
         ]
       },
       {
-        "label": "Ich möchte meinen Reisepass <strong>abholen</strong>",
+        "label": "Reisepass abholen",
+        "image": "/images/icon_reisepass_abholen.svg",
         "destination": "324573"
       },
       {
-        "label": "Ich habe meinen Reisepass <strong>verloren</strong>",
+        "label": "Reisepass verloren",
+        "image": "/images/icon_reisepass_verloren.svg",
         "destination": "121368"
       }
     ]
   },
   "fuehrungszeugnis": {
-    "label": "Fühungszeugnis",
+    "label": "Führungszeugnis",
     "services": [
       {
-        "label": "Ich möchte einen <strong>Führungszeugnis beantragen</strong>",
+        "label": "Führungszeugnis beantragen",
+        "image": "/images/icon_fuehrungszeugnis.svg",
         "destination": "120926"
-      } 
+      }
     ]
   },
   "wohnung": {
     "label": "Wohnung",
     "services": [
       {
-        "label": "Ich möchte eine <strong>Wohnung anmelden</strong>",
+        "label": "Wohnung anmelden",
+        "image": "/images/icon_whg_anmelden.svg",
         "destination": "120686"
       },
       {
-        "label": "Ich möchte eine <strong>Wohnung ummelden</strong>",
+        "label": "Wohnung ummelden",
+        "image": "/images/icon_whg_ummelden.svg",
         "destination": "120686"
       },
       {
-        "label": "Ich möchte eine <strong>Wohnung abmelden</strong>",
+        "label": "Wohnung abmelden",
+        "image": "/images/icon_whg_abmelden.svg",
         "destination": "120686"
       }
     ]
@@ -139,11 +151,13 @@
     "label": "Kita Gutschein",
     "services": [
       {
-        "label": "Ich möchte einen <strong>Kita Gutschein beantragen</strong>",
+        "label": "Kita Gutschein beantragen",
+        "image": "/images/icon_kita_beantragen.svg",
         "destination": "324873"
       },
       {
-        "label": "Ich möchte einen den <strong>Betreuungsumfang</strong> für einen Kita-Gutschein <strong>erweitern</strong>",
+        "label": "Kita Gutschein Betreuungsumfang erweitern",
+        "image": "/images/icon_kita_umfang.svg",
         "destination": "324879"
       }
     ]

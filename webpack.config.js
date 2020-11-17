@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     map: "./source/js/map.js",
     fontsize: "./source/js/fontsize.js",
+    overview: "./source/js/overview.js",
     service: "./source/js/service.js",
   },
   output: {
