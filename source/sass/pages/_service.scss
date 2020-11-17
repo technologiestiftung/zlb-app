@@ -35,13 +35,23 @@
   details {
     width: 100%;
 
-    .arrow-down {
-      transition: transform 0.2s ease-in;
+    .info-icon {
+      position: relative;
+      width: 32px;
+      height: 32px;
+      &:before {
+        content: url(/images/info_off.svg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 32px;
+      }
     }
 
     &[open] {
-      .arrow-down {
-        transform: rotate(180deg);
+      .info-icon:before {
+        content: url(/images/info_on.svg);
       }
     }
 
@@ -50,11 +60,6 @@
 
       summary {
         color: $secondary;
-      }
-      .arrow-down {
-        /* filter generates primary color */
-        filter: invert(55%) sepia(93%) saturate(4413%) hue-rotate(3deg)
-          brightness(101%) contrast(100%);
       }
     }
 
