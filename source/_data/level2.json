@@ -46,6 +46,11 @@
         "label": "Personalausweis abholen",
         "image": "/images/icon_perso_abholen.svg",
         "destination": "324325"
+      },
+      {
+        "label": "Personalausweis verloren",
+        "image": "/images/icon_perso_verloren.svg",
+        "destination": "120726"
       }
     ]
   },
