@@ -25,8 +25,13 @@ module.exports = async function () {
     const parentGroup = services.find((serviceGroup) => {
       return serviceGroup.stringifiedChildren.includes(key);
     });
+
+    let appendedContent = manualData.appendix[key]
+      ? manualData.appendix[key]
+      : {};
     array.push({
       ...data[key],
+      ...appendedContent,
       key,
       parent: { key: parentGroup.key, title: parentGroup.title },
     });

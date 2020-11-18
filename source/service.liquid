@@ -78,8 +78,7 @@ eleventyComputed:
                       <div class="media-content">
                         <strong>{{ element.label }}</strong>
                       </div>
-                      <div class="media-right info-icon">
-                      </div>
+                      <div class="media-right info-icon"></div>
                     </div>
                   </summary>
                   <p class="pt-0">{{ element.content }}</p>
@@ -134,8 +133,7 @@ eleventyComputed:
                       <div class="media-content">
                         <strong>{{ element.label }}</strong>
                       </div>
-                      <div class="media-right info-icon">
-                      </div>
+                      <div class="media-right info-icon"></div>
                     </div>
                   </summary>
                   <p class="pt-0">{{ element.content }}</p>
@@ -250,6 +248,15 @@ eleventyComputed:
             -%}
             >Termin in ganz Berlin suchen</a
           >
+          {% if service.links %} {% for additionalLink in service.links %}
+          <a
+            href="{{ additionalLink.destination }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button is-primary mt-5"
+            >{{ additionalLink.label }}</a
+          >
+          {% endfor %} {% endif %}
 
           <hr />
 
