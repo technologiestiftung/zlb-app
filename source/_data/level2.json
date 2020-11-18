@@ -151,12 +151,12 @@
       {
         "label": "Wohnung ummelden",
         "image": "/images/icon_whg_ummelden.svg",
-        "destination": "120686"
+        "destination": "120697"
       },
       {
         "label": "Wohnung abmelden",
         "image": "/images/icon_whg_abmelden.svg",
-        "destination": "120686"
+        "destination": "120335"
       }
     ]
   },
