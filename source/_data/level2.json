@@ -77,7 +77,20 @@
       {
         "label": "Vorläufigen Reisepass beantragen",
         "image": "/images/icon_reisepass_vorlaeufig.svg",
-        "destination": "121153"
+        "subs": [
+          {
+            "label": "Ich wohne <strong>dauerhaft</strong> in Berlin und bin in Berlin gemeldet",
+            "destination": "121153"
+          },
+          {
+            "label": "Ich wohne <strong>vorübergehend</strong> in Berlin. Ich bin außerhalb von Berlin gemeldet",
+            "destination": "306704"
+          },
+          {
+            "label": "Ich habe <strong>keinen festen Wohnsitz</strong> angmeldet (Wohnungslose)",
+            "destination": "306704"
+          }
+        ]
       },
       {
         "label": "Kinderpass beantragen",
@@ -138,12 +151,12 @@
       {
         "label": "Wohnung ummelden",
         "image": "/images/icon_whg_ummelden.svg",
-        "destination": "120686"
+        "destination": "120697"
       },
       {
         "label": "Wohnung abmelden",
         "image": "/images/icon_whg_abmelden.svg",
-        "destination": "120686"
+        "destination": "120335"
       }
     ]
   },
