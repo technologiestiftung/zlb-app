@@ -48,6 +48,14 @@ map.on("load", () => {
 // -------------------------------------------------------
 const addMarkers = (data) => {
   data.features.forEach((feature) => {
+    const markerElement = document.createElement("div");
+    markerElement.className = "marker";
+
+    const marker = new mapboxgl.Marker(markerElement).setLngLat([
+      feature.geometry.coordinates[0],
+      feature.geometry.coordinates[1],
+    ]);
+
     const popupContent = `
       <div class="px-2 py-2">
         <p class="is-size-6 mb-0">${feature.properties.parent}</p>
@@ -57,19 +65,46 @@ const addMarkers = (data) => {
       </div>
     `;
 
-    const markerElement = document.createElement("div");
-    markerElement.className = "marker";
-
     const popupOptions = {
       maxWidth: "348px",
     };
 
-    new mapboxgl.Marker(markerElement)
-      .setLngLat([
-        feature.geometry.coordinates[0],
-        feature.geometry.coordinates[1],
-      ])
-      .setPopup(new mapboxgl.Popup(popupOptions).setHTML(popupContent))
-      .addTo(map);
+    const popup = new mapboxgl.Popup(popupOptions)
+      .setHTML(popupContent)
+      .on("open", () => handleOpenSidebar(feature))
+      .on("close", () => handleCloseSidebar(feature));
+
+    marker.setPopup(popup).addTo(map);
   });
+};
+
+// -------------------------------------------------------
+// Sidebar handling
+// -------------------------------------------------------
+let currentSidebarTitle = "";
+const sidebarNode = document.querySelector("#map-sidebar .sidebar-content");
+
+const handleOpenSidebar = (data) => {
+  currentSidebarTitle = data.properties.label;
+
+  if (!sidebarNode.classList.contains("is-opened")) {
+    sidebarNode.classList.add("is-opened");
+  }
+
+  sidebarNode.querySelector("h1").textContent = data.properties.parent;
+  sidebarNode.querySelector("h2").textContent = data.properties.label;
+
+  let accessibilityParagraph = "";
+  data.properties.details.accessibility.forEach((item) => {
+    accessibilityParagraph += ` ${item.title}`;
+  });
+  sidebarNode.querySelector(
+    ".accessibility"
+  ).textContent = accessibilityParagraph;
+};
+
+const handleCloseSidebar = (data) => {
+  if (currentSidebarTitle === data.properties.label) {
+    sidebarNode.classList.remove("is-opened");
+  }
 };

@@ -30,3 +30,26 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+aside#map-sidebar {
+  position: absolute;
+  top: calc(#{$header-height} + #{$size-small});
+  left: $size-small;
+  width: 350px;
+  max-height: calc(100vh - #{$header-height} - #{$size-small} * 2);
+  background-color: $white;
+  box-shadow: 0 0 0.5rem $text-light;
+  z-index: 2;
+  overflow: auto;
+
+  .sidebar-content {
+    display: none;
+    &.is-opened {
+      display: block;
+    }
+  }
+
+  address {
+    font-style: inherit;
+  }
+}
