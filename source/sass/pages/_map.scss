@@ -33,10 +33,10 @@
 
 aside#map-sidebar {
   position: absolute;
-  top: $size-small;
+  top: calc(#{$header-height} + #{$size-small});
   left: $size-small;
   width: 350px;
-  max-height: calc(100vh - #{$size-small} * 2);
+  max-height: calc(100vh - #{$header-height} - #{$size-small} * 2);
   background-color: $white;
   box-shadow: 0 0 0.5rem $text-light;
   z-index: 2;

@@ -2,10 +2,10 @@ header {
   @include from($tablet) {
     position: sticky;
     top: 0;
+    height: $header-height;
   }
   display: flex;
-  /* min-height: 200px; */
-  padding-bottom: 20px !important;
+  height: auto;
   z-index: 1;
   background-color: $background;
   box-shadow: 0 0 6px 0 #38383888;
@@ -17,6 +17,14 @@ header {
 .breadcrumb-wrapper {
   display: flex;
   align-items: center;
+
+  .breadcrumb .is-active a {
+    display: block;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 .history-wrapper {
