@@ -2,6 +2,12 @@
   font-family: $family-sans-serif;
 }
 
+.mapboxgl-canvas {
+  &:focus {
+    outline: none;
+  }
+}
+
 .mapboxgl-popup-content {
   box-shadow: 0 0 0.5rem $text-light;
 }
