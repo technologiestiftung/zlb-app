@@ -1,11 +1,339 @@
 {
   "additions": {
-    "329030": {
-      "title": "KFZ anmelden"
-    },
+    "120726": {
+      "title": "Personalausweis verloren",
+      "intro": "<p>Wenn Ihr Personalausweis weg ist – zum Beispiel verloren oder gestohlen –, dann informieren Sie uns bitte so schnell wie m&ouml;glich. Dazu sind Sie verpflichtet. Es gen&uuml;gt nicht, wenn Sie den Diebstahl bei der Polizei anzeigen.<br>Das gilt auch f&uuml;r einen vorl&auml;ufigen Personalausweis.<br><br><strong>Personalausweis mit Online-Funktion</strong>:<br><br><strong>Sperren lassen</strong><br>Falls Sie einen neuen Personalausweis mit Online-Funktion haben, sollten Sie den Ausweis so schnell wie m&ouml;glich sperren lassen. Am schnellsten geht das telefonisch. Mehr zum Thema:<a href=\"https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Ausweis-weg/ausweis-weg_node.html/\" target=\"_blank\">Ausweis weg? – Wir helfen Ihne (Informationsseite des Bundes-Innenministeriums)</a><br><br><strong>Ersatz f&uuml;r den Personalausweis</strong>:<br>Wenn Sie uns den Verlust melden, k&ouml;nnen Sie au&szlig;erdem gleich einen neuen Personalausweis beantragen. Mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/120703/\" target=\"_blank\">Personalausweis beantragen</a>.</p>",
+      "requirements": [
+        {
+          "label": "Pers&ouml;nliches Erscheinen",
+          "content": "Den Verlust k&ouml;nnen Sie nur vor Ort melden. Das k&ouml;nnen nur Sie pers&ouml;nlich machen."
+        },
+        {
+          "label": "Wohnsitz in Berlin",
+          "content": "Sie wohnen in Berlin und sind hier gemeldet. Ein Zweit-Wohnsitz in Berlin reicht aus."
+        }
+      ],
+      "documents": [
+        {
+          "label": "F&uuml;r einen neuen Personalausweis:",
+          "content": "<a href=\"http://service.berlin.de/dienstleistung/120703/\" target_=\"blank\">Personalausweis beantragen</a>"
+        }
+      ],
+      "costs": "keine<br><br>Wenn Sie einen neuen Personalausweis beantragen, entstehen daf&uuml;r Kosten.",
+      "legal": [
+      {
+        "url": "https://www.gesetze-im-internet.de/pauswg/",
+        "label": "§ 27 Personalausweisgesetz (PAuswG)"
+      }
+    ],
+    "time": "wenige Minuten",
+    "more": [
+      {
+        "url": "https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Ausweis-weg/ausweis-weg_node.html",
+        "label": "Ausweis weg? – Wir helfen Ihnen (Informationsseite des Bundes-Innenministeriums)"
+      }
+    ],
+    "appointment": {
+      "behoerden": [
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122210&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Halemweg (Außenstelle)"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122217&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Heerstraße"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122219&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Hohenzollerndamm"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122227&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Wilmersdorfer Straße"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122210,122217,122219,122227&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Charlottenburg - Wilmersdorf"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122231&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 1 (Kreuzberg), Yorckstraße"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122238&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 2.0 Ausbildungsbürgeramt Schlesische Str."
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122243&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 3 (Friedrichshain), Frankfurter Allee"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122231,122238,122243&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Friedrichshain - Kreuzberg"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122252&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 1 (Neu- Hohenschönhausen) "
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122260&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 2 (Lichtenberg)"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122262&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 3 (Friedrichsfelde) Tierparkcenter"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122254&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt 4 (Alt- Hohenschönhausen)"
+            },
+            {
+              "label": "Mobiles Bürgeramt Bibliothek Anton-Saefkow"
+            },
+            {
+              "label": "Mobiles Bürgeramt FSE Pflegeeinrichtung Käthe Kern"
+            },
+            {
+              "label": "Mobiles Bürgeramt Jobcenter Lichtenberg"
+            },
+            {
+              "label": "Mobiles Bürgeramt Seniorenzentrum Am Obersee"
+            },
+            {
+              "label": "Mobiles Bürgeramt Stadtteilzentrum Ikarus"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122252,122260,122262,122254&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Lichtenberg"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122271&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Biesdorf - Center"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122273&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Helle Mitte"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122277&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Marzahner Promenade"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122271,122273,122277&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Marzahn - Hellersdorf"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122280&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Rathaus Mitte"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122282&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Rathaus Tiergarten"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122284&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Wedding "
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122280,122282,122284&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Mitte"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122291&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Blaschkoallee"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122285&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Rathaus Neukölln"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122286&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Sonnenallee"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122296&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Zwickauer Damm"
+            },
+            {
+              "label": "Mobiles Bürgeramt Alt-Buckow"
+            },
+            {
+              "label": "Mobiles Bürgeramt Rudow"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122291,122285,122286,122296&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Neukölln"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=150230&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Karow / Buch"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122301&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Pankow"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122297&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Prenzlauer Berg"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122294&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Weißensee"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=150230,122301,122297,122294&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Pankow"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122312&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Heiligensee"
+            },
+            {
+              "url": "https://service.berlin.de/dienstleistung/120697/standort/122314/&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Märkisches Viertel"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122304&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Rathaus Reinickendorf"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122311&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Reinickendorf-Ost"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122309&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Tegel"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122312,122314,122304,122311,122309&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Reinickendorf"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122281&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Rathaus Spandau"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=324414&anliegen[]=120682&herkunft=1",
+              "label": "Bürgerbüro Falkenhagener Feld"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122283&anliegen[]=120682&herkunft=1",
+              "label": "Bürgerbüro Kladow"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122279&anliegen[]=120682&herkunft=1",
+              "label": "Bürgerbüro Wasserstadt"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122281,324414,122283,122279&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Spandau"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122276&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Lankwitz"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122274&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Steglitz"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122267&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Zehlendorf"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122276,122274,122267&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Steglitz-Zehlendorf"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122246&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Lichtenrade"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122251&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Schöneberg"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=327653&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Schöneberg Ausbildungsarbeitsplätze"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122257&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt Tempelhof"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122246,122251,327653,122257&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Tempelhof-Schöneberg"
+          }
+        },
+        {
+          "offices": [
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122208&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt I in Köpenick"
+            },
+            {
+              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122226&anliegen[]=120682&herkunft=1",
+              "label": "Bürgeramt II in Schöneweide"
+            }
+          ],
+          "all": {
+            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122208,122226&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+            "label": "Bezirksamt Treptow-Köpenick"
+          }
+        }
+      ],
+      "berlin": {
+        "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122210,122217,122219,122227,122231,122238,122243,122252,122260,122262,122254,122271,122273,122277,122280,122282,122284,122291,122285,122286,122296,150230,122301,122297,122294,122312,122304,122311,122309,122281,324414,122283,122279,122276,122274,122267,122246,122251,327653,122257,122208,122226&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
+        "label": "Termin berlinweit suchen und buchen"
+      }
+    }
+  },
     "120335": {
       "title": "Wohnung abmelden",
-      "intro": "</p>Sie geben eine Berliner Wohnung auf, weil Sie in das Ausland verziehen<br><br><strong>oder</strong><br>Sie geben eine von mehreren Wohnungen in Deutschland auf, f&uuml;r die Sie angemeldet sind <strong>und</strong> die Berliner Wohnung bleibt bestehen<br><br><strong>oder</strong><br>Sie geben eine von mehreren Berliner Wohnungen auf, f&uuml;r die Sie angemeldet sind<br><br>Sie m&uuml;ssen sich bei der Meldebeh&ouml;rde in Berlin nur bei einem Wegzug ins Ausland abmelden oder bei der Aufgabe einer Haupt- oder Nebenwohnung, ohne dass Sie in eine andere Wohnung im Inland einziehen.<br><br>Beim Wegzug in das Ausland gilt, dass Sie aus dieser Wohnung ausziehen und dort zuk&uuml;nftig nicht wieder wohnen werden - befristete Auslandsaufenthalte, z.B. zu Studienzwecken bedingen keine Abmeldung.<br><br>Die Abmeldung kann im Zeitraum von 7 Tagen vor, muss aber bis 14 Tage nach dem Auszug vorgenommen werden. Sie erhalten eine Abmeldebest&auml;tigung.<br><br><strong>Hinweis:</strong><br>Wenn Sie jedoch innerhalb Deutschlands nur umziehen wollen, brauchen Sie sich lediglich bei der Meldebeh&ouml;rde Ihrer neuen Wohnung anmelden.</p>",
+      "intro": "<p>Sie geben eine Berliner Wohnung auf, weil Sie in das Ausland verziehen<br><br><strong>oder</strong><br>Sie geben eine von mehreren Wohnungen in Deutschland auf, f&uuml;r die Sie angemeldet sind <strong>und</strong> die Berliner Wohnung bleibt bestehen<br><br><strong>oder</strong><br>Sie geben eine von mehreren Berliner Wohnungen auf, f&uuml;r die Sie angemeldet sind<br><br>Sie m&uuml;ssen sich bei der Meldebeh&ouml;rde in Berlin nur bei einem Wegzug ins Ausland abmelden oder bei der Aufgabe einer Haupt- oder Nebenwohnung, ohne dass Sie in eine andere Wohnung im Inland einziehen.<br><br>Beim Wegzug in das Ausland gilt, dass Sie aus dieser Wohnung ausziehen und dort zuk&uuml;nftig nicht wieder wohnen werden - befristete Auslandsaufenthalte, z.B. zu Studienzwecken bedingen keine Abmeldung.<br><br>Die Abmeldung kann im Zeitraum von 7 Tagen vor, muss aber bis 14 Tage nach dem Auszug vorgenommen werden. Sie erhalten eine Abmeldebest&auml;tigung.<br><br><strong>Hinweis:</strong><br>Wenn Sie jedoch innerhalb Deutschlands nur umziehen wollen, brauchen Sie sich lediglich bei der Meldebeh&ouml;rde Ihrer neuen Wohnung anmelden.</p>",
       "requirements":[
         {
           "label": "keine"
@@ -644,337 +972,113 @@
         }
       }
     },
-    "120726": {
-      "title": "Personalausweis verloren",
-      "intro": "<p>Wenn Ihr Personalausweis weg ist – zum Beispiel verloren oder gestohlen –, dann informieren Sie uns bitte so schnell wie m&ouml;glich. Dazu sind Sie verpflichtet. Es gen&uuml;gt nicht, wenn Sie den Diebstahl bei der Polizei anzeigen.<br>Das gilt auch f&uuml;r einen vorl&auml;ufigen Personalausweis.<br><br><strong>Personalausweis mit Online-Funktion</strong>:<br><br><strong>Sperren lassen</strong><br>Falls Sie einen neuen Personalausweis mit Online-Funktion haben, sollten Sie den Ausweis so schnell wie m&ouml;glich sperren lassen. Am schnellsten geht das telefonisch. Mehr zum Thema:<a href=\"https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Ausweis-weg/ausweis-weg_node.html/\" target=\"_blank\">Ausweis weg? – Wir helfen Ihne (Informationsseite des Bundes-Innenministeriums)</a><br><br><strong>Ersatz f&uuml;r den Personalausweis</strong>:<br>Wenn Sie uns den Verlust melden, k&ouml;nnen Sie au&szlig;erdem gleich einen neuen Personalausweis beantragen. Mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/120703/\" target=\"_blank\">Personalausweis beantragen</a>.</p>",
-      "requirements": [
+    "329030": {
+      "title": "KFZ anmelden",
+      "intro": "<p>Mit der 3. Stufe der internetbasierten Fahrzeugzulassung ist es als Privatperson ab dem 01.10.2019 m&ouml;glich, eine Neuzulassung online durchzuf&uuml;hren. Es ist auch m&ouml;glich, ein gebrauchtes Fahrzeug, welches bisher noch nicht zugelassen war, &uuml;ber diese Dienstleistung erstmalig zuzulassen.<br>Sie k&ouml;nnen die Zulassung bequem von zu Hause vornehmen und bekommen alle Unterlagen nach erfolgter Zulassung von uns zugeschickt.<br>Die Zulassungsbeh&ouml;rde stellt nach erfolgreichem Antrag die Zulassungsbescheinigung Teil I + II sowie die Siegelplakette(n) auf Plakettentr&auml;ger(n) aus und versendet die Zulassungsunterlagen inklusive des Geb&uuml;hrenbescheides an die antragstellende Person. Der / die Plakettentr&auml;ger sind durch den Halter bzw. der die Halterin auf dem Kennzeichenschild / auf den Kennzeichenschildern anzubringen. Eine entsprechende Anleitung liegt dem Schreiben von der Zulassungsbeh&ouml;rde bei.<br>F&uuml;r den Fall, dass die Pr&uuml;fung des internetbasierten Antrages ergeben sollte, dass eine der Zulassungsvoraussetzungen nicht erf&uuml;llt ist, wird die antragstellende Person hier&uuml;ber bereits am Bildschirm informiert und kann diese ggf. korrigieren.<br><br>Eine Online-Neuzulassung ist nicht m&ouml;glich:<br>&bull; wenn es zum Fahrzeug keine Zulassungsbescheinigung Teil II mit verdeckten Sicherheitscode gibt (ausgestellt nach dem 31.12.2017).<br>&bull; wenn eine Zulassung im Mehrstufenverfahren vorgenommen werden soll.<br>&bull; wenn eine Zulassung im Zusammenhang mit einem Gutachten / einer technischen &Auml;nderung erfolgen soll.<br>&bull; wenn die technischen Fahrzeugdaten nicht beim Kraftfahrt-Bundesamt abgerufen werden k&ouml;nnen, weil diese nicht in der Datenbank hinterlegt worden sind.<br>&bull; wenn das Fahrzeug aus dem Ausland kommt, oder dort bereits zugelassen war.<br><br>Hinweis: Eine Feinstaubplakette muss gesondert beantragt werden.</p>",
+      "requirements":[
         {
-          "label": "Pers&ouml;nliches Erscheinen",
-          "content": "Den Verlust k&ouml;nnen Sie nur vor Ort melden. Das k&ouml;nnen nur Sie pers&ouml;nlich machen."
-        },
-        {
-          "label": "Wohnsitz in Berlin",
-          "content": "Sie wohnen in Berlin und sind hier gemeldet. Ein Zweit-Wohnsitz in Berlin reicht aus."
-        }
-      ],
-      "documents": [
-        {
-          "label": "F&uuml;r einen neuen Personalausweis:",
-          "content": "<a href=\"http://service.berlin.de/dienstleistung/120703/\" target_=\"blank\">Personalausweis beantragen</a>"
-        }
-      ],
-      "costs": "keine<br><br>Wenn Sie einen neuen Personalausweis beantragen, entstehen daf&uuml;r Kosten.",
-      "legal": [
+        "label": "Besitz eines fabrikneuen oder Gebrauchtfahrzeugs, dass bisher nicht zugelassen wurde"
+      },
       {
-        "url": "https://www.gesetze-im-internet.de/pauswg/",
-        "label": "§ 27 Personalausweisgesetz (PAuswG)"
-      }
-    ],
-    "time": "wenige Minuten",
-    "more": [
+        "label": "Die antragstellende Person ist eine nat&uuml;rliche Person und verf&uuml;gt &uuml;ber ein Bankkonto f&uuml;r den Einzug der Kfz-Steuer"
+      },
       {
-        "url": "https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Ausweis-weg/ausweis-weg_node.html",
-        "label": "Ausweis weg? – Wir helfen Ihnen (Informationsseite des Bundes-Innenministeriums)"
+        "label": "Bezahlung der Geb&uuml;hr mittels ePayment-System"
+      },
+      {
+        "label": "internetbasierte Erteilung eines SEPA-Mandats f&uuml;r die Einziehung der Kfz-Steuer",
+        "content": "Hinweis:<br>eine Steuerbefreiung / -verg&uuml;nstigung nach &sect;3a Absatz 1 oder 2 KraftStG muss im Nachgang bei der Zollbeh&ouml;rde gesondert beantragt werden"
+      },
+      {
+        "label": "Es d&uuml;rfen keine Kraftfahrzeugsteuerr&uuml;ckst&auml;nde beim Hauptzollamt oder Geb&uuml;hrenr&uuml;ckst&auml;nde beim Land Berlin bestehen"
       }
-    ],
-    "appointment": {
-      "behoerden": [
+      ],
+      "documents":[
         {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122210&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Halemweg (Außenstelle)"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122217&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Heerstraße"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122219&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Hohenzollerndamm"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122227&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Wilmersdorfer Straße"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122210,122217,122219,122227&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Charlottenburg - Wilmersdorf"
+        "label": "Zulassungsbescheinigung Teil II (ZB II) mit aufgebrachtem Sicherheitscode"
+      },
+      {
+        "label": "Besitz eines Personaldokumentes",
+        "content": "Sie m&uuml;ssen im Rahmen der Antragstellung ihr Personaldokument als Scan oder Foto hochladen."
+      },
+      {
+        "label": "Nachweis einer g&uuml;ltigen Kfz-Haftpflichtversicherung &uuml;ber das eVB-Verfahren mit Erhalt einer siebenstelligen elektronischen Versicherungsbest&auml;tigungsnummer (eVB)",
+        "content": "Die Halterdaten (Daten auf dem Personalausweis) d&uuml;rfen nicht von den eVB-Daten abweichen, es sei denn, ein abweichender Halter ist durch den Versicherer erlaubt."
+      }
+      ],
+      "costs": [
+        "37,18 Euro",
+        "Zus&auml;tzliche Kosten entstehen",
+        "• f&uuml;r die Nummernschilder, die Sie sich anfertigen lassen m&uuml;ssen und",
+        "• falls Sie sich ein Wunschkennzeichen aussuchen."
+      ],
+      "legal":[
+        {
+        "url": "https://www.gesetze-im-internet.de/fzv_2011/",
+        "label": "Fahrzeug-Zulassungsverordnung (FZV)"
+          },
+          {
+        "url": "https://www.gesetze-im-internet.de/stgebo_2011/",
+        "label": "Geb&uuml;hrenordnung f&uuml;r Ma&szlig;nahmen im Stra&szlig;enverkehr (GebOSt)"
+          },
+          {
+        "label": "Kfz-Zulassungsvoraussetzungsgesetz (Kfz-ZVG)"
+          },
+          {
+        "url": "https://www.gesetze-im-internet.de/kraftstg/",
+        "label": "Kraftfahrzeugsteuergesetz (KraftStG)"
+          },
+          {
+        "url": "https://www.gesetze-im-internet.de/stvzo_2012/",
+        "label": "Stra&szlig;enverkehrs-Zulassungs-Ordnung (StVZO)"
           }
+      ],
+      "time": "Nach der abschlie&szlig;enden Bearbeitung des elektronischen Antrags in der KFZ-Zulassungsbeh&ouml;rde erhalten Sie einen Zulassungsbescheid. Drei Tage nach der Versendung des Zulassungsbescheides gilt das Fahrzeug als zugelassen. Die Unterlagen erhalten Sie mittels Zustellungsurkunden.",
+      "more": [
+        {
+          "url": "https://www.berlin.de/labo/mobilitaet/kfz-zulassung/artikel.908665.php",
+          "label": "FAQ i-KFZ / internetbasierte Antr&auml;ge (Online-Zulassung)"
         },
         {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122231&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 1 (Kreuzberg), Yorckstraße"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122238&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 2.0 Ausbildungsbürgeramt Schlesische Str."
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122243&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 3 (Friedrichshain), Frankfurter Allee"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122231,122238,122243&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Friedrichshain - Kreuzberg"
-          }
+          "url": "https://www.ausweisapp.bund.de/ausweisapp2/",
+          "label": "Informationen und Download der AusweisApp2"
         },
         {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122252&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 1 (Neu- Hohenschönhausen) "
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122260&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 2 (Lichtenberg)"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122262&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 3 (Friedrichsfelde) Tierparkcenter"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122254&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt 4 (Alt- Hohenschönhausen)"
-            },
-            {
-              "label": "Mobiles Bürgeramt Bibliothek Anton-Saefkow"
-            },
-            {
-              "label": "Mobiles Bürgeramt FSE Pflegeeinrichtung Käthe Kern"
-            },
-            {
-              "label": "Mobiles Bürgeramt Jobcenter Lichtenberg"
-            },
-            {
-              "label": "Mobiles Bürgeramt Seniorenzentrum Am Obersee"
-            },
-            {
-              "label": "Mobiles Bürgeramt Stadtteilzentrum Ikarus"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122252,122260,122262,122254&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Lichtenberg"
-          }
+          "url": "https://www.zoll.de/DE/Fachthemen/Steuern/Verkehrsteuern/Kraftfahrzeugsteuer/kraftfahrzeugsteuer_node.html",
+          "label": "Informationen des Zolls zu Steuerverg&uuml;nstigungen / Steuerbefreiungen"
         },
         {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122271&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Biesdorf - Center"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122273&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Helle Mitte"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122277&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Marzahner Promenade"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122271,122273,122277&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Marzahn - Hellersdorf"
-          }
+          "url": "https://www.bmvi.de/SharedDocs/DE/Artikel/StV/Strassenverkehr/internetbasierte-fahrzeugzulassung.html",
+          "label": "Informationen des Bundesministeriums f&uuml;r Verkehr und digitale Infrastruktur"
         },
         {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122280&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Rathaus Mitte"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122282&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Rathaus Tiergarten"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122284&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Wedding "
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122280,122282,122284&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Mitte"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122291&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Blaschkoallee"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122285&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Rathaus Neukölln"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122286&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Sonnenallee"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122296&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Zwickauer Damm"
-            },
-            {
-              "label": "Mobiles Bürgeramt Alt-Buckow"
-            },
-            {
-              "label": "Mobiles Bürgeramt Rudow"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122291,122285,122286,122296&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Neukölln"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=150230&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Karow / Buch"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122301&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Pankow"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122297&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Prenzlauer Berg"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122294&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Weißensee"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=150230,122301,122297,122294&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Pankow"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122312&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Heiligensee"
-            },
-            {
-              "url": "https://service.berlin.de/dienstleistung/120697/standort/122314/&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Märkisches Viertel"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122304&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Rathaus Reinickendorf"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122311&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Reinickendorf-Ost"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122309&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Tegel"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122312,122314,122304,122311,122309&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Reinickendorf"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122281&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Rathaus Spandau"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=324414&anliegen[]=120682&herkunft=1",
-              "label": "Bürgerbüro Falkenhagener Feld"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122283&anliegen[]=120682&herkunft=1",
-              "label": "Bürgerbüro Kladow"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122279&anliegen[]=120682&herkunft=1",
-              "label": "Bürgerbüro Wasserstadt"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122281,324414,122283,122279&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Spandau"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122276&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Lankwitz"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122274&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Steglitz"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122267&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Zehlendorf"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122276,122274,122267&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Steglitz-Zehlendorf"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122246&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Lichtenrade"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122251&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Schöneberg"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=327653&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Schöneberg Ausbildungsarbeitsplätze"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122257&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt Tempelhof"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122246,122251,327653,122257&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Tempelhof-Schöneberg"
-          }
-        },
-        {
-          "offices": [
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122208&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt I in Köpenick"
-            },
-            {
-              "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=122226&anliegen[]=120682&herkunft=1",
-              "label": "Bürgeramt II in Schöneweide"
-            }
-          ],
-          "all": {
-            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122208,122226&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-            "label": "Bezirksamt Treptow-Köpenick"
-          }
+          "url": "https://service.berlin.de/dienstleistung/121484/",
+          "label": "Kraftfahrzeugkennzeichen reservieren"
+        },{
+          "url": "https://service.berlin.de/dienstleistung/329045/",
+          "label": "Online - Feinstaubplakette beantragen"
         }
       ],
-      "berlin": {
-        "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&anliegen[]=120682&dienstleisterlist=122210,122217,122219,122227,122231,122238,122243,122252,122260,122262,122254,122271,122273,122277,122280,122282,122284,122291,122285,122286,122296,150230,122301,122297,122294,122312,122304,122311,122309,122281,324414,122283,122279,122276,122274,122267,122246,122251,327653,122257,122208,122226&herkunft=http%3A%2F%2Fservice.berlin.de%2Fdienstleistung%2F120682%2F",
-        "label": "Termin berlinweit suchen und buchen"
+      "appointment": {
+        "behoerden": [
+          {
+            "offices": [
+              {
+                "label": "Landesamt f&uuml;r B&uuml;rger- und Ordnungsangelegenheiten"
+              },
+              {
+                "url": "https://www.berlin.de/labo/mobilitaet/kfz-zulassung/dienstleistungen/service.850473.php/dienstleistung/329030/standort/121364/",
+                "label": "Kfz-Zulassungsbeh&ouml;rde-Friedr.-Kreuzberg"
+              },
+              {
+                "url": "https://www.berlin.de/labo/mobilitaet/kfz-zulassung/dienstleistungen/service.850473.php/dienstleistung/329030/standort/121362/",
+                "label": "Kfz-Zulassungsbeh&ouml;rde-Lichtenberg"
+              }
+            ]
+          }
+        ]
       }
     }
-  }
   },
   "appendix": {
     "324873": {
