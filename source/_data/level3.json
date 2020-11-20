@@ -1941,8 +1941,6 @@
         "label": "Falls vorhanden: g&#xFC;ltiges Ausweis-Dokument",
         "content": "zum Beispiel<br><ul class=\"list\"><li>Ihr Personalausweis, falls Sie einen haben, oder</li><li>Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.</li></ul>"
       },
-      "Ihr Personalausweis, falls Sie einen haben, oder",
-      "Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.",
       {
         "label": "Unter Umst&#xE4;nden: Personenstandsurkunde",
         "content": "Bringen Sie bitte eine Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde mit,<br><ul class=\"list\"><li>falls Sie noch nie einen Personalausweis oder einen Reisepass hatten,</li><li>falls Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein (mehr unter Weiterf&#xFC;hrende Informationen).</li></ul>"
