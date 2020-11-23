@@ -29,8 +29,9 @@ toggleButtons.forEach((toggleButton) => {
 
 // PRINT PAGE
 const printButton = document.querySelector(".print-button");
+const printPDFButton = document.querySelector(".print-pdf-button");
 
-printButton.addEventListener("click", () => {
+const handlePrint = () => {
   const detailsElements = document.querySelectorAll("details");
 
   detailsElements.forEach((el) => {
@@ -42,4 +43,7 @@ printButton.addEventListener("click", () => {
   detailsElements.forEach((el) => {
     el.removeAttribute("open");
   });
-});
+};
+
+printButton.addEventListener("click", handlePrint);
+printPDFButton.addEventListener("click", handlePrint);
