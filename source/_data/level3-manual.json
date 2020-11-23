@@ -335,9 +335,7 @@
       "title": "Wohnung abmelden",
       "intro": "<p>Sie geben eine Berliner Wohnung auf, weil Sie in das Ausland verziehen<br><br><strong>oder</strong><br>Sie geben eine von mehreren Wohnungen in Deutschland auf, f&uuml;r die Sie angemeldet sind <strong>und</strong> die Berliner Wohnung bleibt bestehen<br><br><strong>oder</strong><br>Sie geben eine von mehreren Berliner Wohnungen auf, f&uuml;r die Sie angemeldet sind<br><br>Sie m&uuml;ssen sich bei der Meldebeh&ouml;rde in Berlin nur bei einem Wegzug ins Ausland abmelden oder bei der Aufgabe einer Haupt- oder Nebenwohnung, ohne dass Sie in eine andere Wohnung im Inland einziehen.<br><br>Beim Wegzug in das Ausland gilt, dass Sie aus dieser Wohnung ausziehen und dort zuk&uuml;nftig nicht wieder wohnen werden - befristete Auslandsaufenthalte, z.B. zu Studienzwecken bedingen keine Abmeldung.<br><br>Die Abmeldung kann im Zeitraum von 7 Tagen vor, muss aber bis 14 Tage nach dem Auszug vorgenommen werden. Sie erhalten eine Abmeldebest&auml;tigung.<br><br><strong>Hinweis:</strong><br>Wenn Sie jedoch innerhalb Deutschlands nur umziehen wollen, brauchen Sie sich lediglich bei der Meldebeh&ouml;rde Ihrer neuen Wohnung anmelden.</p>",
       "requirements":[
-        {
-          "label": "keine"
-        }
+        "keine"
       ],
       "documents":[
         {
@@ -976,27 +974,17 @@
       "title": "KFZ anmelden",
       "intro": "<p>Mit der 3. Stufe der internetbasierten Fahrzeugzulassung ist es als Privatperson ab dem 01.10.2019 m&ouml;glich, eine Neuzulassung online durchzuf&uuml;hren. Es ist auch m&ouml;glich, ein gebrauchtes Fahrzeug, welches bisher noch nicht zugelassen war, &uuml;ber diese Dienstleistung erstmalig zuzulassen.<br>Sie k&ouml;nnen die Zulassung bequem von zu Hause vornehmen und bekommen alle Unterlagen nach erfolgter Zulassung von uns zugeschickt.<br>Die Zulassungsbeh&ouml;rde stellt nach erfolgreichem Antrag die Zulassungsbescheinigung Teil I + II sowie die Siegelplakette(n) auf Plakettentr&auml;ger(n) aus und versendet die Zulassungsunterlagen inklusive des Geb&uuml;hrenbescheides an die antragstellende Person. Der / die Plakettentr&auml;ger sind durch den Halter bzw. der die Halterin auf dem Kennzeichenschild / auf den Kennzeichenschildern anzubringen. Eine entsprechende Anleitung liegt dem Schreiben von der Zulassungsbeh&ouml;rde bei.<br>F&uuml;r den Fall, dass die Pr&uuml;fung des internetbasierten Antrages ergeben sollte, dass eine der Zulassungsvoraussetzungen nicht erf&uuml;llt ist, wird die antragstellende Person hier&uuml;ber bereits am Bildschirm informiert und kann diese ggf. korrigieren.<br><br>Eine Online-Neuzulassung ist nicht m&ouml;glich:<br>&bull; wenn es zum Fahrzeug keine Zulassungsbescheinigung Teil II mit verdeckten Sicherheitscode gibt (ausgestellt nach dem 31.12.2017).<br>&bull; wenn eine Zulassung im Mehrstufenverfahren vorgenommen werden soll.<br>&bull; wenn eine Zulassung im Zusammenhang mit einem Gutachten / einer technischen &Auml;nderung erfolgen soll.<br>&bull; wenn die technischen Fahrzeugdaten nicht beim Kraftfahrt-Bundesamt abgerufen werden k&ouml;nnen, weil diese nicht in der Datenbank hinterlegt worden sind.<br>&bull; wenn das Fahrzeug aus dem Ausland kommt, oder dort bereits zugelassen war.<br><br>Hinweis: Eine Feinstaubplakette muss gesondert beantragt werden.</p>",
       "requirements":[
-        {
-        "label": "Besitz eines fabrikneuen oder Gebrauchtfahrzeugs, dass bisher nicht zugelassen wurde"
-      },
-      {
-        "label": "Die antragstellende Person ist eine nat&uuml;rliche Person und verf&uuml;gt &uuml;ber ein Bankkonto f&uuml;r den Einzug der Kfz-Steuer"
-      },
-      {
-        "label": "Bezahlung der Geb&uuml;hr mittels ePayment-System"
-      },
+        "Besitz eines fabrikneuen oder Gebrauchtfahrzeugs, dass bisher nicht zugelassen wurde",
+        "Die antragstellende Person ist eine nat&uuml;rliche Person und verf&uuml;gt &uuml;ber ein Bankkonto f&uuml;r den Einzug der Kfz-Steuer",
+        "Bezahlung der Geb&uuml;hr mittels ePayment-System",
       {
         "label": "internetbasierte Erteilung eines SEPA-Mandats f&uuml;r die Einziehung der Kfz-Steuer",
         "content": "Hinweis:<br>eine Steuerbefreiung / -verg&uuml;nstigung nach &sect;3a Absatz 1 oder 2 KraftStG muss im Nachgang bei der Zollbeh&ouml;rde gesondert beantragt werden"
       },
-      {
-        "label": "Es d&uuml;rfen keine Kraftfahrzeugsteuerr&uuml;ckst&auml;nde beim Hauptzollamt oder Geb&uuml;hrenr&uuml;ckst&auml;nde beim Land Berlin bestehen"
-      }
+      "Es d&uuml;rfen keine Kraftfahrzeugsteuerr&uuml;ckst&auml;nde beim Hauptzollamt oder Geb&uuml;hrenr&uuml;ckst&auml;nde beim Land Berlin bestehen"
       ],
       "documents":[
-        {
-        "label": "Zulassungsbescheinigung Teil II (ZB II) mit aufgebrachtem Sicherheitscode"
-      },
+        "Zulassungsbescheinigung Teil II (ZB II) mit aufgebrachtem Sicherheitscode",
       {
         "label": "Besitz eines Personaldokumentes",
         "content": "Sie m&uuml;ssen im Rahmen der Antragstellung ihr Personaldokument als Scan oder Foto hochladen."
@@ -1009,8 +997,8 @@
       "costs": [
         "37,18 Euro",
         "Zus&auml;tzliche Kosten entstehen",
-        "• f&uuml;r die Nummernschilder, die Sie sich anfertigen lassen m&uuml;ssen und",
-        "• falls Sie sich ein Wunschkennzeichen aussuchen."
+        "f&uuml;r die Nummernschilder, die Sie sich anfertigen lassen m&uuml;ssen und",
+        "falls Sie sich ein Wunschkennzeichen aussuchen."
       ],
       "legal":[
         {
