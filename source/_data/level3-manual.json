@@ -1075,6 +1075,30 @@
           "destination": "https://fms.verwalt-berlin.de/kita"
         }
       ]
+    },
+    "324573": {
+      "links": [
+        {
+          "label": "Online erledigen",
+          "destination": "https://www.berlin.de/pass-pa-statusabfrage"
+        }
+      ]
+    },
+    "324325": {
+      "links": [
+        {
+          "label": "Online erledigen",
+          "destination": "https://www.berlin.de/pass-pa-statusabfrage"
+        }
+      ]
+    },
+    "324879": {
+      "links": [
+        {
+          "label": "Online erledigen",
+          "destination": "https://fms.verwalt-berlin.de/kita"
+        }
+      ]
     }
   }
 }
