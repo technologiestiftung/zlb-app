@@ -1099,6 +1099,14 @@
           "destination": "https://fms.verwalt-berlin.de/kita"
         }
       ]
+    },
+    "120926": {
+      "links": [
+        {
+          "label": "Online erledigen",
+          "destination": "https://www.fuehrungszeugnis.bund.de/"
+        }
+      ]
     }
   }
 }
