@@ -33,7 +33,9 @@ module.exports = async function () {
       ...data[key],
       ...appendedContent,
       key,
-      parent: { key: parentGroup.key, title: parentGroup.title },
+      parent: parentGroup
+        ? { key: parentGroup.key, title: parentGroup.title }
+        : null,
     });
   });
   return array;

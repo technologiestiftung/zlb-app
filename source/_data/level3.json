@@ -22,7 +22,6 @@
         "label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile&amp;v=2\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a>",
         "content": "Beachten Sie die Fotomustertafel der Bundesdruckerei. Auch f&#xFC;r den vorl&#xE4;ufigen  Personalausweis sollen nur noch biometrietaugliche Fotos wie in Reisep&#xE4;ssen verwendet werden.<br><ul class=\"list\"><li>Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen Sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben.</li></ul>"
       },
-      "Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen Sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben.",
       {
         "label": "Bisheriger Personalausweis, wenn vorhanden",
         "content": "Ein vorhandener Personalausweis ist auch dann dem B&#xFC;rgeramt vorzulegen, wenn dieser bereits abgelaufen ist."
@@ -488,18 +487,13 @@
       {
         "label": "Schriftliche Anmeldung oder pers&#xF6;nliches Erscheinen (Vertretung m&#xF6;glich)",
         "content": "<ul class=\"list\"><li>Sie k&#xF6;nnen sich schriftlich per E-Mail oder Post anmelden. Diese Regelung gilt nur bis zum 31.12.2020.</li><li>Sie k&#xF6;nnen sich auch vor Ort anmelden oder sich durch eine andere Person vor Ort vertreten lassen. Daf&#xFC;r m&#xFC;ssen Sie der anderen Person eine Vollmacht und das ausgef&#xFC;llte Anmelde-Formular mitgeben. Dieses Formular m&#xFC;ssen Sie selbst unterschreiben. Das Anmelde-Formular finden Sie im Abschnitt &#x201E;Formulare&#x201C;.</li></ul>"
-      },
-      "Sie k&#xF6;nnen sich schriftlich per E-Mail oder Post anmelden. Diese Regelung gilt nur bis zum 31.12.2020.",
-      "Sie k&#xF6;nnen sich auch vor Ort anmelden oder sich durch eine andere Person vor Ort vertreten lassen. Daf&#xFC;r m&#xFC;ssen Sie der anderen Person eine Vollmacht und das ausgef&#xFC;llte Anmelde-Formular mitgeben. Dieses Formular m&#xFC;ssen Sie selbst unterschreiben. Das Anmelde-Formular finden Sie im Abschnitt &#x201E;Formulare&#x201C;."
+      }
     ],
     "documents": [
       {
         "label": "Bei schriftlicher Anmeldung:",
         "content": "<ul class=\"list\"><li>Senden sie alle Unterlagen als <strong>Farbkopie bzw. Farbscan</strong> an das Meldeamt (B&#xFC;rgeramt), in dessen Bezirk Sie ziehen m&#xF6;chten. Nutzen Sie bitte <strong>ausschlie&#xDF;lich das pdf-Format</strong>, wenn Sie Dateien per E-Mail senden m&#xF6;chten. Folgende Unterlagen ben&#xF6;tigen Sie (unter &quot;Formulare&quot;):</li></ul>&#x2022; Identit&#xE4;tsnachweis (Personaldokument)<br>&#x2022; Beiblatt zur Anmeldung/Hauptwohnungserkl&#xE4;rung (bei mehreren Wohnungen)<br>&#x2022; Anmeldeformular mit erkennbarer Unterschrift wie auf dem Personaldokument<br>&#x2022; ggf. Personenstandsurkunde<br>&#x2022; Einzugsbest&#xE4;tigung des Wohnungsgebers (Vermieter) ausgef&#xFC;llt und mit Unterschrift<br>&#x2022; ggf. die Einverst&#xE4;ndniserkl&#xE4;rung des abwesenden Sorgeberechtigten und dessen Pass oder Personalausweis<br><ul class=\"list\"><li>Die Anmeldung einer Wohnung wird nur vorgenommen, wenn keine Zweifel an der Identit&#xE4;t des Meldepflichtigen oder der Eindeutigkeit der eingereichten Unterlagen bestehen. Bei Vorliegen von Zweifeln ist eine Vorsprache der meldepflichtigen Person notwendig. In diesem Fall erfolgt eine Mitteilung durch das B&#xFC;rgeramt.</li><li><strong>Die Aktualisierung des Personalausweises (elektronisches Speichermedium und Adressaufkleber) wird erst bei der n&#xE4;chsten Vorsprache in einem B&#xFC;rgeramt vorgenommen.</strong> Bis zu der Vorsprache k&#xF6;nnen Sie f&#xFC;r den Nachweis Ihrer Meldeadresse die Meldebest&#xE4;tigung oder die Meldebescheinigung (siehe &quot;Weiterf&#xFC;hrende Informationen&quot;), die aufgrund Ihres Antrags erstellt wird, nutzen.</li><br></ul><strong>Bei pers&#xF6;nlicher Anmeldung:</strong>"
       },
-      "Senden sie alle Unterlagen als <strong>Farbkopie bzw. Farbscan</strong> an das Meldeamt (B&#xFC;rgeramt), in dessen Bezirk Sie ziehen m&#xF6;chten. Nutzen Sie bitte <strong>ausschlie&#xDF;lich das pdf-Format</strong>, wenn Sie Dateien per E-Mail senden m&#xF6;chten. Folgende Unterlagen ben&#xF6;tigen Sie (unter &quot;Formulare&quot;):",
-      "Die Anmeldung einer Wohnung wird nur vorgenommen, wenn keine Zweifel an der Identit&#xE4;t des Meldepflichtigen oder der Eindeutigkeit der eingereichten Unterlagen bestehen. Bei Vorliegen von Zweifeln ist eine Vorsprache der meldepflichtigen Person notwendig. In diesem Fall erfolgt eine Mitteilung durch das B&#xFC;rgeramt.",
-      "<strong>Die Aktualisierung des Personalausweises (elektronisches Speichermedium und Adressaufkleber) wird erst bei der n&#xE4;chsten Vorsprache in einem B&#xFC;rgeramt vorgenommen.</strong> Bis zu der Vorsprache k&#xF6;nnen Sie f&#xFC;r den Nachweis Ihrer Meldeadresse die Meldebest&#xE4;tigung oder die Meldebescheinigung (siehe &quot;Weiterf&#xFC;hrende Informationen&quot;), die aufgrund Ihres Antrags erstellt wird, nutzen.",
       {
         "label": "Identit&#xE4;tsnachweis",
         "content": "Personalausweis, Reisepass, Kinderreisepass f&#xFC;r deutsche Staatsangeh&#xF6;rige oder Nationalpass oder Passersatzpapiere f&#xFC;r ausl&#xE4;ndische Staatsangeh&#xF6;rige.<br>Bitte bringen Sie alle genannten und Ihnen vorliegenden Dokumente f&#xFC;r alle umziehenden Personen mit."
@@ -1545,16 +1539,10 @@
         "label": "Pers&#xF6;nliche Antragstellung",
         "content": "<ul class=\"list\"><li>Online-Abwicklung: Daf&#xFC;r ben&#xF6;tigen Sie einen Personalausweis oder elektronischen Aufenthaltstitel (eAT) mit freigeschalteter Online-Ausweisfunktion.</li><li>Vor Ort: pers&#xF6;nliche Vorsprache</li><li>Schriftlich (per Post): Schicken Sie einen formlosen Antrag mit eigenh&#xE4;ndiger Unterschrift an ein B&#xFC;rgeramt zusammen mit einer Kopie Ihres Personalausweises oder Reisepasses. Bitte &#xFC;berweisen Sie vorab die Geb&#xFC;hr und f&#xFC;gen Sie Ihrem Antrag den Zahlbeleg bei. Den Betrag finden Sie unter &quot;Geb&#xFC;hren&quot; und die Bankverbindung unter &quot;Weiterf&#xFC;hrende Informationen&quot;.</li><li>F&#xFC;r Minderj&#xE4;hrige k&#xF6;nnen auch deren gesetzliche Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind normalerweise die Eltern.</li></ul>"
       },
-      "Online-Abwicklung: Daf&#xFC;r ben&#xF6;tigen Sie einen Personalausweis oder elektronischen Aufenthaltstitel (eAT) mit freigeschalteter Online-Ausweisfunktion.",
-      "Vor Ort: pers&#xF6;nliche Vorsprache",
-      "Schriftlich (per Post): Schicken Sie einen formlosen Antrag mit eigenh&#xE4;ndiger Unterschrift an ein B&#xFC;rgeramt zusammen mit einer Kopie Ihres Personalausweises oder Reisepasses. Bitte &#xFC;berweisen Sie vorab die Geb&#xFC;hr und f&#xFC;gen Sie Ihrem Antrag den Zahlbeleg bei. Den Betrag finden Sie unter &quot;Geb&#xFC;hren&quot; und die Bankverbindung unter &quot;Weiterf&#xFC;hrende Informationen&quot;.",
-      "F&#xFC;r Minderj&#xE4;hrige k&#xF6;nnen auch deren gesetzliche Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind normalerweise die Eltern.",
       {
         "label": "<a href=\"https://www.berlin.de/labo/_assets/buergerdienste/bankverbindungen-der-buergeraemter.pdf\" target=\"_blank\">ggf. &#xDC;berweisung der Geb&#xFC;hr</a>",
         "content": "Wenn Sie Ihren Antrag schriftlich stellen, <strong>&#xFC;berweisen Sie bitte vorab die Geb&#xFC;hr auf das Konto des Bezirks</strong> und f&#xFC;gen Sie Ihren Zahlbeleg bei.<br><ul class=\"list\"><li>Bitte geben Sie im <strong>Verwendungszweck</strong> &quot;F&#xFC;hrungszeugnis f&#xFC;r Name, Vorname&quot; an.</li><li>Die Kontoverbindungen der Bezirke entnehmen Sie der Liste unter &quot;Weiterf&#xFC;hrende Informationen&quot;.</li></ul>"
       },
-      "Bitte geben Sie im <strong>Verwendungszweck</strong> &quot;F&#xFC;hrungszeugnis f&#xFC;r Name, Vorname&quot; an.",
-      "Die Kontoverbindungen der Bezirke entnehmen Sie der Liste unter &quot;Weiterf&#xFC;hrende Informationen&quot;.",
       {
         "label": "F&#xFC;r ein europ&#xE4;isches F&#xFC;hrungszeugnis",
         "content": "Sie haben die Staatsangeh&#xF6;rigkeit eines anderen Mitgliedsstaates der Europ&#xE4;ischen Union."
@@ -1569,8 +1557,6 @@
         "label": "F&#xFC;r ein beh&#xF6;rdliches F&#xFC;hrungszeugnis",
         "content": "<ul class=\"list\"><li>Name und Anschrift der Beh&#xF6;rde, f&#xFC;r die das F&#xFC;hrungszeugnis bestimmt ist</li><li>Aktenzeichen und Verwendungszweck</li></ul>"
       },
-      "Name und Anschrift der Beh&#xF6;rde, f&#xFC;r die das F&#xFC;hrungszeugnis bestimmt ist",
-      "Aktenzeichen und Verwendungszweck",
       {
         "label": "F&#xFC;r ein erweitertes F&#xFC;hrungszeugnis (schriftliche Aufforderung einer berechtigten Stelle)",
         "content": "Die Stelle, die das F&#xFC;hrungszeugnis von Ihnen verlangt, hat ausdr&#xFC;cklich ein erweitertes F&#xFC;hrungszeugnis gefordert. Dies ist nur in bestimmten F&#xE4;llen m&#xF6;glich, zum Beispiel wenn Sie mit Kindern oder Jugendlichen arbeiten sollen."
@@ -1941,14 +1927,10 @@
         "label": "Falls vorhanden: g&#xFC;ltiges Ausweis-Dokument",
         "content": "zum Beispiel<br><ul class=\"list\"><li>Ihr Personalausweis, falls Sie einen haben, oder</li><li>Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.</li></ul>"
       },
-      "Ihr Personalausweis, falls Sie einen haben, oder",
-      "Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.",
       {
         "label": "Unter Umst&#xE4;nden: Personenstandsurkunde",
         "content": "Bringen Sie bitte eine Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde mit,<br><ul class=\"list\"><li>falls Sie noch nie einen Personalausweis oder einen Reisepass hatten,</li><li>falls Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein (mehr unter Weiterf&#xFC;hrende Informationen).</li></ul>"
-      },
-      "falls Sie noch nie einen Personalausweis oder einen Reisepass hatten,",
-      "falls Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein (mehr unter Weiterf&#xFC;hrende Informationen)."
+      }
     ],
     "costs": [
       "wenn Sie j&#xFC;nger als 24 Jahre sind: 37,50 Euro",
@@ -2493,8 +2475,6 @@
         "label": "Geburtsurkunde / Auszug aus dem Familienbuch ",
         "content": "Die Vorlage Urkunde kann nur erforderlich werden,<br><ul class=\"list\"><li>wenn Sie bisher keinen Personalausweis oder Reisepass besessen haben <strong>oder</strong></li><li>wenn Abweichungen mit Eintragungen im Melderegister festgestellt werden.</li></ul>"
       },
-      "wenn Sie bisher keinen Personalausweis oder Reisepass besessen haben <strong>oder</strong>",
-      "wenn Abweichungen mit Eintragungen im Melderegister festgestellt werden.",
       {
         "label": "Nachweis &#xFC;ber eine unmittelbar bevorstehende Reise",
         "content": "z.B. Reisevertrag, Flugtickets o.&#xE4;."
@@ -3798,10 +3778,8 @@
       "<strong>Die pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich</strong><br>",
       {
         "label": "<a href=\"https://service.berlin.de/dienstleistung/326548/\" target=\"_blank\">Reisepass f&#xFC;r Minderj&#xE4;hrige</a>",
-        "content": "<ul class=\"list\"><li>das Kind muss bei der Antragstellung anwesend sein.</li><li>der Antrag ist vom gesetzlichen Vertreter zu stellen. (das sind in der Regel beide El-ternteile)</li></ul>"
-      },
-      "das Kind muss bei der Antragstellung anwesend sein.",
-      "der Antrag ist vom gesetzlichen Vertreter zu stellen. (das sind in der Regel beide El-ternteile)"
+        "content": "<ul class=\"list\"><li>das Kind muss bei der Antragstellung anwesend sein.</li><li>der Antrag ist vom gesetzlichen Vertreter zu stellen. (das sind in der Regel beide Elternteile)</li></ul>"
+      }
     ],
     "documents": [
       {
