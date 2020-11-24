@@ -1,0 +1,634 @@
+{
+  "122208": {
+    "address": ["Alt-Köpenick 21", "12555 Berlin"],
+    "public_transport": [
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Köpenick: S3"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Spindlersfeld: S47"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Freiheit: 164, N67, N69, N90"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Rathaus Köpenick: 164"
+      },
+      {
+        "type": "Tram",
+        "info": "Tram Freiheit: 27, 60, 61, 62, 67, 68"
+      },
+      {
+        "type": "Tram",
+        "info": "Tram Rathaus Köpenick: 27, 60, 61, 62, 67, 68"
+      }
+    ]
+  },
+  "122210": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122217": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122219": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122226": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122227": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122231": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122238": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122243": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122246": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122251": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122252": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122254": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122257": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122260": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122262": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122267": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122271": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122273": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122274": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122276": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122277": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122279": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122280": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122281": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122282": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122283": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122284": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122285": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122286": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122291": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122294": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122296": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122297": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122301": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122304": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122309": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122311": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122312": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122314": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "122316": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "150230": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "317869": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "324414": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "324434": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "325657": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "326001": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "326283": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327066": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327262": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327539": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327603": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327653": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327751": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327755": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327757": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327759": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "327761": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "328245": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329577": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329580": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329583": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329586": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329607": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329610": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329613": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329667": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  },
+  "329673": {
+    "address": [],
+    "public_transport": [
+      {
+        "type": "",
+        "info": ""
+      }
+    ]
+  }
+}
