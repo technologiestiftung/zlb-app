@@ -11,8 +11,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("source/fonts");
   eleventyConfig.addPassthroughCopy("source/css");
   eleventyConfig.addPassthroughCopy("source/images");
-  eleventyConfig.addPassthroughCopy({"source/js/bundle": "js"});
-  eleventyConfig.addPassthroughCopy({ "source/_data/aemter.geojson": "data/aemter.geojson" });
+  eleventyConfig.addPassthroughCopy({ "source/js/bundle": "js" });
+  eleventyConfig.addPassthroughCopy({
+    "source/_data/aemter.geojson": "data/aemter.geojson",
+  });
+  eleventyConfig.addPassthroughCopy({
+    "source/_data/libraries.geojson": "data/libraries.geojson",
+  });
 
   return {
     dir: {

@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Zentral- und Landesbibliothek Berlin (ZLB) - Amerika-Gedenkbibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.39224, 52.49715]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Stadtteilbibliothek Buch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.49289, 52.64041]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Bezirkszentralbibliothek Helene-Nathan-Bibliothek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.43239, 52.48219]
+      }
+    }
+  ]
+}
