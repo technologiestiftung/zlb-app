@@ -13,32 +13,44 @@ const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/light-v10",
   center: [13.400033, 52.520952],
-  zoom: 12,
+  zoom: 10,
 });
 
 // -------------------------------------------------------
 // Set marker data
 // -------------------------------------------------------
 const fetchData = async () => {
-  const response = await fetch("/data/aemter.geojson");
-  const data = await response.json();
+  const [aemterResponse, libraryResponse] = await Promise.all([
+    await fetch("/data/aemter.geojson"),
+    await fetch("/data/libraries.geojson"),
+  ]);
+  const aemterData = await aemterResponse.json();
+  const libraryData = await libraryResponse.json();
 
   // filter offices that offer selected service
-  const filtered = data.features.filter((feature) => {
+  const filteredAemter = aemterData.features.filter((feature) => {
     return feature.properties.details.services.some((service) => {
       return service.id === serviceId && service.appointment === true;
     });
   });
-  return {
-    ...data,
-    features: serviceId ? filtered : data.features,
-  };
+  return [
+    {
+      ...aemterData,
+      features: serviceId ? filteredAemter : data.features,
+    },
+    libraryData,
+  ];
 };
 
 map.on("load", () => {
   fetchData()
-    .then((data) => {
-      addMarkers(data);
+    .then(([aemter, libraries]) => {
+      map.loadImage("/images/icon_location.png", (error, image) => {
+        if (error) throw error;
+        map.addImage("location", image);
+        addLibraries(libraries);
+      });
+      addMarkers(aemter);
     })
     .catch((err) => console.error(err));
 });
@@ -49,7 +61,7 @@ map.on("load", () => {
 const addMarkers = (data) => {
   data.features.forEach((feature) => {
     const markerElement = document.createElement("div");
-    markerElement.className = "marker";
+    markerElement.className = "marker marker-office";
 
     const marker = new mapboxgl.Marker(markerElement).setLngLat([
       feature.geometry.coordinates[0],
@@ -75,6 +87,32 @@ const addMarkers = (data) => {
       .on("close", () => handleCloseSidebar(feature));
 
     marker.setPopup(popup).addTo(map);
+  });
+};
+
+// -------------------------------------------------------
+// Add libraries
+// -------------------------------------------------------
+const addLibraries = (data) => {
+  map.addSource("libraries", {
+    type: "geojson",
+    data: data,
+  });
+
+  map.addLayer({
+    id: "library-labels",
+    type: "symbol",
+    source: "libraries",
+    minzoom: 12,
+    layout: {
+      "text-field": ["get", "label"],
+      "text-anchor": "top",
+      "text-justify": "auto",
+      "text-offset": [0, 2],
+      "text-size": 12,
+      "icon-image": "location",
+      "icon-size": 0.75,
+    },
   });
 };
 
