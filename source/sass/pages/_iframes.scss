@@ -20,7 +20,7 @@
     align-items: flex-start;
     color: $secondary;
 
-    &::before {
+    &:not(.button)::before {
       content: url(/images/arrow_left_on.svg);
       display: inline-block;
       margin-right: 10px;

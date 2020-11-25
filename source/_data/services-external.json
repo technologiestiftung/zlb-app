@@ -1,0 +1,14 @@
+{
+	"324873":     {
+      "label": "Kita Gutschein online beantragen",
+      "url": "https://fms.verwalt-berlin.de/kita"
+    },
+    "120926":     {
+        "label": "Führungszeugnis online beantragen",
+        "url": "https://www.fuehrungszeugnis.bund.de/"
+    },
+    "kfz":     {
+        "label": "KFZ online anmelden",
+        "url": "https://kfz-portal.berlin.de/kfzonline.public/start.html?oe=00.00.11.000000"
+    }
+}

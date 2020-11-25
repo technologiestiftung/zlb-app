@@ -22,6 +22,13 @@ testdata:
             >
           </div>
           <div class="card-content has-background-white">
+
+            {% if services-external[service.key] %}
+            <a href="{{ services-external[service.key].url }}" target="service-iframe" class="button is-primary mb-4">
+              {{ services-external[service.key].label }}
+            </a>
+            {% endif %}
+
             <div class="intro py-3">
               <figure class="image is-32x32">
                 <img
