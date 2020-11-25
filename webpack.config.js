@@ -7,6 +7,7 @@ module.exports = {
     fontsize: "./source/js/fontsize.js",
     overview: "./source/js/overview.js",
     service: "./source/js/service.js",
+    help: "./source/js/help.js",
   },
   output: {
     filename: "[name].js",
