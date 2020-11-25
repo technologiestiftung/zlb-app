@@ -146,3 +146,66 @@ const handleCloseSidebar = (data) => {
     sidebarNode.classList.remove("is-opened");
   }
 };
+
+// -------------------------------------------------------
+// Location search
+// -------------------------------------------------------
+const addressInputNode = document.querySelector("input[name=address]");
+addressInputNode.addEventListener("input", (event) => {
+  updateSearch(event);
+});
+
+const resultsNode = document.querySelector(".results");
+const clearResults = () => {
+  while (resultsNode.firstChild) {
+    resultsNode.removeChild(resultsNode.firstChild);
+  }
+};
+
+const updateSearch = async (event) => {
+  try {
+    if (event.target.value.length >= 3) {
+      const geocodingUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/${event.target.value}.json?autocomplete=true&language=de&country=de&bbox=13.0824446341071,52.3281202651866,13.7682544186827,52.681600197973&access_token=${process.env.MAPBOX_TOKEN}`;
+      const response = await fetch(geocodingUrl);
+      if (response.ok) {
+        const json = await response.json();
+
+        resultsNode.classList.add("is-visible");
+
+        if (resultsNode.hasChildNodes()) clearResults();
+
+        json.features.forEach((feature) => {
+          const [xCoord, yCoord] = feature.geometry.coordinates;
+
+          const listItem = document.createElement("li");
+          const listContent = document.createTextNode(
+            `${feature["place_name"]}`
+          );
+          listItem.appendChild(listContent);
+          listItem.className = "py-2 px-1 is-size-7";
+
+          listItem.onclick = () => {
+            event.target.value = "";
+            clearResults();
+
+            map.flyTo({
+              center: [xCoord, yCoord],
+              zoom: 16,
+              essential: false,
+            });
+          };
+
+          resultsNode.appendChild(listItem);
+        });
+      } else {
+        return;
+      }
+    } else {
+      if (resultsNode.classList.contains("is-visible"))
+        resultsNode.classList.remove("is-visible");
+    }
+  } catch (error) {
+    console.error(error);
+    return;
+  }
+};
