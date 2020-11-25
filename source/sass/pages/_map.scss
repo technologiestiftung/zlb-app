@@ -54,3 +54,21 @@ aside#map-sidebar {
     font-style: inherit;
   }
 }
+
+.sidebar-search .results {
+  display: none;
+  &.is-visible {
+    display: block;
+  }
+
+  & > li {
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    &:hover {
+      background-color: $background;
+    }
+    &:not(:first-of-type) {
+      border-top: 1px solid $text;
+    }
+  }
+}
