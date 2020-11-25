@@ -229,7 +229,7 @@ eleventyComputed:
         </div>
       </article>
       <aside class="column is-3">
-        <div>
+        <div class="sidebar-wrapper">
           <a href="/map/?serviceId={{ service.key }}" class="button is-primary"
             >Termin in meiner Nähe suchen</a
           >
@@ -265,7 +265,7 @@ eleventyComputed:
             {{ service.title }}
           </a>
 
-          <div class="print-wrapper">
+          <div class="print-wrapper mb-6">
             <button class="print-button is-size-6">
               <div class="print-icon-wrapper">
                 <figure class="image is-1by1">
@@ -276,7 +276,15 @@ eleventyComputed:
             </button>
           </div>
         </div>
-      </aside>
+        <div >
+          <div class="scroll-up-wrapper">
+            <button class="scroll-up-button is-size-6">
+              <img src="/images/arrow_up_off.svg" alt="Pfeil nach oben" />
+              <p class="mt-1">zum Seitenanfang</p>
+            </button>
+          </div>
+        </div>
+    </aside>
     </section>
   </div>
 </main>
