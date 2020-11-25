@@ -1,4 +1,5 @@
 import mapboxgl from "mapbox-gl";
+import { bbox } from "@turf/turf";
 // -------------------------------------------------------
 // Initialize map
 // -------------------------------------------------------
@@ -9,11 +10,16 @@ const serviceId = url.searchParams.has("serviceId")
   ? url.searchParams.get("serviceId")
   : undefined;
 
+const initialMapSettings = {
+  center: [13.400033, 52.520952],
+  zoom: 10,
+};
+
 const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/light-v10",
-  center: [13.400033, 52.520952],
-  zoom: 10,
+  center: initialMapSettings.center,
+  zoom: initialMapSettings.zoom,
 });
 
 // -------------------------------------------------------
@@ -209,3 +215,47 @@ const updateSearch = async (event) => {
     return;
   }
 };
+
+// -------------------------------------------------------
+// District select
+// -------------------------------------------------------
+let bezirksgrenzenData = {};
+const selectNode = document.querySelector("select");
+selectNode.onchange = (event) => {
+  if (!event.target.value) {
+    map.flyTo({
+      center: initialMapSettings.center,
+      zoom: initialMapSettings.zoom,
+    });
+    return;
+  }
+
+  const selectedData = bezirksgrenzenData.features.find((bezirk) => {
+    return bezirk.properties["Gemeinde_name"] === event.target.value;
+  });
+  const [minX, minY, maxX, maxY] = bbox(selectedData.geometry);
+  map.fitBounds([
+    [minX, minY],
+    [maxX, maxY],
+  ]);
+};
+
+const fetchDistrictData = async () => {
+  const response = await fetch("/data/bezirksgrenzen.geojson");
+  const data = response.json();
+  return data;
+};
+
+fetchDistrictData()
+  .then((data) => {
+    bezirksgrenzenData = data;
+    data.features.forEach((feature) => {
+      const option = document.createElement("option");
+      const optionContent = document.createTextNode(
+        `${feature.properties["Gemeinde_name"]}`
+      );
+      option.appendChild(optionContent);
+      selectNode.appendChild(option);
+    });
+  })
+  .catch((error) => console.error(error));
