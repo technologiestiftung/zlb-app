@@ -1,8 +1,6 @@
 {
   "122208": {
     "address": ["Alt-Köpenick 21", "12555 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90297-2845",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -32,8 +30,6 @@
   },
   "122210": {
     "address": ["Halemweg 18", "13627 Berlin"],
-    "phone": "(030) 9029-25222",
-    "fax": "(030) 9029-25223",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -75,8 +71,6 @@
   },
   "122217": {
     "address": ["Heerstr. 12", "14052 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9029-17780",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -94,8 +88,6 @@
   },
   "122219": {
     "address": ["Hohenzollerndamm 177", "10713 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9029-16211",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -109,8 +101,6 @@
   },
   "122226": {
     "address": ["Michael-Brückner-Str. 1", "12439 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90297-4021",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -128,8 +118,6 @@
   },
   "122227": {
     "address": ["Wilmersdorfer Straße 46", "10627 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9029-18769",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -139,8 +127,6 @@
   },
   "122231": {
     "address": ["Yorckstraße 4-11", "10965 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90298-3165",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -154,8 +140,6 @@
   },
   "122238": {
     "address": ["Schlesische Straße 27 A", "10997 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90298-2999",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -165,8 +149,6 @@
   },
   "122243": {
     "address": ["Frankfurter Allee 35/37", "10247 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90298-4690",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -176,8 +158,6 @@
   },
   "122246": {
     "address": ["Briesingstrasse 6", "12307 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90277-7031",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -191,8 +171,6 @@
   },
   "122251": {
     "address": ["John-F.-Kennedy-Platz", "10825 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90277-7021",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -222,8 +200,6 @@
   },
   "122252": {
     "address": ["Egon-Erwin-Kisch-Straße 106", "13059 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-777819",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -277,8 +253,6 @@
   },
   "122254": {
     "address": ["Große-Leege-Str. 103", "13055 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-776022",
     "public_transport": [
       {
         "type": "Bus",
@@ -308,8 +282,6 @@
   },
   "122257": {
     "address": ["Tempelhofer Damm 165", "12099 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90277-7011",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -335,8 +307,6 @@
   },
   "122260": {
     "address": ["Normannenstr. 1-2", "10367 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-776611",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -394,8 +364,6 @@
   },
   "122262": {
     "address": ["Otto-Schmirgal-Straße 7", "10319 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-773022",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -441,8 +409,6 @@
   },
   "122267": {
     "address": ["Kirchstr. 1/3", "14163 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90299-6336",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -456,8 +422,6 @@
   },
   "122271": {
     "address": ["Elsterwerdaer Platz 3", "12683 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90293-5515",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -471,8 +435,6 @@
   },
   "122273": {
     "address": ["Alice-Salomon-Platz 3", "12627 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90293-2545",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -502,8 +464,6 @@
   },
   "122274": {
     "address": ["Schloßstr. 37", "12163 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90299-3370",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -521,8 +481,6 @@
   },
   "122276": {
     "address": ["Gallwitzallee 87", "12249 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90299-4870",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -536,8 +494,6 @@
   },
   "122277": {
     "address": ["Marzahner Promenade 11", "12679 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90293-2555",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -571,8 +527,6 @@
   },
   "122279": {
     "address": ["Hugo-Cassirer-Str. 48", "13587 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90279-8420",
     "public_transport": [
       {
         "type": "Bus",
@@ -598,8 +552,6 @@
   },
   "122280": {
     "address": ["Karl-Marx-Allee 31", "10178 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030)9018 23060",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -617,8 +569,6 @@
   },
   "122281": {
     "address": ["Carl-Schurz-Str. 2/6", "13597 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90279-2828",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -656,8 +606,6 @@
   },
   "122282": {
     "address": ["Mathilde-Jacob-Platz 1", "10551 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030)9018 32072",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -675,8 +623,6 @@
   },
   "122283": {
     "address": ["Parnemannweg 22", "14089 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90279-2828",
     "public_transport": [
       {
         "type": "Bus",
@@ -706,8 +652,6 @@
   },
   "122284": {
     "address": ["Osloer Str. 36", "13359 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030)9018 47656",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -725,8 +669,6 @@
   },
   "122285": {
     "address": ["Donaustr. 29", "12043 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90239-3320",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -744,8 +686,6 @@
   },
   "122286": {
     "address": ["Sonnenallee 107", "12045 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 4664 - 508899",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -771,8 +711,6 @@
   },
   "122291": {
     "address": ["Blaschkoallee 32", "12359 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90239-1369",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -790,8 +728,6 @@
   },
   "122294": {
     "address": ["Berliner Allee 252 - 260", "13088 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90295-7843",
     "public_transport": [
       {
         "type": "Bus",
@@ -821,8 +757,6 @@
   },
   "122296": {
     "address": ["Zwickauer Damm 52", "12353 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90239-4392",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -836,8 +770,6 @@
   },
   "122297": {
     "address": ["Fröbelstr. 17", "10405 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90295-6888",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -883,8 +815,6 @@
   },
   "122301": {
     "address": ["Breite Str. 24A - 26", "13187 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90295-2576",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -926,8 +856,6 @@
   },
   "122304": {
     "address": ["Eichborndamm 215", "13437 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90294-2994",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -945,8 +873,6 @@
   },
   "122309": {
     "address": ["Berliner Str. 35", "13507 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 4664-108999",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -996,8 +922,6 @@
   },
   "122311": {
     "address": ["Teichstr. 65", "13407 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90294-2924",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -1059,8 +983,6 @@
   },
   "122312": {
     "address": ["Ruppiner Chaussee 268", "13503 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 4664-108807",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -1086,8 +1008,6 @@
   },
   "122314": {
     "address": ["Wilhelmsruher Damm 142C", "13439 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90294-3888",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -1127,33 +1047,8 @@
       }
     ]
   },
-  "122316": {
-    "address": ["Teichstr. 65", "13407 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90294-2924",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Reinickendorf: S-Bahn 25 mit 10 Minuten Fußweg"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Paracelsusbad: U-Bahn 8 mit 5 Minuten Fußweg"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Lübener Weg: 122"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Paracelsusbad: 120 mit 5 Minuten Fußweg"
-      }
-    ]
-  },
   "150230": {
     "address": ["Franz-Schmidt-Str. 8-10", "13125 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90295-8888",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -1181,29 +1076,8 @@
       }
     ]
   },
-  "317869": {
-    "address": ["Kurhausstraße 30", "13467 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90294-5163",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Hermsdorf: S1 mit Fußweg"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Bergstr.: 125"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Loerkesteig: 220"
-      }
-    ]
-  },
   "324414": {
     "address": ["Westerwaldstr. 13", "13589 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90279-2828",
     "public_transport": [
       {
         "type": "Bus",
@@ -1227,29 +1101,8 @@
       }
     ]
   },
-  "324434": {
-    "address": ["Stargardtstr. 12-14", "13405 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 902945163",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Franz-Neumann-Platz: U8 mit 10 Minuten Fußweg"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Residenzstr.: U8 mit 10 Minuten Fußweg"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Stargardtstr.: 327 mit 5 Minuten Fußweg"
-      }
-    ]
-  },
   "325657": {
     "address": ["Alt- Rudow 60", "12355 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90239-3320",
     "public_transport": [
       {
         "type": "U-Bahn",
@@ -1285,51 +1138,8 @@
       }
     ]
   },
-  "326001": {
-    "address": ["Müllerstr. 146", "13353 Berlin"],
-    "phone": "(030) 115",
-    "fax": "030 9018 44502",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Leopoldplatz: U9"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Seestraße: U9"
-      }
-    ]
-  },
-  "326283": {
-    "address": ["Fröbelstraße 17", "10405 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90295-6215",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Prenzlauer Allee : S41, S42, S 8, S 85"
-      },
-      {
-        "type": "Tram",
-        "info": "Tram Fröbelstr. : M2"
-      }
-    ]
-  },
-  "327066": {
-    "address": ["Osloer Str. 36", "13359 Berlin"],
-    "phone": "(030) 9018-20",
-    "fax": "(030) 9018-47656",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Osloer Str: U9"
-      }
-    ]
-  },
   "327262": {
     "address": ["Alt-Buckow 16", "12349 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90239-3320",
     "public_transport": [
       {
         "type": "Bus",
@@ -1353,96 +1163,8 @@
       }
     ]
   },
-  "327539": {
-    "address": ["Mathilde-Jacob-Platz 1", "10551 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9018-34520",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Bellevue: S3, S5, S7, S9"
-      },
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Beusselstr.: S41, S46, S42"
-      },
-      {
-        "type": "S-Bahn",
-        "info": "S+U-Bahn Westhafen: S41, S46, S42"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Turmstr.: U9"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Birkenstr.: U9"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Hansaplatz: U9"
-      },
-      {
-        "type": "Bus",
-        "info": "Berlin, Rathaus Tiergarten: 101, 123, M27"
-      },
-      {
-        "type": "Bus",
-        "info": "Berlin, Alt-Moabit/Rathaus Tiergarten: 245"
-      },
-      {
-        "type": "Bus",
-        "info": "U-Bahn Turmstr. [Bus Turmstr.]: N40, 101, 123, M27, TXL, 187"
-      },
-      {
-        "type": "Tram",
-        "info": "Berlin, Lesser-Ury-Weg: M10, M5, M8"
-      },
-      {
-        "type": "Tram",
-        "info": "Berlin, Lüneburger Str.: M10, M5, M8"
-      },
-      {
-        "type": "Tram",
-        "info": "Berlin, Virchow-Klinikum: 50, M13"
-      }
-    ]
-  },
-  "327603": {
-    "address": ["John-F.-Kennedy-Platz", "10825 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 902777001",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Schöneberg: S1, S41, S42, S46, S47"
-      },
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Anschließend Bus: M46 oder 106 oder 10 Min. Fußweg"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Rathaus Schöneberg: U4"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Bayerischer Platz: U7 mit Fußweg"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Rathaus Schöneberg: M46, 104"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus Martin-Luther-Str. (mit Fußweg): 106"
-      }
-    ]
-  },
   "327653": {
     "address": ["John-F.-Kennedy-Platz", "10825 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 902777021",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -1472,8 +1194,6 @@
   },
   "327751": {
     "address": ["Wolldegker Straße 21", "13059 Berlin"],
-    "phone": "(030) 90296-7831 - 7833",
-    "fax": "(030) 90296-4609",
     "public_transport": [
       {
         "type": "Bus",
@@ -1491,8 +1211,6 @@
   },
   "327755": {
     "address": ["Wandlitzstr. 13", "10318 Berlin"],
-    "phone": "(030) 90296-7831 - 7833",
-    "fax": "(030) 90296-4609",
     "public_transport": [
       {
         "type": "Bus",
@@ -1542,8 +1260,6 @@
   },
   "327757": {
     "address": ["Degnerstr. 11", "13055 Berlin"],
-    "phone": "(030) 90296-7831 - 7833",
-    "fax": "(030) 90296-4609",
     "public_transport": [
       {
         "type": "Bus",
@@ -1577,8 +1293,6 @@
   },
   "327759": {
     "address": ["Gotlindestr. 93", "10365 Berlin"],
-    "phone": "(030) 90296-7831 - 7833",
-    "fax": "(030) 90296-4609",
     "public_transport": [
       {
         "type": "Bus",
@@ -1588,8 +1302,6 @@
   },
   "327761": {
     "address": ["Anton-Saefkow-Platz 14", "10369 Berlin"],
-    "phone": "(030) 90296-7831 - 7833",
-    "fax": "(030) 90296-4609",
     "public_transport": [
       {
         "type": "S-Bahn",
@@ -1696,212 +1408,6 @@
         "info": "Berlin, Bernhard-Bästlein-Str.: 12, 21, M10, M13, M4, M5, M8"
       }
 
-    ]
-  },
-  "328245": {
-    "address": ["Schloßstr. 37", "12163 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90299-3370",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S+U-Bahn Rathaus Steglitz: S1"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "S+U-Bahn Rathaus Steglitz [U9]: U9"
-      },
-      {
-        "type": "S-Bahn",
-        "info": "S+U-Bahn Rathaus Steglitz [Schloßstr.]: 186, M48, M85, N9, 188, 283, 285, 386, N88, 284, 380, M82"
-      }
-    ]
-  },
-  "329577": {
-    "address": ["Egon-Erwin-Kisch-Straße 106", "13059 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-4609",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Hohenschönhausen: S 75"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus: 154, 197, 256, 893, X54"
-      },
-      {
-        "type": "Tram",
-        "info": "S-Bahn Hohenschönhausen: M4, M17"
-      }
-    ]
-  },
-  "329580": {
-    "address": ["Normannenstr. 1-2", "10367 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-4609",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U+S-Bahn Frankfurter Alle: U5"
-      },
-      {
-        "type": "S-Bahn",
-        "info": "U+S-Bahn Frankfurter Alle: S8, S41, S42, S85"
-      },
-      {
-        "type": "Bus",
-        "info": "Berlin, Rathaus Lichtenberg: M13"
-      },
-      {
-        "type": "Tram",
-        "info": "U+S-Bahn Frankfurter Alle: S8, S41, S42, S85"
-      }
-    ]
-  },
-  "329583": {
-    "address": ["Otto-Schmirgal-Str. 7", "10319 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-4609",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Am Tierpark: U5"
-      },
-      {
-        "type": "Bus",
-        "info": "Bus: 296"
-      },
-      {
-        "type": "Tram",
-        "info": "Am Tierpark: M17, 27"
-      }
-    ]
-  },
-  "329586": {
-    "address": ["Große-Leege-Str. 103", "13055 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90296-4609",
-    "public_transport": [
-      {
-        "type": "Bus",
-        "info": "Bus: 256"
-      },
-      {
-        "type": "Tram",
-        "info": "Tram Oberseestr.: M 5"
-      }
-    ]
-  },
-  "329607": {
-    "address": ["Mathilde-Jacob-Platz 1", "10551 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9018-32072",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S-Bahn Bellevue: S3, S5, S7, S9"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Turmstr.: U9"
-      },
-      {
-        "type": "Bus",
-        "info": "Berlin, Rathaus Tiergarten: 101, 123, M27"
-      },
-      {
-        "type": "Tram",
-        "info": "Berlin, Lesser-Ury-Weg: M10, M5, M8"
-      }
-    ]
-  },
-  "329610": {
-    "address": ["Osloer Straße 36", "13359 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9018-47656",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Osloer Str.: U8, U9"
-      },
-      {
-        "type": "Bus",
-        "info": "U-Bahn Osloer Str.: N9, 150, 255, N52, 125, 128, N8"
-      },
-      {
-        "type": "Tram",
-        "info": "U-Bahn Osloer Str.: 50, M13"
-      }
-    ]
-  },
-  "329613": {
-    "address": ["Karl-Marx-Allee 31", "0178 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 9018-23060",
-    "public_transport": [
-      {
-        "type": "S-Bahn",
-        "info": "S+U-Bahn Jannowitzbrücke: S3, S5, S7, S9"
-      },
-      {
-        "type": "S-Bahn",
-        "info": "S+U-Bahn Alexanderplatz Bhf: S3, S5, S7, S9"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Schillingstr.: U5"
-      },
-      {
-        "type": "U-Bahn",
-        "info": "S+U-Bahn Alexanderplatz [U2]: U2"
-      },
-      {
-        "type": "Bus",
-        "info": "U-Bahn Schillingstr.: N5"
-      },
-      {
-        "type": "Bus",
-        "info": "Berlin, Mollstr./Otto-Braun-Str.: 142, 200"
-      },
-      {
-        "type": "Tram",
-        "info": "Berlin, Büschingstr.: M5, M6, M8"
-      },
-      {
-        "type": "Tram",
-        "info": "Berlin, Mollstr./Otto-Braun-Str.: M5, M6, M8"
-      },
-      {
-        "type": "Regional­bahn",
-        "info": "S+U Alexanderplatz Bhf:  RB14, RE1, RE7, RE2"
-      }
-    ]
-  },
-  "329667": {
-    "address": ["Frankfurter Allee 35/37", "10247 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90298-4690",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Samariterstraße: U5"
-      }
-    ]
-  },
-  "329673": {
-    "address": ["Yorckstraße 4-11", "10965 Berlin"],
-    "phone": "(030) 115",
-    "fax": "(030) 90298-3165",
-    "public_transport": [
-      {
-        "type": "U-Bahn",
-        "info": "U-Bahn Mehringdamm: U6, U7"
-      },
-      {
-        "type": "Bus",
-        "info": "U-Bahn Mehringdamm: M19, 140"
-      }
     ]
   }
 }
