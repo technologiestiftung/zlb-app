@@ -108,7 +108,7 @@
       },
       {
         "type": "Bus",
-        "info": "Bus S Schöneweide Bhf: X11, M11, 21, 160, 166, 167, 265"
+        "info": "Bus S-Bahn Schöneweide Bhf: X11, M11, 21, 160, 166, 167, 265"
       },
       {
         "type": "Tram",
@@ -285,7 +285,7 @@
     "public_transport": [
       {
         "type": "S-Bahn",
-        "info": "S-Bahn -Bahn Tempelhof: S41, S42, S46, S47 (mit 10 Min. Fußweg)"
+        "info": "S-Bahn Tempelhof: S41, S42, S46, S47 (mit 10 Min. Fußweg)"
       },
       {
         "type": "U-Bahn",
@@ -391,7 +391,7 @@
       },
       {
         "type": "Tram",
-        "info": "U Tierpark: 21, 27, 37, M17"
+        "info": "U-Bahn Tierpark: 21, 27, 37, M17"
       },
       {
         "type": "Tram",
@@ -876,11 +876,11 @@
     "public_transport": [
       {
         "type": "S-Bahn",
-        "info": "S Tegel: S25"
+        "info": "S-Bahn Tegel: S25"
       },
       {
         "type": "S-Bahn",
-        "info": "S Eichborndamm: S25"
+        "info": "S-Bahn Eichborndamm: S25"
       },
       {
         "type": "U-Bahn",
@@ -973,7 +973,7 @@
       },
       {
         "type": "Bus",
-        "info": "U Paracelsus-Bad/Aroser Allee: 120, 320, 322, N20, N8"
+        "info": "U-Bahn Paracelsus-Bad/Aroser Allee: 120, 320, 322, N20, N8"
       },
       {
         "type": "Tram",
@@ -982,146 +982,402 @@
     ]
   },
   "122312": {
-    "address": [],
+    "address": ["Ruppiner Chaussee 268", "13503 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Schulzendorf: S25"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Heiligensee: S25"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Schulzendorfer Str./Ruppiner Chaussee: 124, N24"
+      },
+      {
+        "type": "Bus",
+        "info": "S-Bahn Schulzendorf: 124, N24"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Kiefheider Weg: 124, N24"
       }
     ]
   },
   "122314": {
-    "address": [],
+    "address": ["Wilhelmsruher Damm 142C", "13439 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S+U-Bahn Wittenau: S1, S25, S2"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Wilhelmsruh: S1, S25, S2"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "S+U-Bahn Wittenau [U8]: U8"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Königshorster Str.: 124, M21, N8"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Märkisches Zentrum: 124, M21, N8, X21, X33"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Märkische Zeile: 120, 122, 221, N24, 222"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Rosenthal Nord: M1"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Hauptstr./Friedrich-Engels-Str.: M1"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Wiesenwinkel: M1"
       }
     ]
   },
   "122316": {
-    "address": [],
+    "address": ["Teichstr. 65", "13407 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Reinickendorf: S-Bahn 25 mit 10 Minuten Fußweg"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Paracelsusbad: U-Bahn 8 mit 5 Minuten Fußweg"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Lübener Weg: 122"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Paracelsusbad: 120 mit 5 Minuten Fußweg"
       }
     ]
   },
   "150230": {
-    "address": [],
+    "address": ["Franz-Schmidt-Str. 8-10", "13125 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Buch: S2"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Alt-Buch/Wiltbergstr.: 150, 158, 259, 353, N58, 891, 893"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Theodor-Brugsch-Str.: 150, 158, N58"
+      },
+      {
+        "type": "Bus",
+        "info": "S-Bahn Buch: 150, 158, 259, 353, N58, 891, 893"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Lindenberger Weg: 259, 353"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Alt-Buch: 891, 893"
       }
     ]
   },
   "317869": {
-    "address": [],
+    "address": ["Kurhausstraße 30", "13467 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Hermsdorf: S1 mit Fußweg"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Bergstr.: 125"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Loerkesteig: 220"
       }
     ]
   },
   "324414": {
-    "address": [],
+    "address": ["Westerwaldstr. 13", "13589 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "Bus",
+        "info": "Berlin, Westerwaldstr.: 137, 337, M37, 130, N30"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Friedhof In den Kisseln: 134"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Mülheimer Str.: 137, 337, M37"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Frankenwaldstr.: 134"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Pionierstr./Zeppelinstr.: 134, 130"
       }
     ]
   },
   "324434": {
-    "address": [],
+    "address": ["Stargardtstr. 12-14", "13405 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U-Bahn Franz-Neumann-Platz: U8 mit 10 Minuten Fußweg"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Residenzstr.: U8 mit 10 Minuten Fußweg"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Stargardtstr.: 327 mit 5 Minuten Fußweg"
       }
     ]
   },
   "325657": {
-    "address": [],
+    "address": ["Alt- Rudow 60", "12355 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U-Bahn Rudow: U7"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Zwickauer Damm: U7"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Wutzkyallee: U7"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Alt-Rudow/Köpenicker Str.: 372"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Am Hanffgraben: X7, 260, 371, N7, 172"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Prierosser Str.: 372"
+      },
+      {
+        "type": "Bus",
+        "info": "U-Bahn Rudow: 271, 373,372, 171, 260, 371, N7, X7, 162, 172, 744"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Bildhauerweg: 171, N7"
       }
     ]
   },
   "326001": {
-    "address": [],
+    "address": ["Müllerstr. 146", "13353 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U-Bahn Leopoldplatz: U9"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Seestraße: U9"
       }
     ]
   },
   "326283": {
-    "address": [],
+    "address": ["Fröbelstraße 17", "10405 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Prenzlauer Allee : S41, S42, S 8, S 85"
+      },
+      {
+        "type": "Tram",
+        "info": "Tram Fröbelstr. : M2"
       }
     ]
   },
   "327066": {
-    "address": [],
+    "address": ["Osloer Str. 36", "13359 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U-Bahn Osloer Str: U9"
       }
     ]
   },
   "327262": {
-    "address": [],
+    "address": ["Alt-Buckow 16", "12349 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "Bus",
+        "info": "Berlin, Pfarrer-Vogelsang-Weg: M11"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Alt-Buckow: M11, X11, M44"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, An den Achterhöfen: M44, 744"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Rufacher Weg: M11"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Steinträgerweg: M11, 744"
       }
     ]
   },
   "327539": {
-    "address": [],
+    "address": ["Mathilde-Jacob-Platz 1", "10551 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Bellevue: S3, S5, S7, S9"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Beusselstr.: S41, S46, S42"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S+U-Bahn Westhafen: S41, S46, S42"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Turmstr.: U9"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Birkenstr.: U9"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Hansaplatz: U9"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Rathaus Tiergarten: 101, 123, M27"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Alt-Moabit/Rathaus Tiergarten: 245"
+      },
+      {
+        "type": "Bus",
+        "info": "U-Bahn Turmstr. [Bus Turmstr.]: N40, 101, 123, M27, TXL, 187"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Lesser-Ury-Weg: M10, M5, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Lüneburger Str.: M10, M5, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Virchow-Klinikum: 50, M13"
       }
     ]
   },
   "327603": {
-    "address": [],
+    "address": ["John-F.-Kennedy-Platz", "10825 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Schöneberg: S1, S41, S42, S46, S47"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Anschließend Bus: M46 oder 106 oder 10 Min. Fußweg"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Rathaus Schöneberg: U4"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Bayerischer Platz: U7 mit Fußweg"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Rathaus Schöneberg: M46, 104"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Martin-Luther-Str. (mit Fußweg): 106"
       }
     ]
   },
   "327653": {
-    "address": [],
+    "address": ["John-F.-Kennedy-Platz", "10825 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Schöneberg: S1, S41, S42, S46, S47"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Anschließend Bus: M46 oder 106 oder 10 Min. Fußweg"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Rathaus Schöneberg: U4"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Bayerischer Platz: U7 mit Fußweg"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Rathaus Schöneberg: M46, 104"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus Martin-Luther-Str. (mit Fußweg): 106"
       }
     ]
   },
   "327751": {
-    "address": [],
+    "address": ["Wolldegker Straße 21", "13059 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "Bus",
+        "info": "Berlin, Schweriner Ring: 256, N56"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Dorfstr./Lindenberger Str.: 256, N56, 893"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Neubrandenburger Str.: 256, N56"
       }
     ]
   },
@@ -1211,80 +1467,241 @@
     "address": ["Gotlindestr. 93", "10365 Berlin"],
     "public_transport": [
       {
-        "type": "",
+        "type": "Bus",
         "info": "Berlin, Schottstr.: 240, N50, N56"
       }
     ]
   },
   "327761": {
-    "address": [],
+    "address": ["Anton-Saefkow-Platz 14", "10369 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Storkower Str.: S41, S8, S85, S42"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S-Bahn Landsberger Allee: S41, S8, S85, S42"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S+U-Bahn Frankfurter Allee: S41, S8, S85, S42"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Samariterstr.: U5"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "S+U-Bahn Frankfurter Allee: U5"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Frankfurter Tor: U5"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Landsberger Allee/Judith-Auer-Str.: M8"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Landsberger Allee/Weißenseer Weg: N50, M8"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Oderbruchstr.: M8"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Roederplatz: N50, M8"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Hohenschönhauser Str.: N50"
+      },
+      {
+        "type": "Bus",
+        "info": "S-Bahn Storkower Str.: 240, 156"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Franz-Jacob-Str.: 156"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Storkower Str./Paul-Junius-Str.: 240"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Max-Brunnow-Str.: 156"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Bernhard-Bästlein-Str.: M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Anton-Saefkow-Platz: M10, M5, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Landsberger Allee/Weißenseer Weg: 12, 16, M13, M4, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Judith-Auer-Str.: M5, M6"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Landsberger Allee/Karl-Lade-Str.: M10, M5, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Oderbruchstr.: M5, M6"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Roederplatz.: M10, M5, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Roederplatz: 12, 16, M13, M4, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Hohenschönhauser Str.: 12, 16, M13, M4, M8"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Hohenschönhauser Str. [1-2]: M5, M6"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Bernhard-Bästlein-Str.: 12, 21, M10, M13, M4, M5, M8"
       }
+
     ]
   },
   "328245": {
-    "address": [],
+    "address": ["Schloßstr. 37", "12163 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S+U-Bahn Rathaus Steglitz: S1"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "S+U-Bahn Rathaus Steglitz [U9]: U9"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "S+U-Bahn Rathaus Steglitz [Schloßstr.]: 186, M48, M85, N9, 188, 283, 285, 386, N88, 284, 380, M82"
       }
     ]
   },
   "329577": {
-    "address": [],
+    "address": ["Egon-Erwin-Kisch-Straße 106", "13059 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Hohenschönhausen: S 75"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus: 154, 197, 256, 893, X54"
+      },
+      {
+        "type": "Tram",
+        "info": "S-Bahn Hohenschönhausen: M4, M17"
       }
     ]
   },
   "329580": {
-    "address": [],
+    "address": ["Normannenstr. 1-2", "10367 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U+S-Bahn Frankfurter Alle: U5"
+      },
+      {
+        "type": "S-Bahn",
+        "info": "U+S-Bahn Frankfurter Alle: S8, S41, S42, S85"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Rathaus Lichtenberg: M13"
+      },
+      {
+        "type": "Tram",
+        "info": "U+S-Bahn Frankfurter Alle: S8, S41, S42, S85"
       }
     ]
   },
   "329583": {
-    "address": [],
+    "address": ["Otto-Schmirgal-Str. 7", "10319 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U-Bahn Am Tierpark: U5"
+      },
+      {
+        "type": "Bus",
+        "info": "Bus: 296"
+      },
+      {
+        "type": "Tram",
+        "info": "Am Tierpark: M17, 27"
       }
     ]
   },
   "329586": {
-    "address": [],
+    "address": ["Große-Leege-Str. 103", "13055 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "Bus",
+        "info": "Bus: 256"
+      },
+      {
+        "type": "Tram",
+        "info": "Tram Oberseestr.: M 5"
       }
     ]
   },
   "329607": {
-    "address": [],
+    "address": ["Mathilde-Jacob-Platz 1", "10551 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "S-Bahn",
+        "info": "S-Bahn Bellevue: S3, S5, S7, S9"
+      },
+      {
+        "type": "U-Bahn",
+        "info": "U-Bahn Turmstr.: U9"
+      },
+      {
+        "type": "Bus",
+        "info": "Berlin, Rathaus Tiergarten: 101, 123, M27"
+      },
+      {
+        "type": "Tram",
+        "info": "Berlin, Lesser-Ury-Weg: M10, M5, M8"
       }
     ]
   },
   "329610": {
-    "address": [],
+    "address": ["Osloer Straße 36", "13359 Berlin"],
     "public_transport": [
       {
-        "type": "",
-        "info": ""
+        "type": "U-Bahn",
+        "info": "U-Bahn Osloer Str.: U8, U9"
+      },
+      {
+        "type": "Bus",
+        "info": "U-Bahn Osloer Str.: N9, 150, 255, N52, 125, 128, N8"
+      },
+      {
+        "type": "Tram",
+        "info": "U-Bahn Osloer Str.: 50, M13"
       }
     ]
   },
