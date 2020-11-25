@@ -18,6 +18,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "source/_data/libraries.geojson": "data/libraries.geojson",
   });
+  eleventyConfig.addPassthroughCopy({
+    "source/_data/bezirksgrenzen.geojson": "data/bezirksgrenzen.geojson",
+  });
 
   return {
     dir: {
