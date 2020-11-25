@@ -47,3 +47,12 @@ const handlePrint = () => {
 
 printButton.addEventListener("click", handlePrint);
 printPDFButton.addEventListener("click", handlePrint);
+
+// SCROLL TO TOP
+const scrollButton = document.querySelector(".scroll-up-button");
+
+const handleScrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+scrollButton.addEventListener("click", handleScrollToTop);

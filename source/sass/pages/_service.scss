@@ -89,6 +89,13 @@
   }
 
   aside > div {
+
+    &.sidebar-wrapper {
+      position: sticky; 
+      top: 180px;
+      margin-bottom: 6.5rem;
+    }
+    
     > * {
       display: block;
       min-width: 270px;
@@ -136,4 +143,20 @@
       width: 50%;
     }
   }
+
+  .scroll-up-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .scroll-up-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+
 }
