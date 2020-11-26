@@ -53,6 +53,32 @@ aside#map-sidebar {
   address {
     font-style: inherit;
   }
+
+  .public-transport {
+    li {
+      margin-top: 4px;
+      &:before {
+        width: 16px;
+        height: auto;
+        margin-right: 4px;
+      }
+    }
+    .transport-s-bahn:before {
+      content: url(/images/s_bahn.svg);
+    }
+    .transport-u-bahn:before {
+      content: url(/images/u_bahn.svg);
+    }
+    .transport-bus:before {
+      content: url(/images/bus.gif);
+    }
+    .transport-regionalbahn:before {
+      content: url(/images/bahn.gif);
+    }
+    .transport-tram:before {
+      content: url(/images/tram.svg);
+    }
+  }
 }
 
 .sidebar-search .results {
