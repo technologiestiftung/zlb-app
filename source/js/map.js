@@ -135,9 +135,11 @@ const handleOpenSidebar = (data) => {
     sidebarNode.classList.add("is-opened");
   }
 
+  // Title
   sidebarNode.querySelector("h1").textContent = data.properties.parent;
   sidebarNode.querySelector("h2").textContent = data.properties.label;
 
+  // Contact
   let addressContent = "";
   data.properties.details.address.forEach((entry) => {
     addressContent += `${entry} <br>`;
@@ -146,14 +148,31 @@ const handleOpenSidebar = (data) => {
   addressContent += `Fax: ${data.properties.details.fax} <br>`;
   sidebarNode.querySelector("address").innerHTML = addressContent;
 
-  let accessibilityParagraph = "";
-  data.properties.details.accessibility.forEach((item) => {
-    accessibilityParagraph += ` ${item.title}`;
-  });
-  sidebarNode.querySelector(
-    ".accessibility"
-  ).textContent = accessibilityParagraph;
+  // A11y
+  let a11yParagraph = "";
+  let a11yIcons = "";
 
+  const regexZugang = /zugang_?(bedingt_|)rollstuhl(geeignet|gerecht)+/;
+  const regexParken = /parken_?(bedingt_|)rollstuhl(geeignet|gerecht)+/;
+  const regexWC = /wc_?(bedingt_|)rollstuhl(geeignet|gerecht)+/;
+
+  data.properties.details.accessibility.forEach((item) => {
+    a11yParagraph += ` ${item.title}`;
+
+    if (regexZugang.test(item.id))
+      a11yIcons += `<img src="/images/icon_rollstuhl.svg">`;
+
+    if (regexParken.test(item.id))
+      a11yIcons += `<img src="/images/icon_rollstuhl_park.svg">`;
+
+    if (regexWC.test(item.id))
+      a11yIcons += `<img src="/images/icon_rollstuhl_wc.svg">`;
+  });
+
+  sidebarNode.querySelector(".a11y-description").textContent = a11yParagraph;
+  sidebarNode.querySelector(".a11y-icons").innerHTML = a11yIcons;
+
+  // Public transport
   let publicTransportContent = "";
   data.properties.details["public_transport"].forEach((entry) => {
     publicTransportContent += `<li class="transport-${entry.type.toLowerCase()}">${
