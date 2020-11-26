@@ -68,7 +68,7 @@
         "info": "Berlin, Hofackerzeile: 123"
       },
       {
-        "type": "Regional­bahn",
+        "type": "Regionalbahn",
         "info": "S+U-Bahn Jungfernheide Bhf: RB10, RB14, RE6, RE2, RE4"
       }
     ]
@@ -270,7 +270,7 @@
         "info": "Berlin, Welsestr.: M17, M4"
       },
       {
-        "type": "Regional­bahn",
+        "type": "Regionalbahn",
         "info": "S-Bahn Hohenschönhausen Bhf: RB24, RB12"
       }
     ]
@@ -649,7 +649,7 @@
         "info": "Berlin, Brunsbütteler Damm/Ruhlebener Str.: 134, 135, 136, 137, 236, M37, N34, M32, M45, 638"
       },
       {
-        "type": "Regional­bahn",
+        "type": "Regionalbahn",
         "info": "S-Bahn Spandau Bhf: RB10, RB14, RE6, RE2, RE4"
       }
     ]
@@ -1873,7 +1873,7 @@
         "info": "Berlin, Mollstr./Otto-Braun-Str.: M5, M6, M8"
       },
       {
-        "type": "Regional­bahn",
+        "type": "Regionalbahn",
         "info": "S+U Alexanderplatz Bhf:  RB14, RE1, RE7, RE2"
       }
     ]

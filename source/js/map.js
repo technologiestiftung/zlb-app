@@ -153,6 +153,16 @@ const handleOpenSidebar = (data) => {
   sidebarNode.querySelector(
     ".accessibility"
   ).textContent = accessibilityParagraph;
+
+  let publicTransportContent = "";
+  data.properties.details["public_transport"].forEach((entry) => {
+    publicTransportContent += `<li class="transport-${entry.type.toLowerCase()}">${
+      entry.info
+    }</li>`;
+  });
+  sidebarNode.querySelector(
+    ".public-transport"
+  ).innerHTML = publicTransportContent;
 };
 
 const handleCloseSidebar = (data) => {
