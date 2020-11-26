@@ -78,8 +78,8 @@ const addMarkers = (data) => {
       <div class="px-2 py-2">
         <p class="is-size-6 mb-0">${feature.properties.parent}</p>
         <h1 class="title is-6 mt-1 mb-0">${feature.properties.label}</h1>
-        <p class="is-size-6 mt-1">[Straße und Hausnummer]</p>
-        <p class="is-size-6 mt-1">[PLZ und Ort]</p>
+        <p class="is-size-6 mt-1">${feature.properties.details.address[0]}</p>
+        <p class="is-size-6 mt-1">${feature.properties.details.address[1]}</p>
       </div>
     `;
 
@@ -137,6 +137,14 @@ const handleOpenSidebar = (data) => {
 
   sidebarNode.querySelector("h1").textContent = data.properties.parent;
   sidebarNode.querySelector("h2").textContent = data.properties.label;
+
+  let addressContent = "";
+  data.properties.details.address.forEach((entry) => {
+    addressContent += `${entry} <br>`;
+  });
+  addressContent += `Tel.: ${data.properties.details.phone} <br>`;
+  addressContent += `Fax: ${data.properties.details.fax} <br>`;
+  sidebarNode.querySelector("address").innerHTML = addressContent;
 
   let accessibilityParagraph = "";
   data.properties.details.accessibility.forEach((item) => {
