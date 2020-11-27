@@ -1,30 +1,30 @@
 ---
 title: ZLB Terminal
 ---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{title}}</title>
-    <meta name="description" content="Die Zentral- und Landesbibliothek Berlin (ZLB), hier federführend für den Verbund der Öffentlichen Bibliotheken, und die Technologiestiftung Berlin entwickeln gemeinsam ein Pilotprojekt mit dem Ziel, Bürger*innen Grundwissen zu Medien- und Digitalkompetenzen zu vermitteln, damit Bürger*innen die zunehmenden Serviceangebote staatlicher Dienstleistungen sicher und selbständig erledigen können und dabei eine vollwertige gesellschaftliche Teilhabe, auch dort, wo sich diese auf digitale Prozesse stützt, erlangen können." />
-    <meta name="author" content="Technologiestiftung Berlin" />  
+    <title>{{ title }}</title>
+    <meta
+      name="description"
+      content="Die Zentral- und Landesbibliothek Berlin (ZLB), hier federführend für den Verbund der Öffentlichen Bibliotheken, und die Technologiestiftung Berlin entwickeln gemeinsam ein Pilotprojekt mit dem Ziel, Bürger*innen Grundwissen zu Medien- und Digitalkompetenzen zu vermitteln, damit Bürger*innen die zunehmenden Serviceangebote staatlicher Dienstleistungen sicher und selbständig erledigen können und dabei eine vollwertige gesellschaftliche Teilhabe, auch dort, wo sich diese auf digitale Prozesse stützt, erlangen können."
+    />
+    <meta name="author" content="Technologiestiftung Berlin" />
 
-    {% if externalstyles %}
-      {% for stylesheet in externalstyles %}
-        <link rel="stylesheet" href="{{ stylesheet }}"> 
-      {% endfor %}
-    {% endif %}
-    <link rel="stylesheet" href="/css/main.css">
-
+    {% if externalstyles %} {% for stylesheet in externalstyles %}
+    <link rel="stylesheet" href="{{ stylesheet }}" />
+    {% endfor %} {% endif %}
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
     <header class="section p-3">
       <div class="container is-align-self-center">
         <div class="columns">
           <div class="column is-3 history-wrapper">
-            {% if breadcrumb %}
             <button
               class="button breadcrumb-button history-back py-0 px-0"
               onclick="window.history.back()"
@@ -33,11 +33,13 @@ title: ZLB Terminal
                 <img src="/images/arrow_left_on.svg" alt="" />
               </figure>
             </button>
-            {% endif %}
           </div>
           <div class="column is-6 breadcrumb-wrapper">
             {% if breadcrumb %}
-            <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+            <nav
+              class="breadcrumb has-arrow-separator"
+              aria-label="breadcrumbs"
+            >
               <ul>
                 <li><a href="/categories">Start</a></li>
                 {% if parentKey and parentTitle %}
@@ -52,9 +54,12 @@ title: ZLB Terminal
                   <img src="/images/arrow_crumb_on.svg" alt="" />
                 </figure>
                 <li class="is-active">
-                  <a class="has-text-weight-bold" href="#" aria-current="page">{{
-                    breadcrumb
-                  }}</a>
+                  <a
+                    class="has-text-weight-bold"
+                    href="#"
+                    aria-current="page"
+                    >{{ breadcrumb }}</a
+                  >
                 </li>
               </ul>
             </nav>
