@@ -25,6 +25,7 @@ title: ZLB Terminal
       <div class="container is-align-self-center">
         <div class="columns">
           <div class="column is-3 history-wrapper">
+            {% if breadcrumb or tags contains "map" %}
             <button
               class="button breadcrumb-button history-back py-0 px-0"
               onclick="window.history.back()"
@@ -32,7 +33,11 @@ title: ZLB Terminal
               <figure class="image is-32x32">
                 <img src="/images/arrow_left_on.svg" alt="" />
               </figure>
+              {% if tags contains "map" %}
+                <span class="ml-2">Zurück zum ZLB-Terminal</span>
+              {% endif %}
             </button>
+            {% endif %}
           </div>
           <div class="column is-6 breadcrumb-wrapper">
             {% if breadcrumb %}
@@ -63,6 +68,8 @@ title: ZLB Terminal
                 </li>
               </ul>
             </nav>
+            {% elsif tags contains "map" %}
+              <span class="has-text-weight-bold map-title">Termin in meiner Nähe finden</span>
             {% endif %}
           </div>
           <div class="column is-3">
