@@ -18,6 +18,8 @@ layout: layouts/default.liquid
                 href="{{service.destination}}"
                 target="_blank"
                 rel="noopener noreferrer"
+              {% elsif service.destination == "fuehrungszeugnis" %}
+                href="/service/120926/"
               {% else %}
                 href="/overview/{{ service.destination | slug }}/"
               {% endif %}
