@@ -230,10 +230,10 @@ eleventyComputed:
       </article>
       <aside class="column is-3">
         <div class="sidebar-wrapper">
+          {% unless service.parent.key == "kita" %}
           <a href="/map/?serviceId={{ service.key }}" class="button is-primary"
             >Termin in meiner Nähe finden</a
           >
-
           <a
             href="/help/{{ service.key | slug }}/appointment"
             class="button is-primary mt-5"
@@ -245,9 +245,10 @@ eleventyComputed:
             {%-
             endunless
             -%}
-            >Expresstermin in  Berlin finden</a
+            >Expresstermin in Berlin finden</a
           >
-          {% if service.links %} {% for additionalLink in service.links %}
+          {% endunless %} {% if service.links %} {% for additionalLink in
+          service.links %}
           <a
             href="{{ additionalLink.destination }}"
             target="_blank"
@@ -276,7 +277,7 @@ eleventyComputed:
             </button>
           </div>
         </div>
-        <div >
+        <div>
           <div class="scroll-up-wrapper">
             <button class="scroll-up-button is-size-6">
               <img src="/images/arrow_up_off.svg" alt="Pfeil nach oben" />
@@ -284,7 +285,7 @@ eleventyComputed:
             </button>
           </div>
         </div>
-    </aside>
+      </aside>
     </section>
   </div>
 </main>
