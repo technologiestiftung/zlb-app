@@ -39,6 +39,11 @@ header {
       align-self: flex-end;
       margin-right: 57px;
     }
+    &::before {
+      content: "Zurück";
+      margin-right: 8px;
+      color: $secondary;
+    }
     &.history-back {
       cursor: pointer;
       border: none;
