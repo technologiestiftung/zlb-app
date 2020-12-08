@@ -1,12 +1,8 @@
 .iframe-section {
   .grid {
     display: grid;
-    /*
-      The iframe column has a fixed width of 766px to ensure that the Service-Portal Berlin
-      is rendered in its responsive version -> To prevent an overflow of the berlin.de container
-      which has a fixed width.
-    */
-    grid-template-columns: 766px 1fr;
+    gap: 30px;
+    grid-template-columns: 1fr 450px;
   }
 
   iframe {
@@ -14,22 +10,12 @@
     height: 100vh;
     border: none;
   }
-
-  a {
-    display: flex;
-    align-items: flex-start;
-    color: $secondary;
-
-    &::before {
-      content: url(/images/arrow_left_on.svg);
-      display: inline-block;
-      margin-right: 10px;
-    }
-  }
 }
 
 .iframe-sidebar {
-  max-width: 366px;
+  .berlin-de-logo {
+    width: 96px;
+  }
 }
 
 .iframe-sidebar .card > .card-content:first-of-type {

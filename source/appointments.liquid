@@ -6,7 +6,9 @@ pagination:
   addAllPagesToCollections: true
 permalink: "help/{{ service.key | slug }}/appointment/"
 layout: layouts/iframes.liquid
-tags: appointment
+tags: 
+  - appointment
+  - iframe
 eleventyComputed:
   title: "{{ service.title }}"
 ---
