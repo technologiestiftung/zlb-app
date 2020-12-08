@@ -148,6 +148,19 @@ const handleOpenSidebar = (data) => {
   addressContent += `Fax: ${data.properties.details.fax} <br>`;
   sidebarNode.querySelector("address").innerHTML = addressContent;
 
+  // Button
+  const anchorElement = sidebarNode.querySelector("a");
+  const hasLink = serviceId && data.properties.id;
+  const linkURL = hasLink
+    ? `/help/${serviceId}/office/${data.properties.id}`
+    : "";
+  anchorElement.href = linkURL;
+  if (!hasLink) {
+    anchorElement.setAttribute("disabled", "");
+  } else {
+    anchorElement.removeAttribute("disabled");
+  }
+
   // A11y
   let a11yParagraph = "";
   let a11yIcons = "";
