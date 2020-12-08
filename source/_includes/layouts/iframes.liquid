@@ -10,19 +10,17 @@ testdata:
 
 <main class="section pt-0 iframe-section">
   <div class="container">
-    <div class="grid">
-      <div>
-        {{ content }}
-      </div>
+    <div class="grid mt-6">
       <div class="iframe-sidebar">
-        <div class="card mt-6 ml-4">
-          <div class="card-content has-background-light">
-            <a href="/service/{{ service.key }}" class="is-size-5"
-              >Zurück zum ZLB-Terminal</a
-            >
-          </div>
+        <div class="box p-3 mb-0 is-flex has-background-white-ter">
+          <figure class="image berlin-de-logo">
+            <img src="/images/logos/berlin-de-logo.svg" alt="berlin.de Logo">
+          </figure>
+          <h1 class="title is-size-5 ml-2">Das Service-Portal Berlin in Leichter Sprache</h1>
+        </div>
+        <div class="card mt-2">
           <div class="card-content has-background-white">
-            <div class="intro py-3">
+            <div class="intro pb-3">
               <figure class="image is-32x32">
                 <img
                   src="/images/icon_gebrauchsanleitung.svg"
@@ -30,9 +28,9 @@ testdata:
                 />
               </figure>
               <div>
-                <h1 class="title has-text-weight-normal is-size-5">
+                <h2 class="subtitle has-text-weight-normal is-size-5">
                   Schritt für Schritt
-                </h1>
+                </h2>
               </div>
             </div>
             <ul>
@@ -55,6 +53,9 @@ testdata:
             </ul>
           </div>
         </div>
+      </div>
+      <div>
+        {{ content }}
       </div>
     </div>
   </div>
