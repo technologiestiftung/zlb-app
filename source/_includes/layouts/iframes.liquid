@@ -30,16 +30,8 @@ testdata:
                   >Termin in meiner Nähe finden</a
                 >
                 <a
-                  href="/help/{{ service.key | slug }}/appointment"
+                  href="/help/{{ service.key }}/appointment"
                   class="button is-primary ml-2"
-                  {%-
-                  unless
-                  service.appointment.berlin.url
-                  -%}
-                  disabled
-                  {%-
-                  endunless
-                  -%}
                   >Expresstermin in Berlin finden</a
                 >
               </div>
