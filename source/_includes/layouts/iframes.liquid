@@ -14,13 +14,37 @@ testdata:
       <div class="iframe-sidebar">
         <div class="box p-3 mb-0 is-flex has-background-white-ter">
           <figure class="image berlin-de-logo">
-            <img src="/images/logos/berlin-de-logo.svg" alt="berlin.de Logo">
+            <img src="/images/logos/berlin-de-logo.svg" alt="berlin.de Logo" />
           </figure>
-          <h1 class="title is-size-5 ml-2">Das Service-Portal Berlin in Leichter Sprache</h1>
+          <h1 class="title is-size-5 ml-2">
+            Das Service-Portal Berlin in Leichter Sprache
+          </h1>
         </div>
         <div class="card mt-2">
           <div class="card-content has-background-white">
-            <div class="intro pb-3">
+            <div class="is-flex is-justify-content-flex-end">
+              <div>
+                <a
+                  href="/map/?serviceId={{ service.key }}"
+                  class="button is-primary"
+                  >Termin in meiner Nähe finden</a
+                >
+                <a
+                  href="/help/{{ service.key | slug }}/appointment"
+                  class="button is-primary ml-2"
+                  {%-
+                  unless
+                  service.appointment.berlin.url
+                  -%}
+                  disabled
+                  {%-
+                  endunless
+                  -%}
+                  >Expresstermin in Berlin finden</a
+                >
+              </div>
+            </div>
+            <div class="intro pb-3 mt-5">
               <figure class="image is-32x32">
                 <img
                   src="/images/icon_gebrauchsanleitung.svg"

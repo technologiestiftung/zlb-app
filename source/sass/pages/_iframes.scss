@@ -10,18 +10,6 @@
     height: 100vh;
     border: none;
   }
-
-  a {
-    display: flex;
-    align-items: flex-start;
-    color: $secondary;
-
-    &::before {
-      content: url(/images/arrow_left_on.svg);
-      display: inline-block;
-      margin-right: 10px;
-    }
-  }
 }
 
 .iframe-sidebar {
