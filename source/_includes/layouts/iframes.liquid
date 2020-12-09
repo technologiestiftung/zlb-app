@@ -24,6 +24,8 @@ testdata:
           <div class="card-content has-background-white">
             <div class="is-flex is-justify-content-flex-end">
               <div>
+                {% unless service.key == "120726" or service.key == "121368" or
+                service.key == "329030" %}
                 <a
                   href="/map/?serviceId={{ service.key }}"
                   class="button is-primary"
@@ -34,6 +36,7 @@ testdata:
                   class="button is-primary ml-2"
                   >Expresstermin in Berlin finden</a
                 >
+                {% endunless %}
               </div>
             </div>
             <div class="intro pb-3 mt-5">

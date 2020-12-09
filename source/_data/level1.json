@@ -39,7 +39,7 @@
       },
       {
         "label": "KFZ anmelden",
-        "image": "/images/icon_kfz_anmelden.svg",
+        "image": "/images/icon_kfz.svg",
         "description": "KFZ anmelden",
         "destination": "kfz",
         "available": true
