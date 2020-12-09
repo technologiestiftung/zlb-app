@@ -20,6 +20,8 @@ layout: layouts/default.liquid
                 rel="noopener noreferrer"
               {% elsif service.destination == "fuehrungszeugnis" %}
                 href="/service/120926/"
+              {% elsif service.destination == "kfz" %}
+                href="/service/329030/"
               {% else %}
                 href="/overview/{{ service.destination | slug }}/"
               {% endif %}

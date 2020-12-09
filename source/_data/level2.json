@@ -179,5 +179,15 @@
         "destination": "324879"
       }
     ]
+  },
+  "kfz": {
+    "label": "KFZ anmelden",
+    "services": [
+      {
+        "label": "KFZ anmelden",
+        "image": "/images/icon_kfz.svg",
+        "destination": "329030"
+      }
+    ]
   }
 }
