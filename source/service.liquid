@@ -231,7 +231,17 @@ eleventyComputed:
       <aside class="column is-3">
         <div class="sidebar-wrapper">
           {% unless service.parent.key == "kita" %}
-          <a href="/map/?serviceId={{ service.key }}" class="button is-primary"
+          <a
+            href="/map/?serviceId={{ service.key }}"
+            class="button is-primary"
+            {%-
+              if
+              service.key == "120726" or service.key == "121368" or service.key == "329030"
+              -%}
+              disabled
+              {%-
+              endif
+              -%}
             >Termin in meiner Nähe finden</a
           >
           <a
@@ -245,6 +255,9 @@ eleventyComputed:
             {%-
             endunless
             -%}
+            {% if service.key != "120726" or service.key != "121368" or service.key != "329030" %}
+              disabled
+            {% endif %}
             >Expresstermin in Berlin finden</a
           >
           {% endunless %} {% if service.links %} {% for additionalLink in
