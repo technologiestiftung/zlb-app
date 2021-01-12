@@ -15,5 +15,10 @@ eleventyComputed:
 
 <iframe
   title="Terminvereinbarung im Service-Portal Berlin"
-  src="{{ service.appointment.berlin.url }}/"
+  {% if service.appointment.berlin.url %}
+    src="{{ service.appointment.berlin.url }}/"
+  {% else %}
+    src="about:blank"
+  {% endif %}
+  
 ></iframe>
