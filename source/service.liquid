@@ -247,17 +247,9 @@ eleventyComputed:
           <a
             href="/help/{{ service.key | slug }}/appointment"
             class="button is-primary mt-5"
-            {%-
-            unless
-            service.appointment.berlin.url
-            -%}
-            disabled
-            {%-
-            endunless
-            -%}
-            {% if service.key != "120726" or service.key != "121368" or service.key != "329030" %}
+            {% unless service.key == "120726" or service.key == "121368" or service.key == "329030" or service.key == "120703" or service.key == "326550" or service.key == "120682" or service.key == "306684" or service.key == "324325" or service.key == "121151" or service.key == "306704" or service.key == "121153" or service.key == "121469" or service.key == "326548" or service.key == "324573" %}
               disabled
-            {% endif %}
+            {% endunless %}
             >Expresstermin in Berlin finden</a
           >
           {% endunless %} {% if service.links %} {% for additionalLink in
