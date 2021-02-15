@@ -3,6 +3,10 @@
   align-items: flex-start;
   justify-content: center;
 
+  @include from($tablet) {
+    justify-content: flex-end;
+  }
+
   > div {
     width: 50%;
     display: flex;
@@ -13,7 +17,7 @@
 
     figure {
       width: 100%;
-  
+
       img {
         width: auto;
       }

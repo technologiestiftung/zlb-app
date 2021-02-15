@@ -1,0 +1,33 @@
+.grid-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $gap;
+
+  @include from($tablet) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .card {
+    height: 100%;
+    transition: all 0.1s ease-out;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    overflow: hidden;
+
+    .card-title {
+      background-color: transparent;
+    }
+
+    &:hover {
+      border-color: $primary;
+      background-color: $primary;
+      color: $white;
+      transform: scale(1.05);
+      box-shadow: 0 0.8em 1em -0.2em rgba(10, 10, 10, 0.2),
+        0 0 0 1px rgba(10, 10, 10, 0.02);
+      .card-title {
+        background-color: $primary;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 footer {
   z-index: 1;
-  box-shadow: 0 -0.5em 0.5em -0.5em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+  box-shadow: 0 -0.5em 0.5em -0.5em rgba($scheme-invert, 0.1),
+    0 0px 0 1px rgba($scheme-invert, 0.02);
   @include from($tablet) {
     height: 200px;
   }

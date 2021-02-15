@@ -18,6 +18,10 @@ layout: layouts/default.liquid
                 href="{{service.destination}}"
                 target="_blank"
                 rel="noopener noreferrer"
+              {% elsif service.destination == "fuehrungszeugnis" %}
+                href="/service/120926/"
+              {% elsif service.destination == "kfz" %}
+                href="/service/329030/"
               {% else %}
                 href="/overview/{{ service.destination | slug }}/"
               {% endif %}
@@ -32,7 +36,7 @@ layout: layouts/default.liquid
                   </figure>
                 </div>
                 <div
-                  class="card-content has-text-centered content category-title"
+                  class="card-content has-text-centered content card-title"
                 >
                   {{ service.label }}
                 </div>

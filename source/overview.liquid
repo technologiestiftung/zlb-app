@@ -11,52 +11,61 @@ eleventyComputed:
   title: "{{ overview.label }}"
   breadcrumb: "{{ overview.label }}"
 ---
+
 <main class="section service-overview">
   <div class="container">
-    <div class="columns">
-      <div class="column is-3 service-illustration-column">
-        {% include partials/_circular-icon.html, iconKey: overview.key, iconTitle: overview.label %}
-      </div>
-      <div class="column is-6">
-        <ul>
-          {% for service in overview.services %}
-          {% if service.subs %}
-          <li>
-            <p class="content mt-4 mb-0">{{ service.label }}</p>
-            <ul class="subservices">
-              {% for subservice in service.subs %}
-              <li class="pl-3">
-                <a class="media pt-3 pb-3" href="/service/{{ subservice.destination }}/">
-                  <div class="media-content">
-                    {{ subservice.label }}
-                  </div>
-                  <div class="media-right">
-                    <figure class="image is-32x32">
-                      <img class="arrow-right" src="/images/arrow_right_off.svg" alt="Arrow">
-                    </figure>
-                  </div>
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
-          {% else %}
-          <li>
-            <a class="media pt-4 pb-4" href="/service/{{ service.destination }}/">
-              <div class="media-content">
-                {{ service.label }}
-              </div>
-              <div class="media-right">
-                <figure class="image">
-                  <img class="arrow-right" src="/images/arrow_right_off.svg" alt="Arrow">
-                </figure>
-              </div>
-            </a>
-          </li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
+    <ul class="grid-columns">
+      {% for service in overview.services %}
+      <li class="grid-column">
+        <a
+          {%
+          if
+          service.subs
+          %}
+          data-service-group="{{ service.label | slug }}"
+          {%
+          else
+          %}
+          href="/service/{{ service.destination }}/"
+          {%
+          endif
+          %}
+        >
+          <div class="card">
+            <div class="card-content has-background-white px-0 py-0">
+              <figure class="image is-4by3">
+                <img
+                  src="{{ service.image }}"
+                  alt="{{ service.description }}"
+                />
+              </figure>
+            </div>
+            <div class="card-content has-text-centered content card-title">
+              {{ service.label }}
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% for service in overview.services %} {% if service.subs %}
+    <div class="subservices-wrapper" id="subservices-{{ service.label | slug }}">
+      <ul
+        class="mt-6 grid-columns subservices"
+      >
+        {% for subservice in service.subs %}
+        <li
+          class="{% if forloop.index != 0 %}mt-4{% endif %} has-background-white subservice"
+        >
+          <a href="/service/{{ subservice.destination }}/" class="px-2 py-2">{{
+            subservice.label
+          }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
+    {% endif %} {% endfor %}
   </div>
 </main>
+
+<script src="/js/overview.js"></script>

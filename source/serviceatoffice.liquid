@@ -1,0 +1,17 @@
+---
+pagination:
+  data: servicesatofficesarray
+  size: 1
+  alias: service
+  addAllPagesToCollections: true
+permalink: "help/{{ service.serviceId }}/office/{{ service.officeId }}/"
+layout: layouts/iframes.liquid
+tags: 
+  - serviceatoffice
+  - iframe
+---
+
+<iframe
+  title="Service-Übersicht im Service-Portal Berlin"
+  src="{{ service.url }}"
+></iframe>

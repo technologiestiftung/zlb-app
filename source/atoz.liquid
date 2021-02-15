@@ -1,13 +1,22 @@
 ---
 permalink: "/overview/atoz/"
 layout: layouts/default.liquid
-eleventyComputed:
-  title: "Weitere Onlineverfahren"
-  breadcrumb: "Weitere Onlineverfahren"
+title: "Behörden finden"
+iconKey: "behoerde"
+breadcrumb: "Behörden finden"
 ---
 
 <main class="section atoz">
   <div class="container">
+    <div class="columns">
+      <div class="column is-3">
+        {% include partials/_circular-icon.html, iconKey: iconKey, iconTitle:
+        title %}
+      </div>
+      <div class="column is-6 is-flex is-align-items-center">
+        <h1 class="title is-3">{{ title }}</h1>
+      </div>
+    </div>
     <div class="columns is-multiline">
       <div class="column is-12 mb-6">
         <ul class="atoz-nav tile is-ancestor">

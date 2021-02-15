@@ -1,15 +1,8 @@
 .iframe-section {
-  // background color of berlin.de
-  background-color: #ececec;
-
   .grid {
     display: grid;
-    /*
-      The iframe column has a fixed width of 766px to ensure that the Service-Portal Berlin
-      is rendered in its responsive version -> To prevent an overflow of the berlin.de container
-      which has a fixed width.
-    */
-    grid-template-columns: 766px 1fr;
+    gap: 30px;
+    grid-template-columns: 1fr 450px;
   }
 
   iframe {
@@ -17,28 +10,20 @@
     height: 100vh;
     border: none;
   }
-
-  a {
-    display: flex;
-    align-items: flex-start;
-
-    &::before {
-      content: url(/images/arrow_left_on.svg);
-      display: inline-block;
-      margin-right: 10px;
-    }
-  }
 }
 
 .iframe-sidebar {
-  max-width: 366px;
+  .berlin-de-logo {
+    width: 96px;
+  }
 }
 
 .iframe-sidebar .card > .card-content:first-of-type {
   border-bottom: 1px solid $text;
 }
 
-.iframe-sidebar li, .iframe-sidebar .intro {
+.iframe-sidebar li,
+.iframe-sidebar .intro {
   display: grid;
   grid-template-columns: 32px auto;
   gap: 12px;
@@ -50,16 +35,15 @@
 
   &::after {
     content: "";
-      position: absolute;
-      left: 16px;
-      height: 50%;
-      border-left: 1px solid $text;
-      z-index: -1;
+    position: absolute;
+    left: 16px;
+    height: 50%;
+    border-left: 1px solid $text;
+    z-index: -1;
   }
 }
 
 .iframe-sidebar li {
-
   &:last-of-type {
     .step-number::after {
       border-left: none;
@@ -69,7 +53,8 @@
   .step-number {
     z-index: 1;
 
-    &::before, &::after {
+    &::before,
+    &::after {
       content: "";
       position: absolute;
       left: 16px;
@@ -77,7 +62,7 @@
       border-left: 1px solid $text;
       z-index: -1;
     }
-    &::before {  
+    &::before {
       top: 0;
     }
     &::after {
@@ -96,7 +81,6 @@
       }
     }
   }
-
 }
 
 .iframe-sidebar li .step-content {

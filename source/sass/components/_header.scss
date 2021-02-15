@@ -2,14 +2,54 @@ header {
   @include from($tablet) {
     position: sticky;
     top: 0;
+    height: $header-height;
   }
   display: flex;
-  /* min-height: 200px; */
-  padding-bottom: 20px !important;
-  z-index: 1;
-  box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+  height: auto;
+  z-index: 2;
+  background-color: $background;
+  box-shadow: 0 0 6px 0 #38383888;
   > .container {
     align-self: flex-end;
+  }
+}
+
+.breadcrumb-wrapper {
+  display: flex;
+  align-items: center;
+
+  .breadcrumb .is-active a {
+    display: block;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.history-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .breadcrumb-button {
+    align-self: flex-start;
+    margin-right: 0;
+    @include from($tablet) {
+      align-self: flex-end;
+      margin-right: 57px;
+    }
+    &::before {
+      content: "Zurück";
+      margin-right: 8px;
+      color: $secondary;
+    }
+    &.history-back {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      height: auto;
+    }
   }
 }
 
@@ -23,11 +63,6 @@ header {
   }
 }
 
-.breadcrumb-button {
-  &.history-back, &.history-forward {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    height: auto;
-  }
+header .map-title {
+  color: $secondary;
 }

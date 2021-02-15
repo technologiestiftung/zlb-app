@@ -10,22 +10,46 @@ testdata:
 
 <main class="section pt-0 iframe-section">
   <div class="container">
-    <div class="grid">
-      <div>
-        {{ content }}
-      </div>
+    <div class="grid mt-6">
       <div class="iframe-sidebar">
-        <div class="card mt-6 ml-4">
-          <div class="card-content has-background-light">
-            <a href="/service/{{ service.key }}" class="has-text-primary is-size-5">Zurück zum ZLB-Terminal</a>
-          </div>
+        <div class="box p-3 mb-0 is-flex has-background-white-ter">
+          <figure class="image berlin-de-logo">
+            <img src="/images/logos/berlin-de-logo.svg" alt="berlin.de Logo" />
+          </figure>
+          <h1 class="title is-size-5 ml-2">
+            Das Service-Portal Berlin in Leichter Sprache
+          </h1>
+        </div>
+        <div class="card mt-2">
           <div class="card-content has-background-white">
-            <div class="intro py-3">
+            <div class="is-flex is-justify-content-flex-end">
+              <div>
+                {% unless service.key == "120726" or service.key == "121368" or
+                service.key == "329030" %}
+                <a
+                  href="/map/?serviceId={{ service.key }}"
+                  class="button is-primary"
+                  >Termin in meiner Nähe finden</a
+                >
+                <a
+                  href="/help/{{ service.key }}/appointment"
+                  class="button is-primary ml-2"
+                  >Expresstermin in Berlin finden</a
+                >
+                {% endunless %}
+              </div>
+            </div>
+            <div class="intro pb-3 mt-5">
               <figure class="image is-32x32">
-                <img src="/images/icon_gebrauchsanleitung.svg" alt="Schritt für Schritt Icon">
+                <img
+                  src="/images/icon_gebrauchsanleitung.svg"
+                  alt="Schritt für Schritt Icon"
+                />
               </figure>
               <div>
-                <h1 class="title has-text-weight-normal is-size-5">Schritt für Schritt</h1>
+                <h2 class="subtitle has-text-weight-normal is-size-5">
+                  Schritt für Schritt
+                </h2>
               </div>
             </div>
             <ul>
@@ -34,7 +58,11 @@ testdata:
                 <div class="step-number py-3">
                   <figure class="image is-1by1">
                     <div class="has-ratio has-background-white">
-                      <span>{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                      <span
+                        >{% if forloop.index < 10 %}0{% endif %}{{
+                          forloop.index
+                        }}</span
+                      >
                     </div>
                   </figure>
                 </div>
@@ -44,6 +72,9 @@ testdata:
             </ul>
           </div>
         </div>
+      </div>
+      <div>
+        {{ content }}
       </div>
     </div>
   </div>

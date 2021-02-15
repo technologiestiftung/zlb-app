@@ -36,12 +36,21 @@
         "description": "Kita Gutschein beantragen",
         "destination": "kita",
         "available": true
-      }
-    ]
-  },
-  {
-    "label": "Weitere Dienstleistungen der Verwaltung",
-    "services": [
+      },
+      {
+        "label": "KFZ anmelden",
+        "image": "/images/icon_kfz.svg",
+        "description": "KFZ anmelden",
+        "destination": "kfz",
+        "available": true
+      },
+      {
+        "label": "Service-Konto einrichten",
+        "image": "/images/icon_servicekonto_einrichten.svg",
+        "description": "Service-Konto einrichten",
+        "destination": "service-konto",
+        "available": true
+      },
       {
         "label": "Express-Termin in Bürgeramt finden",
         "image": "/images/icon_expresstermin.svg",
@@ -59,42 +68,32 @@
         "available": true
       },
       {
-        "label": "Bürgerämter suchen / finden",
+        "label": "Online-Ausweisfunktion nutzen",
+        "image": "/images/icon_id_nutzen.svg",
+        "description": "Online-Ausweisfunktion nutzen",
+        "destination": "id",
+        "available": true
+      }
+    ]
+  },
+  {
+    "label": "Verzeichnisse von weiteren Dienstleistungen der Verwaltung",
+    "services": [
+      {
+        "label": "Bürgerämter finden",
         "image": "/images/icon_buergeramt.svg",
-        "description": "Bürgerämter suchen / finden",
+        "description": "Bürgerämter finden",
         "external": true,
         "destination": "https://service.berlin.de/standorte/buergeraemter/",
         "available": true
       },
       {
-        "label": "Behörden suchen / finden",
+        "label": "Behörden finden",
         "image": "/images/icon_behoerde.svg",
-        "description": "Behörden suchen / finden",
+        "description": "Behörden finden",
         "external": true,
         "destination": "https://service.berlin.de/behoerden/",
         "available": true
-      },
-      {
-        "label": "Bürgertelefon 115",
-        "image": "/images/icon_servicetel.svg",
-        "description": "Bürgertelefon 115",
-        "external": true,
-        "destination": "https://service.berlin.de/buergertelefon/",
-        "available": true
-      },
-      {
-        "label": "Online-Ausweisfunktion nutzen",
-        "image": "/images/icon_id_nutzen.svg",
-        "description": "Online-Ausweisfunktion nutzen",
-        "destination": "id",
-        "available": false
-      },
-      {
-        "label": "AusweisApp2 starten",
-        "image": "/images/icon_id_service.svg",
-        "description": "AusweisApp2 starten",
-        "destination": "ausweisapp2",
-        "available": false
       },
       {
         "label": "Weitere Online-Verfahren",
@@ -111,13 +110,6 @@
         "external": true,
         "destination": "https://service.berlin.de/dienstleistungen/",
         "available": true
-      },
-      {
-        "label": "Archiv mit Formularblättern",
-        "image": "/images/icon_archivformulare.svg",
-        "description": "Archiv mit Formularblättern",
-        "destination": "formulare",
-        "available": false
       }
     ]
   },
@@ -125,31 +117,17 @@
     "label": "Andere Dienstleistungen",
     "services": [
       {
-        "label": "Fachwörter erklären",
-        "image": "/images/icon_fachwoerter.svg",
-        "description": "Fachwörter erklären",
-        "destination": "fachwoerterklaerung",
-        "available": false
-      },
-      {
         "label": "Digitale Fähigkeiten stärken",
         "image": "/images/icon_digitalfaehigkeit.svg",
         "description": "Digitale Fähigkeiten stärken",
         "external": true,
-        "destination": "https://www.kvberlin.de/fuer-patienten/terminservice",
-        "available": false
+        "destination": "https://brockhaus.de/portal/user/cid100081",
+        "available": true
       },
       {
-        "label": "E-Mail Account verwalten",
-        "image": "/images/icon_mailaccount.svg",
-        "description": "E-Mail Account verwalten",
-        "destination": "emailaccount",
-        "available": false
-      },
-      {
-        "label": "Arzt-Termin buchen",
+        "label": "Arzt-Termin finden",
         "image": "/images/icon_arzttermin.svg",
-        "description": "Arzt-Termin buchen",
+        "description": "Arzt-Termin finden",
         "external": true,
         "destination": "https://www.kvberlin.de/fuer-patienten/terminservice",
         "available": true
